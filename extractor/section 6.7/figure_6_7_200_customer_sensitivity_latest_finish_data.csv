@@ -1,0 +1,4 @@
+customer_count,vehicle_capacity,base_latest_finish_decimal_hours,base_latest_finish_label,speed40_latest_finish_decimal_hours,speed40_latest_finish_label,wave14_latest_finish_decimal_hours,wave14_latest_finish_label,working_day_limit_decimal_hours,working_day_limit_label
+200,15,18.862503,18:52,17.938544,17:56,17.922650,17:55,18.0,18:00
+200,25,18.862503,18:52,17.938544,17:56,17.922650,17:55,18.0,18:00
+200,35,18.862503,18:52,17.967357,17:58,17.976242,17:59,18.0,18:00

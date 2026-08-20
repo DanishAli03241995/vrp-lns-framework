@@ -1,0 +1,7 @@
+operator_pair,operator_pair_key,100_customers_avg_improvement_percent,100_customers_environment_count,150_customers_avg_improvement_percent,150_customers_environment_count,200_customers_avg_improvement_percent,200_customers_environment_count
+Related + Regret-2,related_regret,4.319937468765222,9,3.5032610658504306,9,3.408990751824829,9
+Random + Regret-2,random_regret,4.002984196360666,9,3.6532590039996835,9,3.531313300484676,9
+Random + Greedy,random_greedy,4.035822987191315,9,3.373319486207134,9,2.8600098352234826,9
+Related + Greedy,related_greedy,4.51115899099509,9,3.527622121878916,9,2.926705891432153,9
+Worst + Greedy,worst_greedy,3.027399648718983,9,2.072451970098875,9,2.214248948117385,9
+Worst + Regret-2,worst_regret,2.808174571492799,9,2.3733296273987796,9,2.115407884055058,9

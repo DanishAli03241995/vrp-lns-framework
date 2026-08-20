@@ -1,0 +1,3 @@
+# Figure Caption: Fixed Depot Timing Latest Finish Time
+
+Latest depot-route completion time under the fixed depot-ready-time model for the Hybrid + KMeans routing structure before split repair. Each line represents one vehicle-capacity setting, and the dashed horizontal reference line marks the 18:00 working-day limit. The figure shows that all instances up to 150 customers remain within the timing limit, while two 200-customer settings exceed the threshold, indicating the point at which distance-optimised depot routes begin to become operationally infeasible under the fixed timing assumption.

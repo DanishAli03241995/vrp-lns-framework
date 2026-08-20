@@ -1,0 +1,7 @@
+operator_pair,operator_pair_key,case2_best_ranked_environments,case3_best_ranked_environments,case2_average_rank,case3_average_rank,case2_average_improvement_percent,case3_average_improvement_percent,case2_matched_environments_used,case3_matched_environments_used
+Related + Regret-2,related_regret,3,5,2.3333333333333335,2.2222222222222223,5.058633475125772,5.034936176518956,9,9
+Random + Regret-2,random_regret,5,3,1.6666666666666667,3,5.545961741068381,4.661838313353057,9,9
+Random + Greedy,random_greedy,0,1,3.111111111111111,2.6666666666666665,4.740297080847413,4.785097666168712,9,9
+Related + Greedy,related_greedy,1,1,3.3333333333333335,2.6666666666666665,4.703263643686014,4.8656767143540565,9,9
+Worst + Greedy,worst_greedy,0,0,5.111111111111111,5.111111111111111,2.407147324365632,2.746706090042026,9,9
+Worst + Regret-2,worst_regret,0,0,5.444444444444445,5.333333333333333,2.2485843618304875,2.4277995038942866,9,9

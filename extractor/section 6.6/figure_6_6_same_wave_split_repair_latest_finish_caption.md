@@ -1,0 +1,3 @@
+# Figure Caption: Same-Wave Split Repair Latest Finish Time
+
+Latest depot-route completion time before and after same-wave split repair under the dispatch-wave timing model. For each customer size, the plotted value is the maximum latest finish time across capacities 15, 25, and 35. The dashed horizontal reference line marks the 18:00 working-day limit. The figure shows that same-wave split repair substantially reduces the latest completion time for the large dispatch-wave instances, restoring the 100- and 150-customer settings below the working-day limit while leaving the 200-customer setting slightly above the threshold.

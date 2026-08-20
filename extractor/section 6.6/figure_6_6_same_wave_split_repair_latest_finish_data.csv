@@ -1,0 +1,4 @@
+customer_count,before_latest_finish_decimal_hours,before_latest_finish_label,before_capacity_with_max_finish,after_latest_finish_decimal_hours,after_latest_finish_label,after_capacity_with_max_finish,working_day_limit_decimal_hours,working_day_limit_label
+100,19.143310,19:09,35,17.740622,17:44,25,18.0,18:00
+150,20.856239,20:51,35,17.950291,17:57,15,18.0,18:00
+200,23.706635,23:42,35,18.862503,18:52,15,18.0,18:00
