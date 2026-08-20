@@ -1,0 +1,326 @@
+[
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            3,
+            79,
+            77,
+            81,
+            48,
+            87,
+            83,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            70,
+            100,
+            18,
+            75,
+            40,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            33,
+            80,
+            96,
+            38,
+            93,
+            32,
+            25,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            8,
+            74,
+            76,
+            49,
+            10,
+            19,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            95,
+            60,
+            37,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            72,
+            46,
+            41,
+            78,
+            5,
+            43,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            71,
+            2,
+            26,
+            89,
+            11,
+            73,
+            17,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            30,
+            59,
+            13,
+            99,
+            34,
+            4,
+            1,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            68,
+            94,
+            66,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            62,
+            23,
+            85,
+            53,
+            35,
+            67,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            9,
+            63,
+            51,
+            88,
+            98,
+            55,
+            36,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            56,
+            52,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            12,
+            15,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            29,
+            82,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            47,
+            84,
+            90,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            24,
+            21,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            6,
+            69,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            31,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            65,
+            42,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            92,
+            22,
+            97,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            64,
+            50,
+            86,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            20,
+            57,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            16,
+            14,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            45,
+            91,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            7,
+            54,
+            39,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            58,
+            28,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            27,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            61,
+            44,
+            0
+        ]
+    }
+]

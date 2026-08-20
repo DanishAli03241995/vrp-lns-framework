@@ -1,0 +1,150 @@
+[
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            36,
+            55,
+            48,
+            18,
+            40,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            37,
+            60,
+            19,
+            10,
+            49,
+            8,
+            33,
+            38,
+            32,
+            3,
+            25,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            43,
+            5,
+            41,
+            46,
+            17,
+            11,
+            26,
+            2,
+            59,
+            30,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            9,
+            35,
+            51,
+            53,
+            23,
+            1,
+            4,
+            34,
+            13,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            6,
+            24,
+            21,
+            12,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            47,
+            29,
+            15,
+            52,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            31,
+            56,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            42,
+            22,
+            20,
+            45,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            57,
+            50,
+            16,
+            14,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            7,
+            44,
+            27,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            58,
+            28,
+            54,
+            39,
+            0
+        ]
+    }
+]

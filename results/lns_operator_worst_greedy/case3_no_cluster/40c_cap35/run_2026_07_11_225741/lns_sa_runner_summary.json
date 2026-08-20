@@ -1,0 +1,490 @@
+{
+    "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+    "case": "Case_3_hybrid_supplier_customer",
+    "structure": "hybrid_supplier_customer",
+    "variant": "no_cluster",
+    "stage": "lns_operator_worst_greedy",
+    "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+    "baseline_results_name": "hybrid_supplier_customer_no_cluster_v1",
+    "lns_results_name": "lns_operator_worst_greedy/case3_no_cluster",
+    "lns_run_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_worst_greedy/case3_no_cluster/40c_cap35/run_2026_07_11_225741",
+    "route_scope": "hybrid",
+    "run_mode": "batch",
+    "instance": "40c_cap35",
+    "n_remove_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "runs": [
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+            "timestamp": "2026-07-11 22:57:41",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "no_cluster",
+            "stage": "lns_operator_worst_greedy",
+            "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 2,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 195.59967254870725,
+            "improvement_distance": 7.359123926636244,
+            "improvement_percent": 3.625920164307965,
+            "n_routes": 7,
+            "runtime_seconds": 0.09364986419677734
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+            "timestamp": "2026-07-11 22:57:41",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "no_cluster",
+            "stage": "lns_operator_worst_greedy",
+            "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 3,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 195.59967254870725,
+            "improvement_distance": 7.359123926636244,
+            "improvement_percent": 3.625920164307965,
+            "n_routes": 7,
+            "runtime_seconds": 0.09475016593933105
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+            "timestamp": "2026-07-11 22:57:41",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "no_cluster",
+            "stage": "lns_operator_worst_greedy",
+            "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 4,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 193.45255158405445,
+            "improvement_distance": 9.506244891289043,
+            "improvement_percent": 4.683829947939168,
+            "n_routes": 7,
+            "runtime_seconds": 0.09645700454711914
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+            "timestamp": "2026-07-11 22:57:42",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "no_cluster",
+            "stage": "lns_operator_worst_greedy",
+            "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 5,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 194.87136531181062,
+            "improvement_distance": 8.08743116353287,
+            "improvement_percent": 3.9847650380186277,
+            "n_routes": 7,
+            "runtime_seconds": 0.11149787902832031
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+            "timestamp": "2026-07-11 22:57:42",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "no_cluster",
+            "stage": "lns_operator_worst_greedy",
+            "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 6,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 194.87136531181062,
+            "improvement_distance": 8.08743116353287,
+            "improvement_percent": 3.9847650380186277,
+            "n_routes": 7,
+            "runtime_seconds": 0.1015019416809082
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+            "timestamp": "2026-07-11 22:57:42",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "no_cluster",
+            "stage": "lns_operator_worst_greedy",
+            "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 7,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 191.40792620532062,
+            "improvement_distance": 11.55087027002287,
+            "improvement_percent": 5.691239044879797,
+            "n_routes": 7,
+            "runtime_seconds": 0.10461091995239258
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+            "timestamp": "2026-07-11 22:57:42",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "no_cluster",
+            "stage": "lns_operator_worst_greedy",
+            "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 8,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 191.40792620532062,
+            "improvement_distance": 11.55087027002287,
+            "improvement_percent": 5.691239044879797,
+            "n_routes": 7,
+            "runtime_seconds": 0.10355401039123535
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+            "timestamp": "2026-07-11 22:57:42",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "no_cluster",
+            "stage": "lns_operator_worst_greedy",
+            "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 9,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 191.40792620532062,
+            "improvement_distance": 11.55087027002287,
+            "improvement_percent": 5.691239044879797,
+            "n_routes": 7,
+            "runtime_seconds": 0.1079411506652832
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+            "timestamp": "2026-07-11 22:57:42",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "no_cluster",
+            "stage": "lns_operator_worst_greedy",
+            "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 10,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 191.40792620532062,
+            "improvement_distance": 11.55087027002287,
+            "improvement_percent": 5.691239044879797,
+            "n_routes": 7,
+            "runtime_seconds": 0.10524487495422363
+        }
+    ],
+    "best_run": {
+        "run": {
+            "experiment_id": "Case_3_hybrid_supplier_customer_no_cluster_lns_operator_worst_greedy_2026_07_11_225738",
+            "timestamp": "2026-07-11 22:57:42",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "no_cluster",
+            "stage": "lns_operator_worst_greedy",
+            "target_module": "experiments.lns_operator_worst_greedy.hybrid_supplier_customer.lns_sa_no_cluster_v1",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 7,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 191.40792620532062,
+            "improvement_distance": 11.55087027002287,
+            "improvement_percent": 5.691239044879797,
+            "n_routes": 7,
+            "runtime_seconds": 0.10461091995239258
+        },
+        "full_result": {
+            "algorithm": "hybrid_supplier_customer_lns_sa_no_cluster_worst_greedy_v1",
+            "case": "Case_3_hybrid_supplier_customer",
+            "clustering": "no_internal_clustering",
+            "operator_pair": "worst_greedy",
+            "destroy_operator": "worst_removal",
+            "repair_operator": "greedy_insertion",
+            "instance": "40c_cap35",
+            "n_iterations": 50,
+            "n_remove": 7,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "worst_removal_randomness": 0.2,
+            "accepted_moves": 196,
+            "rejected_moves": 4,
+            "supplier_count": 3,
+            "baseline_reference_algorithm": "hybrid_supplier_customer_no_cluster_v1",
+            "baseline_run_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/hybrid_supplier_customer_no_cluster_v1/40c_cap35/run_2026_07_09_135350",
+            "lns_output_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_worst_greedy/case3_no_cluster/40c_cap35/run_2026_07_11_225741",
+            "baseline_config_source": {
+                "n_customers": 40,
+                "vehicle_capacity": 35,
+                "n_suppliers": 3,
+                "seed": 42,
+                "direct_delivery_threshold": 5,
+                "grid_size": 20,
+                "algorithm": "hybrid_supplier_customer_no_cluster_v1",
+                "experiment_name": "40c_cap35"
+            },
+            "baseline_reference_distance": 202.9587964753435,
+            "total_lns_distance": 191.40792620532062,
+            "depot_lns_distance": 91.35973812436447,
+            "supplier_lns_distance": 100.04818808095618,
+            "improvement_distance": 11.55087027002287,
+            "improvement_percent": 5.691239044879797,
+            "n_routes": 7,
+            "lns_trip_distances": [
+                38.49043218196142,
+                5.996420686014485,
+                46.87288525638856,
+                6.3934522483934,
+                33.7171846648519,
+                34.02535239499606,
+                25.912198772714817
+            ],
+            "lns_trip_loads": [
+                23,
+                4,
+                28,
+                6,
+                35,
+                23,
+                21
+            ],
+            "lns_trip_utilization": [
+                0.6571428571428571,
+                0.11428571428571428,
+                0.8,
+                0.17142857142857143,
+                1.0,
+                0.6571428571428571,
+                0.6
+            ],
+            "lns_avg_utilization": 0.5714285714285714,
+            "lns_max_utilization": 1.0,
+            "lns_min_utilization": 0.11428571428571428,
+            "depot_lns_metrics": {
+                "lns_distance": 91.35973812436447,
+                "n_routes": 3,
+                "lns_trip_distances": [
+                    38.49043218196142,
+                    5.996420686014485,
+                    46.87288525638856
+                ],
+                "lns_trip_loads": [
+                    23,
+                    4,
+                    28
+                ],
+                "lns_trip_utilization": [
+                    0.6571428571428571,
+                    0.11428571428571428,
+                    0.8
+                ],
+                "operator_pair": "worst_greedy",
+                "best_iteration": 6,
+                "accepted_moves": 46,
+                "rejected_moves": 4,
+                "route_lns_sa": [
+                    [
+                        0,
+                        25,
+                        40,
+                        18,
+                        3,
+                        32,
+                        38,
+                        33,
+                        8,
+                        10,
+                        19,
+                        5,
+                        0
+                    ],
+                    [
+                        0,
+                        37,
+                        0
+                    ],
+                    [
+                        0,
+                        30,
+                        17,
+                        2,
+                        11,
+                        26,
+                        13,
+                        34,
+                        4,
+                        1,
+                        23,
+                        35,
+                        36,
+                        9,
+                        0
+                    ]
+                ]
+            },
+            "supplier_lns_metrics": {
+                "1": {
+                    "initial_distance": 40.1106369132453,
+                    "lns_distance": 40.1106369132453,
+                    "improvement_distance": 0.0,
+                    "improvement_percent": 0.0,
+                    "n_routes": 2,
+                    "lns_trip_distances": [
+                        6.3934522483934,
+                        33.7171846648519
+                    ],
+                    "lns_trip_loads": [
+                        6,
+                        35
+                    ],
+                    "lns_trip_utilization": [
+                        0.17142857142857143,
+                        1.0
+                    ],
+                    "operator_pair": "worst_greedy",
+                    "best_iteration": 0,
+                    "accepted_moves": 50,
+                    "rejected_moves": 0,
+                    "route_lns_sa": [
+                        [
+                            0,
+                            31,
+                            0
+                        ],
+                        [
+                            0,
+                            6,
+                            12,
+                            24,
+                            21,
+                            29,
+                            15,
+                            0
+                        ]
+                    ]
+                },
+                "2": {
+                    "initial_distance": 34.02535239499606,
+                    "lns_distance": 34.02535239499606,
+                    "improvement_distance": 0.0,
+                    "improvement_percent": 0.0,
+                    "n_routes": 1,
+                    "lns_trip_distances": [
+                        34.02535239499606
+                    ],
+                    "lns_trip_loads": [
+                        23
+                    ],
+                    "lns_trip_utilization": [
+                        0.6571428571428571
+                    ],
+                    "operator_pair": "worst_greedy",
+                    "best_iteration": 0,
+                    "accepted_moves": 50,
+                    "rejected_moves": 0,
+                    "route_lns_sa": [
+                        [
+                            0,
+                            22,
+                            14,
+                            16,
+                            20,
+                            0
+                        ]
+                    ]
+                },
+                "3": {
+                    "initial_distance": 25.912198772714817,
+                    "lns_distance": 25.912198772714817,
+                    "improvement_distance": 0.0,
+                    "improvement_percent": 0.0,
+                    "n_routes": 1,
+                    "lns_trip_distances": [
+                        25.912198772714817
+                    ],
+                    "lns_trip_loads": [
+                        21
+                    ],
+                    "lns_trip_utilization": [
+                        0.6
+                    ],
+                    "operator_pair": "worst_greedy",
+                    "best_iteration": 0,
+                    "accepted_moves": 50,
+                    "rejected_moves": 0,
+                    "route_lns_sa": [
+                        [
+                            0,
+                            27,
+                            39,
+                            28,
+                            7,
+                            0
+                        ]
+                    ]
+                }
+            }
+        }
+    },
+    "best_output_files": {
+        "route_lns_sa_best.txt": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_worst_greedy/case3_no_cluster/40c_cap35/run_2026_07_11_225741/route_lns_sa_best.txt",
+        "route_lns_sa_records_best.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_worst_greedy/case3_no_cluster/40c_cap35/run_2026_07_11_225741/route_lns_sa_records_best.json",
+        "lns_sa_metrics_best.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_worst_greedy/case3_no_cluster/40c_cap35/run_2026_07_11_225741/lns_sa_metrics_best.json",
+        "lns_sa_summary_best.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_worst_greedy/case3_no_cluster/40c_cap35/run_2026_07_11_225741/lns_sa_summary_best.json",
+        "route_plot_lns_sa_best.png": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_worst_greedy/case3_no_cluster/40c_cap35/run_2026_07_11_225741/route_plot_lns_sa_best.png",
+        "best_lns_solution.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_worst_greedy/case3_no_cluster/40c_cap35/run_2026_07_11_225741/best_lns_solution.json"
+    }
+}

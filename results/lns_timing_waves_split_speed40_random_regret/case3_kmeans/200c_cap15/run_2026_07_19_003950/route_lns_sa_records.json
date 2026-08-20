@@ -1,0 +1,798 @@
+[
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 9.0,
+        "dispatch_wave_label": "09:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            43,
+            110,
+            46,
+            193,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 9.0,
+        "dispatch_wave_label": "09:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            19,
+            10,
+            76,
+            74,
+            170,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 9.0,
+        "dispatch_wave_label": "09:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            71,
+            146,
+            2,
+            195,
+            34,
+            13,
+            152,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 9.0,
+        "dispatch_wave_label": "09:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            161,
+            144,
+            145,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 11.0,
+        "dispatch_wave_label": "11:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            130,
+            139,
+            173,
+            80,
+            38,
+            135,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 11.0,
+        "dispatch_wave_label": "11:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            115,
+            81,
+            124,
+            171,
+            155,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 11.0,
+        "dispatch_wave_label": "11:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            126,
+            128,
+            134,
+            194,
+            109,
+            95,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 11.0,
+        "dispatch_wave_label": "11:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            3,
+            121,
+            79,
+            77,
+            18,
+            75,
+            83,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 11.0,
+        "dispatch_wave_label": "11:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            151,
+            94,
+            116,
+            30,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 11.0,
+        "dispatch_wave_label": "11:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            23,
+            166,
+            178,
+            4,
+            127,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 11.0,
+        "dispatch_wave_label": "11:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            176,
+            200,
+            188,
+            41,
+            111,
+            177,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 11.0,
+        "dispatch_wave_label": "11:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            37,
+            60,
+            183,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 11.0,
+        "dispatch_wave_label": "11:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            17,
+            73,
+            11,
+            89,
+            72,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            149,
+            108,
+            175,
+            36,
+            9,
+            68,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            99,
+            165,
+            191,
+            66,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            182,
+            186,
+            1,
+            53,
+            62,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            55,
+            185,
+            87,
+            189,
+            133,
+            48,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            118,
+            98,
+            88,
+            51,
+            63,
+            35,
+            67,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            179,
+            5,
+            78,
+            147,
+            162,
+            104,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            26,
+            199,
+            198,
+            158,
+            192,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            93,
+            168,
+            32,
+            25,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            190,
+            125,
+            122,
+            100,
+            163,
+            70,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            33,
+            49,
+            8,
+            131,
+            129,
+            160,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 15.0,
+        "dispatch_wave_label": "15:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            157,
+            96,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 15.0,
+        "dispatch_wave_label": "15:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            59,
+            174,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 15.0,
+        "dispatch_wave_label": "15:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            159,
+            40,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 15.0,
+        "dispatch_wave_label": "15:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            138,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 15.0,
+        "dispatch_wave_label": "15:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            117,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "routing_scope": "global_depot_pool_by_dispatch_wave",
+        "timing_model": "depot_dispatch_waves_speed40_lns",
+        "dispatch_wave": 15.0,
+        "dispatch_wave_label": "15:00",
+        "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+        "trip": [
+            0,
+            196,
+            85,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            102,
+            31,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            56,
+            156,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            153,
+            148,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            169,
+            6,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            103,
+            184,
+            167,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            15,
+            12,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            140,
+            29,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            172,
+            69,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            113,
+            90,
+            47,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            24,
+            21,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            52,
+            82,
+            84,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            141,
+            187,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            143,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            105,
+            65,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            86,
+            22,
+            92,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            42,
+            97,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            14,
+            114,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            132,
+            101,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            20,
+            142,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            107,
+            57,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            16,
+            197,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            150,
+            154,
+            50,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            45,
+            64,
+            91,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            180,
+            136,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            44,
+            27,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            39,
+            54,
+            120,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            123,
+            181,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            106,
+            112,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            119,
+            137,
+            58,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            7,
+            61,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            28,
+            164,
+            0
+        ]
+    }
+]

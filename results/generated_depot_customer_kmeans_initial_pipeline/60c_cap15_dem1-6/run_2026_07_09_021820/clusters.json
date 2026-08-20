@@ -1,0 +1,202 @@
+{
+    "K": 15,
+    "clusters": [
+        [
+            23,
+            35,
+            51,
+            53,
+            54
+        ],
+        [
+            2,
+            16,
+            26
+        ],
+        [
+            18,
+            40,
+            52,
+            56
+        ],
+        [
+            1,
+            4,
+            39
+        ],
+        [
+            5,
+            19,
+            37,
+            43,
+            45,
+            60
+        ],
+        [
+            6,
+            25,
+            47
+        ],
+        [
+            7,
+            30,
+            59
+        ],
+        [
+            8,
+            21,
+            24,
+            33
+        ],
+        [
+            9,
+            28,
+            31,
+            36,
+            48,
+            55,
+            58
+        ],
+        [
+            10,
+            22,
+            42,
+            49
+        ],
+        [
+            11
+        ],
+        [
+            3,
+            12,
+            15
+        ],
+        [
+            13,
+            27,
+            34,
+            44
+        ],
+        [
+            14,
+            17,
+            20,
+            41,
+            46,
+            50,
+            57
+        ],
+        [
+            29,
+            32,
+            38
+        ]
+    ],
+    "cluster_check": {
+        "num_clusters": 15,
+        "num_expected_customers": 60,
+        "num_clustered_customers": 60,
+        "cluster_loads": [
+            19,
+            10,
+            18,
+            9,
+            17,
+            12,
+            8,
+            16,
+            26,
+            15,
+            3,
+            12,
+            16,
+            30,
+            11
+        ],
+        "missing_customers": [],
+        "duplicate_customers": [],
+        "extra_customers": [],
+        "overloaded_clusters": [
+            {
+                "cluster_index": 0,
+                "load": 19,
+                "customers": [
+                    23,
+                    35,
+                    51,
+                    53,
+                    54
+                ]
+            },
+            {
+                "cluster_index": 2,
+                "load": 18,
+                "customers": [
+                    18,
+                    40,
+                    52,
+                    56
+                ]
+            },
+            {
+                "cluster_index": 4,
+                "load": 17,
+                "customers": [
+                    5,
+                    19,
+                    37,
+                    43,
+                    45,
+                    60
+                ]
+            },
+            {
+                "cluster_index": 7,
+                "load": 16,
+                "customers": [
+                    8,
+                    21,
+                    24,
+                    33
+                ]
+            },
+            {
+                "cluster_index": 8,
+                "load": 26,
+                "customers": [
+                    9,
+                    28,
+                    31,
+                    36,
+                    48,
+                    55,
+                    58
+                ]
+            },
+            {
+                "cluster_index": 12,
+                "load": 16,
+                "customers": [
+                    13,
+                    27,
+                    34,
+                    44
+                ]
+            },
+            {
+                "cluster_index": 13,
+                "load": 30,
+                "customers": [
+                    14,
+                    17,
+                    20,
+                    41,
+                    46,
+                    50,
+                    57
+                ]
+            }
+        ],
+        "is_valid": true
+    }
+}

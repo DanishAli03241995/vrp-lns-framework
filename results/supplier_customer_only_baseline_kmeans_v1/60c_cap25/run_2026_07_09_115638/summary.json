@@ -1,0 +1,18 @@
+{
+    "algorithm": "supplier_customer_only_baseline_kmeans_v1",
+    "instance": "60c_cap25",
+    "seed": 42,
+    "n_customers": 60,
+    "vehicle_capacity": 25,
+    "baseline_distance": 444.9788199634912,
+    "final_distance": 379.97834577997935,
+    "improvement_distance": 65.00047418351187,
+    "improvement_percent": 14.607543385737978,
+    "trips": 12,
+    "avg_utilization": 0.7400000000000001,
+    "max_utilization": 1.0,
+    "min_utilization": 0.0,
+    "feasible": true,
+    "structural_validity": true,
+    "customers_served": true
+}

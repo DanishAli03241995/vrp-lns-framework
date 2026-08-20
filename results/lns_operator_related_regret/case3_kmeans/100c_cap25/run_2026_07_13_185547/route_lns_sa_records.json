@@ -1,0 +1,238 @@
+[
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            70,
+            40,
+            75,
+            18,
+            100,
+            79,
+            77,
+            81,
+            48,
+            87,
+            36,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            43,
+            5,
+            78,
+            41,
+            10,
+            33,
+            80,
+            96,
+            38,
+            93,
+            32,
+            3,
+            25,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            37,
+            60,
+            19,
+            49,
+            76,
+            74,
+            8,
+            95,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            71,
+            72,
+            2,
+            26,
+            89,
+            11,
+            73,
+            17,
+            46,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            30,
+            59,
+            13,
+            99,
+            34,
+            4,
+            1,
+            85,
+            62,
+            66,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            94,
+            9,
+            68,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            23,
+            53,
+            63,
+            51,
+            88,
+            98,
+            35,
+            67,
+            55,
+            83,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            31,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            56,
+            52,
+            12,
+            6,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            15,
+            82,
+            90,
+            84,
+            47,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            69,
+            24,
+            21,
+            29,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            57,
+            50,
+            16,
+            14,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            65,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            42,
+            97,
+            86,
+            20,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            92,
+            22,
+            64,
+            91,
+            45,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            58,
+            28,
+            54,
+            61,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            27,
+            44,
+            39,
+            7,
+            0
+        ]
+    }
+]

@@ -1,0 +1,2 @@
+Plot skipped because matplotlib is not installed.
+Requested plot: Vehicle Routes - Sweep + Baseline NN + 2-Opt + Global 1-0 Relocation + 2-Opt

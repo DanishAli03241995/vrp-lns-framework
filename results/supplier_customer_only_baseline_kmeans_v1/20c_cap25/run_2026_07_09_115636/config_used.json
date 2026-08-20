@@ -1,0 +1,9 @@
+{
+    "n_customers": 20,
+    "vehicle_capacity": 25,
+    "n_suppliers": 3,
+    "seed": 42,
+    "grid_size": 10,
+    "algorithm": "supplier_customer_only_baseline_kmeans_v1",
+    "experiment_name": "20c_cap25"
+}

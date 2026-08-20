@@ -1,0 +1,102 @@
+{
+    "algorithm": "baseline_nn_2opt",
+    "instance": "toy_instance_v1_40c",
+    "seed": 42,
+    "construction": "nearest_neighbor",
+    "local_search": "2-opt",
+    "baseline_distance": 767.8740016107342,
+    "two_opt_distance": 763.2572638906784,
+    "baseline_travel_time": 32.26246672035781,
+    "two_opt_travel_time": 32.10857546302262,
+    "trips": 7,
+    "absolute_improvement": 4.61673772005588,
+    "percent_improvement": 0.6012363630454424,
+    "capacity_feasibility": true,
+    "structural_validity": true,
+    "all_customers_served": true,
+    "vehicle_capacity": 20,
+    "unserved_customers": [],
+    "n_customers": 40,
+    "depot": [
+        0,
+        0
+    ],
+    "baseline_trip_distances": [
+        51.62638951531057,
+        112.83820064948274,
+        101.13401917665075,
+        142.2646228024428,
+        99.86519380581521,
+        141.19761547484762,
+        118.94796018618452
+    ],
+    "two_opt_trip_distances": [
+        50.54658202569303,
+        110.00646935453415,
+        101.13401917665075,
+        142.26462280244277,
+        99.15999487032553,
+        141.19761547484762,
+        118.9479601861845
+    ],
+    "baseline_trip_loads": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+    ],
+    "two_opt_trip_loads": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+    ],
+    "customers_per_trip_baseline": [
+        6,
+        6,
+        7,
+        6,
+        5,
+        6,
+        4
+    ],
+    "customers_per_trip_2opt": [
+        6,
+        6,
+        7,
+        6,
+        5,
+        6,
+        4
+    ],
+    "baseline_trip_utilization": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+    ],
+    "two_opt_trip_utilization": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+    ],
+    "baseline_avg_utilization": 1.0,
+    "two_opt_avg_utilization": 1.0,
+    "baseline_max_utilization": 1.0,
+    "two_opt_max_utilization": 1.0,
+    "baseline_min_utilization": 1.0,
+    "two_opt_min_utilization": 1.0
+}

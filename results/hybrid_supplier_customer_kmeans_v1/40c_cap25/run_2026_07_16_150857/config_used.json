@@ -1,0 +1,8 @@
+{
+    "n_customers": 40,
+    "vehicle_capacity": 25,
+    "n_suppliers": 3,
+    "seed": 42,
+    "direct_delivery_threshold": 5,
+    "grid_size": 20
+}

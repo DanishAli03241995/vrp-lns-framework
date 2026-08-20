@@ -1,0 +1,12 @@
+{
+    "n_customers": 80,
+    "vehicle_capacity": 35,
+    "n_suppliers": 3,
+    "seed": 42,
+    "direct_delivery_threshold": 5,
+    "grid_size": 40,
+    "fixed_depot_ready_time": 9.0,
+    "working_day_end_time": 18.0,
+    "algorithm": "hybrid_supplier_customer_kmeans_timing_fixed_split_v1",
+    "experiment_name": "80c_cap35"
+}

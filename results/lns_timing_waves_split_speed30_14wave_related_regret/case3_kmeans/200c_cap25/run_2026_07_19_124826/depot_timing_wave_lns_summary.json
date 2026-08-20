@@ -1,0 +1,33 @@
+{
+    "timing_model": "depot_dispatch_waves_speed30_14wave_lns",
+    "n_depot_timing_routes": 27,
+    "n_depot_timing_feasible_routes": 27,
+    "n_depot_timing_infeasible_routes": 0,
+    "depot_timing_feasibility": true,
+    "infeasible_timing_route_ids": [],
+    "infeasible_timing_customers": [],
+    "n_routes_without_feasible_wave": 0,
+    "n_routes_departing_before_goods_ready": 0,
+    "n_routes_exceeding_working_day": 0,
+    "routes_per_wave": {
+        "9.0": 2,
+        "11.0": 6,
+        "13.0": 13,
+        "14.0": 6
+    },
+    "routes_per_wave_label": {
+        "09:00": 2,
+        "11:00": 6,
+        "13:00": 13,
+        "14:00": 6
+    },
+    "latest_depot_route_finish_time": 17.975675278052073,
+    "latest_depot_route_finish_time_label": "17:59",
+    "max_depot_route_duration_hours": 8.651173823557528,
+    "avg_depot_route_duration_hours": 4.859277688938636,
+    "avg_depot_route_utilization": 0.47703703703703687,
+    "avg_waiting_time_hours": 0.3148148148148148,
+    "max_waiting_time_hours": 1.0,
+    "avg_waiting_time_minutes": 19,
+    "max_waiting_time_minutes": 60
+}

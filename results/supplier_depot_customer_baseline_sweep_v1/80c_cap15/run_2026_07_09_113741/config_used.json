@@ -1,0 +1,9 @@
+{
+    "n_customers": 80,
+    "vehicle_capacity": 15,
+    "n_suppliers": 3,
+    "seed": 42,
+    "grid_size": 40,
+    "algorithm": "supplier_depot_customer_baseline_sweep_v1",
+    "experiment_name": "80c_cap15"
+}

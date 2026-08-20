@@ -1,0 +1,225 @@
+{
+    "algorithm": "supplier_customer_lns_sa_sweep_v1",
+    "case": "Case_2_supplier_customer_direct",
+    "clustering": "sweep",
+    "instance": "40c_cap15",
+    "n_iterations": 50,
+    "n_remove": 5,
+    "seed": 42,
+    "initial_temperature": 10.0,
+    "cooling_rate": 0.95,
+    "minimum_temperature": 0.01,
+    "baseline_reference_algorithm": "supplier_customer_only_baseline_sweep_v1",
+    "baseline_run_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/supplier_customer_only_baseline_sweep_v1/40c_cap15/run_2026_07_09_115342",
+    "lns_output_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_supplier_customer_only_baseline_sweep_v1/40c_cap15/run_2026_07_09_152809",
+    "baseline_config_source": {
+        "n_customers": 40,
+        "vehicle_capacity": 15,
+        "n_suppliers": 3,
+        "seed": 42,
+        "grid_size": 20,
+        "algorithm": "supplier_customer_only_baseline_sweep_v1",
+        "experiment_name": "40c_cap15"
+    },
+    "baseline_reference_distance": 263.78637596551715,
+    "total_lns_distance": 232.44772764108998,
+    "improvement_distance": 31.33864832442717,
+    "improvement_percent": 11.880313458085432,
+    "n_routes": 10,
+    "lns_trip_distances": [
+        32.42468550954898,
+        23.227437032037372,
+        25.14480032427683,
+        16.33530040413972,
+        18.65304387966624,
+        35.099162964839564,
+        24.202744038430154,
+        17.85046961394899,
+        28.502822127587706,
+        11.007261746614414
+    ],
+    "lns_trip_loads": [
+        15,
+        15,
+        15,
+        12,
+        15,
+        15,
+        12,
+        15,
+        15,
+        11
+    ],
+    "lns_trip_utilization": [
+        1.0,
+        1.0,
+        1.0,
+        0.8,
+        1.0,
+        1.0,
+        0.8,
+        1.0,
+        1.0,
+        0.7333333333333333
+    ],
+    "lns_avg_utilization": 0.9333333333333332,
+    "lns_max_utilization": 1.0,
+    "lns_min_utilization": 0.7333333333333333,
+    "supplier_lns_metrics": {
+        "1": {
+            "initial_distance": 106.20622410978052,
+            "lns_distance": 97.13222327000292,
+            "improvement_distance": 9.074000839777597,
+            "improvement_percent": 8.543756183628387,
+            "n_routes": 4,
+            "lns_trip_distances": [
+                32.42468550954898,
+                23.227437032037372,
+                25.14480032427683,
+                16.33530040413972
+            ],
+            "lns_trip_loads": [
+                15,
+                15,
+                15,
+                12
+            ],
+            "lns_trip_utilization": [
+                1.0,
+                1.0,
+                1.0,
+                0.8
+            ],
+            "route_lns_sa": [
+                [
+                    0,
+                    25,
+                    24,
+                    21,
+                    33,
+                    0
+                ],
+                [
+                    0,
+                    18,
+                    3,
+                    32,
+                    12,
+                    0
+                ],
+                [
+                    0,
+                    29,
+                    38,
+                    15,
+                    40,
+                    0
+                ],
+                [
+                    0,
+                    31,
+                    6,
+                    0
+                ]
+            ]
+        },
+        "2": {
+            "initial_distance": 91.22679200197281,
+            "lns_distance": 77.95495088293595,
+            "improvement_distance": 13.271841119036864,
+            "improvement_percent": 14.54818351910243,
+            "n_routes": 3,
+            "lns_trip_distances": [
+                18.65304387966624,
+                35.099162964839564,
+                24.202744038430154
+            ],
+            "lns_trip_loads": [
+                15,
+                15,
+                12
+            ],
+            "lns_trip_utilization": [
+                1.0,
+                1.0,
+                0.8
+            ],
+            "route_lns_sa": [
+                [
+                    0,
+                    8,
+                    10,
+                    22,
+                    19,
+                    37,
+                    0
+                ],
+                [
+                    0,
+                    5,
+                    11,
+                    16,
+                    26,
+                    2,
+                    17,
+                    0
+                ],
+                [
+                    0,
+                    20,
+                    14,
+                    0
+                ]
+            ]
+        },
+        "3": {
+            "initial_distance": 66.35335985376385,
+            "lns_distance": 57.36055348815111,
+            "improvement_distance": 8.992806365612736,
+            "improvement_percent": 13.552902800147542,
+            "n_routes": 3,
+            "lns_trip_distances": [
+                17.85046961394899,
+                28.502822127587706,
+                11.007261746614414
+            ],
+            "lns_trip_loads": [
+                15,
+                15,
+                11
+            ],
+            "lns_trip_utilization": [
+                1.0,
+                1.0,
+                0.7333333333333333
+            ],
+            "route_lns_sa": [
+                [
+                    0,
+                    7,
+                    39,
+                    1,
+                    4,
+                    34,
+                    0
+                ],
+                [
+                    0,
+                    23,
+                    35,
+                    28,
+                    36,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    27,
+                    13,
+                    30,
+                    0
+                ]
+            ]
+        }
+    }
+}

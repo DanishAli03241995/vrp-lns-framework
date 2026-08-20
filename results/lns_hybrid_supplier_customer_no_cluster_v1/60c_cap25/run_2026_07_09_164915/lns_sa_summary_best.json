@@ -1,0 +1,19 @@
+{
+    "algorithm": "hybrid_supplier_customer_lns_sa_no_cluster_v1",
+    "case": "Case_3_hybrid_supplier_customer",
+    "clustering": "no_internal_clustering",
+    "instance": "60c_cap25",
+    "seed": 42,
+    "n_iterations": 50,
+    "n_remove": 12,
+    "baseline_reference_distance": 477.911393962637,
+    "final_distance": 450.5295181681444,
+    "depot_lns_distance": 192.33969537750698,
+    "supplier_lns_distance": 258.1898227906374,
+    "improvement_distance": 27.3818757944926,
+    "improvement_percent": 5.729487963752819,
+    "n_routes": 11,
+    "avg_utilization": 0.8072727272727274,
+    "max_utilization": 1.0,
+    "min_utilization": 0.44
+}

@@ -1,0 +1,932 @@
+[
+    {
+        "customer_id": 1,
+        "supplier_id": 3,
+        "supplier_arrival_time": 11.25,
+        "supplier_arrival_time_label": "11:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.75,
+        "goods_ready_time_label": "11:45"
+    },
+    {
+        "customer_id": 2,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.25,
+        "supplier_arrival_time_label": "08:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 8.75,
+        "goods_ready_time_label": "08:45"
+    },
+    {
+        "customer_id": 3,
+        "supplier_id": 1,
+        "supplier_arrival_time": 9.5,
+        "supplier_arrival_time_label": "09:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.0,
+        "goods_ready_time_label": "10:00"
+    },
+    {
+        "customer_id": 4,
+        "supplier_id": 3,
+        "supplier_arrival_time": 9.0,
+        "supplier_arrival_time_label": "09:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.5,
+        "goods_ready_time_label": "09:30"
+    },
+    {
+        "customer_id": 5,
+        "supplier_id": 2,
+        "supplier_arrival_time": 11.75,
+        "supplier_arrival_time_label": "11:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.25,
+        "goods_ready_time_label": "12:15"
+    },
+    {
+        "customer_id": 8,
+        "supplier_id": 2,
+        "supplier_arrival_time": 11.5,
+        "supplier_arrival_time_label": "11:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.0,
+        "goods_ready_time_label": "12:00"
+    },
+    {
+        "customer_id": 9,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.5,
+        "supplier_arrival_time_label": "12:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.0,
+        "goods_ready_time_label": "13:00"
+    },
+    {
+        "customer_id": 10,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.5,
+        "supplier_arrival_time_label": "08:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.0,
+        "goods_ready_time_label": "09:00"
+    },
+    {
+        "customer_id": 11,
+        "supplier_id": 2,
+        "supplier_arrival_time": 10.0,
+        "supplier_arrival_time_label": "10:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.5,
+        "goods_ready_time_label": "10:30"
+    },
+    {
+        "customer_id": 13,
+        "supplier_id": 3,
+        "supplier_arrival_time": 8.25,
+        "supplier_arrival_time_label": "08:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 8.75,
+        "goods_ready_time_label": "08:45"
+    },
+    {
+        "customer_id": 17,
+        "supplier_id": 2,
+        "supplier_arrival_time": 9.0,
+        "supplier_arrival_time_label": "09:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.5,
+        "goods_ready_time_label": "09:30"
+    },
+    {
+        "customer_id": 18,
+        "supplier_id": 1,
+        "supplier_arrival_time": 10.5,
+        "supplier_arrival_time_label": "10:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.0,
+        "goods_ready_time_label": "11:00"
+    },
+    {
+        "customer_id": 19,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.25,
+        "supplier_arrival_time_label": "08:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 8.75,
+        "goods_ready_time_label": "08:45"
+    },
+    {
+        "customer_id": 23,
+        "supplier_id": 3,
+        "supplier_arrival_time": 9.0,
+        "supplier_arrival_time_label": "09:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.5,
+        "goods_ready_time_label": "09:30"
+    },
+    {
+        "customer_id": 25,
+        "supplier_id": 1,
+        "supplier_arrival_time": 11.25,
+        "supplier_arrival_time_label": "11:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.75,
+        "goods_ready_time_label": "11:45"
+    },
+    {
+        "customer_id": 26,
+        "supplier_id": 2,
+        "supplier_arrival_time": 10.75,
+        "supplier_arrival_time_label": "10:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.25,
+        "goods_ready_time_label": "11:15"
+    },
+    {
+        "customer_id": 30,
+        "supplier_id": 3,
+        "supplier_arrival_time": 9.0,
+        "supplier_arrival_time_label": "09:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.5,
+        "goods_ready_time_label": "09:30"
+    },
+    {
+        "customer_id": 32,
+        "supplier_id": 1,
+        "supplier_arrival_time": 11.0,
+        "supplier_arrival_time_label": "11:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.5,
+        "goods_ready_time_label": "11:30"
+    },
+    {
+        "customer_id": 33,
+        "supplier_id": 1,
+        "supplier_arrival_time": 12.0,
+        "supplier_arrival_time_label": "12:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.5,
+        "goods_ready_time_label": "12:30"
+    },
+    {
+        "customer_id": 34,
+        "supplier_id": 3,
+        "supplier_arrival_time": 8.0,
+        "supplier_arrival_time_label": "08:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 8.5,
+        "goods_ready_time_label": "08:30"
+    },
+    {
+        "customer_id": 35,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.0,
+        "supplier_arrival_time_label": "12:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.5,
+        "goods_ready_time_label": "12:30"
+    },
+    {
+        "customer_id": 36,
+        "supplier_id": 3,
+        "supplier_arrival_time": 11.5,
+        "supplier_arrival_time_label": "11:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.0,
+        "goods_ready_time_label": "12:00"
+    },
+    {
+        "customer_id": 37,
+        "supplier_id": 2,
+        "supplier_arrival_time": 9.75,
+        "supplier_arrival_time_label": "09:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.25,
+        "goods_ready_time_label": "10:15"
+    },
+    {
+        "customer_id": 38,
+        "supplier_id": 1,
+        "supplier_arrival_time": 8.75,
+        "supplier_arrival_time_label": "08:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.25,
+        "goods_ready_time_label": "09:15"
+    },
+    {
+        "customer_id": 40,
+        "supplier_id": 1,
+        "supplier_arrival_time": 12.75,
+        "supplier_arrival_time_label": "12:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.25,
+        "goods_ready_time_label": "13:15"
+    },
+    {
+        "customer_id": 41,
+        "supplier_id": 2,
+        "supplier_arrival_time": 9.75,
+        "supplier_arrival_time_label": "09:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.25,
+        "goods_ready_time_label": "10:15"
+    },
+    {
+        "customer_id": 43,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.5,
+        "supplier_arrival_time_label": "08:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.0,
+        "goods_ready_time_label": "09:00"
+    },
+    {
+        "customer_id": 46,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.5,
+        "supplier_arrival_time_label": "08:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.0,
+        "goods_ready_time_label": "09:00"
+    },
+    {
+        "customer_id": 48,
+        "supplier_id": 1,
+        "supplier_arrival_time": 12.25,
+        "supplier_arrival_time_label": "12:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.75,
+        "goods_ready_time_label": "12:45"
+    },
+    {
+        "customer_id": 49,
+        "supplier_id": 2,
+        "supplier_arrival_time": 11.0,
+        "supplier_arrival_time_label": "11:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.5,
+        "goods_ready_time_label": "11:30"
+    },
+    {
+        "customer_id": 51,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.0,
+        "supplier_arrival_time_label": "12:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.5,
+        "goods_ready_time_label": "12:30"
+    },
+    {
+        "customer_id": 53,
+        "supplier_id": 3,
+        "supplier_arrival_time": 11.75,
+        "supplier_arrival_time_label": "11:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.25,
+        "goods_ready_time_label": "12:15"
+    },
+    {
+        "customer_id": 55,
+        "supplier_id": 3,
+        "supplier_arrival_time": 10.75,
+        "supplier_arrival_time_label": "10:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.25,
+        "goods_ready_time_label": "11:15"
+    },
+    {
+        "customer_id": 59,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.75,
+        "supplier_arrival_time_label": "12:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.25,
+        "goods_ready_time_label": "13:15"
+    },
+    {
+        "customer_id": 60,
+        "supplier_id": 2,
+        "supplier_arrival_time": 10.0,
+        "supplier_arrival_time_label": "10:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.5,
+        "goods_ready_time_label": "10:30"
+    },
+    {
+        "customer_id": 62,
+        "supplier_id": 3,
+        "supplier_arrival_time": 10.75,
+        "supplier_arrival_time_label": "10:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.25,
+        "goods_ready_time_label": "11:15"
+    },
+    {
+        "customer_id": 63,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.25,
+        "supplier_arrival_time_label": "12:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.75,
+        "goods_ready_time_label": "12:45"
+    },
+    {
+        "customer_id": 66,
+        "supplier_id": 3,
+        "supplier_arrival_time": 11.0,
+        "supplier_arrival_time_label": "11:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.5,
+        "goods_ready_time_label": "11:30"
+    },
+    {
+        "customer_id": 67,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.25,
+        "supplier_arrival_time_label": "12:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.75,
+        "goods_ready_time_label": "12:45"
+    },
+    {
+        "customer_id": 68,
+        "supplier_id": 3,
+        "supplier_arrival_time": 11.0,
+        "supplier_arrival_time_label": "11:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.5,
+        "goods_ready_time_label": "11:30"
+    },
+    {
+        "customer_id": 70,
+        "supplier_id": 1,
+        "supplier_arrival_time": 11.5,
+        "supplier_arrival_time_label": "11:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.0,
+        "goods_ready_time_label": "12:00"
+    },
+    {
+        "customer_id": 71,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.25,
+        "supplier_arrival_time_label": "08:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 8.75,
+        "goods_ready_time_label": "08:45"
+    },
+    {
+        "customer_id": 72,
+        "supplier_id": 2,
+        "supplier_arrival_time": 9.25,
+        "supplier_arrival_time_label": "09:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.75,
+        "goods_ready_time_label": "09:45"
+    },
+    {
+        "customer_id": 73,
+        "supplier_id": 2,
+        "supplier_arrival_time": 9.5,
+        "supplier_arrival_time_label": "09:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.0,
+        "goods_ready_time_label": "10:00"
+    },
+    {
+        "customer_id": 74,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.5,
+        "supplier_arrival_time_label": "08:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.0,
+        "goods_ready_time_label": "09:00"
+    },
+    {
+        "customer_id": 75,
+        "supplier_id": 1,
+        "supplier_arrival_time": 9.25,
+        "supplier_arrival_time_label": "09:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.75,
+        "goods_ready_time_label": "09:45"
+    },
+    {
+        "customer_id": 76,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.5,
+        "supplier_arrival_time_label": "08:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.0,
+        "goods_ready_time_label": "09:00"
+    },
+    {
+        "customer_id": 77,
+        "supplier_id": 1,
+        "supplier_arrival_time": 9.5,
+        "supplier_arrival_time_label": "09:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.0,
+        "goods_ready_time_label": "10:00"
+    },
+    {
+        "customer_id": 78,
+        "supplier_id": 2,
+        "supplier_arrival_time": 11.25,
+        "supplier_arrival_time_label": "11:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.75,
+        "goods_ready_time_label": "11:45"
+    },
+    {
+        "customer_id": 79,
+        "supplier_id": 1,
+        "supplier_arrival_time": 9.75,
+        "supplier_arrival_time_label": "09:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.25,
+        "goods_ready_time_label": "10:15"
+    },
+    {
+        "customer_id": 80,
+        "supplier_id": 1,
+        "supplier_arrival_time": 9.75,
+        "supplier_arrival_time_label": "09:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.25,
+        "goods_ready_time_label": "10:15"
+    },
+    {
+        "customer_id": 81,
+        "supplier_id": 1,
+        "supplier_arrival_time": 9.0,
+        "supplier_arrival_time_label": "09:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.5,
+        "goods_ready_time_label": "09:30"
+    },
+    {
+        "customer_id": 83,
+        "supplier_id": 3,
+        "supplier_arrival_time": 9.25,
+        "supplier_arrival_time_label": "09:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.75,
+        "goods_ready_time_label": "09:45"
+    },
+    {
+        "customer_id": 85,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.75,
+        "supplier_arrival_time_label": "12:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.25,
+        "goods_ready_time_label": "13:15"
+    },
+    {
+        "customer_id": 87,
+        "supplier_id": 1,
+        "supplier_arrival_time": 11.25,
+        "supplier_arrival_time_label": "11:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.75,
+        "goods_ready_time_label": "11:45"
+    },
+    {
+        "customer_id": 88,
+        "supplier_id": 3,
+        "supplier_arrival_time": 11.0,
+        "supplier_arrival_time_label": "11:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.5,
+        "goods_ready_time_label": "11:30"
+    },
+    {
+        "customer_id": 89,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.75,
+        "supplier_arrival_time_label": "08:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.25,
+        "goods_ready_time_label": "09:15"
+    },
+    {
+        "customer_id": 93,
+        "supplier_id": 1,
+        "supplier_arrival_time": 11.75,
+        "supplier_arrival_time_label": "11:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.25,
+        "goods_ready_time_label": "12:15"
+    },
+    {
+        "customer_id": 94,
+        "supplier_id": 3,
+        "supplier_arrival_time": 8.75,
+        "supplier_arrival_time_label": "08:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.25,
+        "goods_ready_time_label": "09:15"
+    },
+    {
+        "customer_id": 95,
+        "supplier_id": 2,
+        "supplier_arrival_time": 10.0,
+        "supplier_arrival_time_label": "10:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.5,
+        "goods_ready_time_label": "10:30"
+    },
+    {
+        "customer_id": 96,
+        "supplier_id": 1,
+        "supplier_arrival_time": 13.0,
+        "supplier_arrival_time_label": "13:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.5,
+        "goods_ready_time_label": "13:30"
+    },
+    {
+        "customer_id": 98,
+        "supplier_id": 3,
+        "supplier_arrival_time": 11.25,
+        "supplier_arrival_time_label": "11:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.75,
+        "goods_ready_time_label": "11:45"
+    },
+    {
+        "customer_id": 99,
+        "supplier_id": 3,
+        "supplier_arrival_time": 10.75,
+        "supplier_arrival_time_label": "10:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.25,
+        "goods_ready_time_label": "11:15"
+    },
+    {
+        "customer_id": 100,
+        "supplier_id": 1,
+        "supplier_arrival_time": 11.5,
+        "supplier_arrival_time_label": "11:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.0,
+        "goods_ready_time_label": "12:00"
+    },
+    {
+        "customer_id": 104,
+        "supplier_id": 2,
+        "supplier_arrival_time": 12.25,
+        "supplier_arrival_time_label": "12:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.75,
+        "goods_ready_time_label": "12:45"
+    },
+    {
+        "customer_id": 108,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.0,
+        "supplier_arrival_time_label": "12:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.5,
+        "goods_ready_time_label": "12:30"
+    },
+    {
+        "customer_id": 109,
+        "supplier_id": 2,
+        "supplier_arrival_time": 9.25,
+        "supplier_arrival_time_label": "09:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.75,
+        "goods_ready_time_label": "09:45"
+    },
+    {
+        "customer_id": 110,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.25,
+        "supplier_arrival_time_label": "08:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 8.75,
+        "goods_ready_time_label": "08:45"
+    },
+    {
+        "customer_id": 111,
+        "supplier_id": 2,
+        "supplier_arrival_time": 9.5,
+        "supplier_arrival_time_label": "09:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.0,
+        "goods_ready_time_label": "10:00"
+    },
+    {
+        "customer_id": 115,
+        "supplier_id": 1,
+        "supplier_arrival_time": 9.25,
+        "supplier_arrival_time_label": "09:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.75,
+        "goods_ready_time_label": "09:45"
+    },
+    {
+        "customer_id": 116,
+        "supplier_id": 3,
+        "supplier_arrival_time": 9.0,
+        "supplier_arrival_time_label": "09:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.5,
+        "goods_ready_time_label": "09:30"
+    },
+    {
+        "customer_id": 117,
+        "supplier_id": 2,
+        "supplier_arrival_time": 12.75,
+        "supplier_arrival_time_label": "12:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.25,
+        "goods_ready_time_label": "13:15"
+    },
+    {
+        "customer_id": 118,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.5,
+        "supplier_arrival_time_label": "12:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.0,
+        "goods_ready_time_label": "13:00"
+    },
+    {
+        "customer_id": 121,
+        "supplier_id": 1,
+        "supplier_arrival_time": 9.5,
+        "supplier_arrival_time_label": "09:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.0,
+        "goods_ready_time_label": "10:00"
+    },
+    {
+        "customer_id": 122,
+        "supplier_id": 1,
+        "supplier_arrival_time": 11.25,
+        "supplier_arrival_time_label": "11:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.75,
+        "goods_ready_time_label": "11:45"
+    },
+    {
+        "customer_id": 124,
+        "supplier_id": 1,
+        "supplier_arrival_time": 10.0,
+        "supplier_arrival_time_label": "10:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.5,
+        "goods_ready_time_label": "10:30"
+    },
+    {
+        "customer_id": 125,
+        "supplier_id": 1,
+        "supplier_arrival_time": 12.5,
+        "supplier_arrival_time_label": "12:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.0,
+        "goods_ready_time_label": "13:00"
+    },
+    {
+        "customer_id": 126,
+        "supplier_id": 2,
+        "supplier_arrival_time": 10.25,
+        "supplier_arrival_time_label": "10:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.75,
+        "goods_ready_time_label": "10:45"
+    },
+    {
+        "customer_id": 127,
+        "supplier_id": 3,
+        "supplier_arrival_time": 9.25,
+        "supplier_arrival_time_label": "09:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.75,
+        "goods_ready_time_label": "09:45"
+    },
+    {
+        "customer_id": 128,
+        "supplier_id": 2,
+        "supplier_arrival_time": 9.25,
+        "supplier_arrival_time_label": "09:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.75,
+        "goods_ready_time_label": "09:45"
+    },
+    {
+        "customer_id": 129,
+        "supplier_id": 1,
+        "supplier_arrival_time": 10.75,
+        "supplier_arrival_time_label": "10:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.25,
+        "goods_ready_time_label": "11:15"
+    },
+    {
+        "customer_id": 130,
+        "supplier_id": 2,
+        "supplier_arrival_time": 9.25,
+        "supplier_arrival_time_label": "09:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.75,
+        "goods_ready_time_label": "09:45"
+    },
+    {
+        "customer_id": 131,
+        "supplier_id": 1,
+        "supplier_arrival_time": 11.0,
+        "supplier_arrival_time_label": "11:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.5,
+        "goods_ready_time_label": "11:30"
+    },
+    {
+        "customer_id": 133,
+        "supplier_id": 1,
+        "supplier_arrival_time": 12.5,
+        "supplier_arrival_time_label": "12:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.0,
+        "goods_ready_time_label": "13:00"
+    },
+    {
+        "customer_id": 134,
+        "supplier_id": 2,
+        "supplier_arrival_time": 10.0,
+        "supplier_arrival_time_label": "10:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.5,
+        "goods_ready_time_label": "10:30"
+    },
+    {
+        "customer_id": 135,
+        "supplier_id": 1,
+        "supplier_arrival_time": 9.0,
+        "supplier_arrival_time_label": "09:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.5,
+        "goods_ready_time_label": "09:30"
+    },
+    {
+        "customer_id": 138,
+        "supplier_id": 2,
+        "supplier_arrival_time": 13.0,
+        "supplier_arrival_time_label": "13:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.5,
+        "goods_ready_time_label": "13:30"
+    },
+    {
+        "customer_id": 139,
+        "supplier_id": 2,
+        "supplier_arrival_time": 10.5,
+        "supplier_arrival_time_label": "10:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.0,
+        "goods_ready_time_label": "11:00"
+    },
+    {
+        "customer_id": 144,
+        "supplier_id": 1,
+        "supplier_arrival_time": 8.5,
+        "supplier_arrival_time_label": "08:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.0,
+        "goods_ready_time_label": "09:00"
+    },
+    {
+        "customer_id": 145,
+        "supplier_id": 1,
+        "supplier_arrival_time": 8.25,
+        "supplier_arrival_time_label": "08:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 8.75,
+        "goods_ready_time_label": "08:45"
+    },
+    {
+        "customer_id": 146,
+        "supplier_id": 3,
+        "supplier_arrival_time": 8.5,
+        "supplier_arrival_time_label": "08:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.0,
+        "goods_ready_time_label": "09:00"
+    },
+    {
+        "customer_id": 147,
+        "supplier_id": 2,
+        "supplier_arrival_time": 11.25,
+        "supplier_arrival_time_label": "11:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.75,
+        "goods_ready_time_label": "11:45"
+    },
+    {
+        "customer_id": 149,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.0,
+        "supplier_arrival_time_label": "12:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.5,
+        "goods_ready_time_label": "12:30"
+    }
+]

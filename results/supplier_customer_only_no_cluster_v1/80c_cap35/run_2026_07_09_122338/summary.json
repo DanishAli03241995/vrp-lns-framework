@@ -1,0 +1,18 @@
+{
+    "algorithm": "supplier_customer_only_no_cluster_v1",
+    "instance": "80c_cap35",
+    "seed": 42,
+    "n_customers": 80,
+    "vehicle_capacity": 35,
+    "baseline_distance": 624.6661910717462,
+    "final_distance": 510.91407848490496,
+    "improvement_distance": 113.75211258684124,
+    "improvement_percent": 18.210063904959476,
+    "trips": 9,
+    "avg_utilization": 0.892063492063492,
+    "max_utilization": 1.0,
+    "min_utilization": 0.6285714285714286,
+    "feasible": true,
+    "structural_validity": true,
+    "customers_served": true
+}

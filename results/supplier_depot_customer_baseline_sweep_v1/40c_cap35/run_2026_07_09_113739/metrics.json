@@ -1,0 +1,279 @@
+{
+    "algorithm": "supplier_depot_customer_baseline_sweep_v1",
+    "instance": "40c_cap35",
+    "seed": 42,
+    "construction": "sweep_clustering + nearest_neighbor",
+    "local_search": "2-opt + global 1-0 relocation + 2-opt",
+    "relocation_scope": "global",
+    "total_first_echelon_distance": 24.0,
+    "baseline_distance": 156.82560844562119,
+    "baseline_total_system_distance": 180.82560844562119,
+    "two_opt_distance": 141.02498855930253,
+    "two_opt_total_system_distance": 165.02498855930253,
+    "relocation_distance": 140.0420805730546,
+    "relocation_total_system_distance": 164.0420805730546,
+    "post_reloc_2opt_distance": 140.0420805730546,
+    "post_reloc_2opt_total_system_distance": 164.0420805730546,
+    "two_opt_gain_over_baseline": 15.800619886318657,
+    "two_opt_percent_gain_over_baseline": 10.07528046147991,
+    "relocation_gain_over_2opt": 0.9829079862479375,
+    "relocation_percent_gain_over_2opt": 0.696974342128462,
+    "relocation_gain_over_baseline": 16.783527872566594,
+    "relocation_percent_gain_over_baseline": 10.702032683894373,
+    "post_reloc_2opt_gain_over_relocation": 0.0,
+    "post_reloc_2opt_percent_gain_over_relocation": 0.0,
+    "total_demand": 140,
+    "total_supply": 140,
+    "supply_feasibility": true,
+    "n_suppliers": 3,
+    "supplier_depot_distance": [
+        8.0,
+        8.0,
+        8.0
+    ],
+    "supplier_cord": {
+        "1": [
+            18.0,
+            10.0
+        ],
+        "2": [
+            6.000000000000002,
+            16.92820323027551
+        ],
+        "3": [
+            5.9999999999999964,
+            3.071796769724493
+        ]
+    },
+    "supplier_supply": {
+        "1": 46,
+        "2": 46,
+        "3": 48
+    },
+    "baseline_travel_time": 11.894186948187372,
+    "two_opt_travel_time": 11.367499618643418,
+    "relocation_travel_time": 11.33473601910182,
+    "post_reloc_2opt_travel_time": 11.33473601910182,
+    "trips": 5,
+    "capacity_feasibility": true,
+    "structural_validity": true,
+    "all_customers_served": true,
+    "vehicle_capacity": 35,
+    "unserved_customers": [],
+    "n_customers": 40,
+    "depot": [
+        10.0,
+        10.0
+    ],
+    "clusters": [
+        [
+            31,
+            18,
+            40,
+            3,
+            12,
+            15,
+            25,
+            6
+        ],
+        [
+            32,
+            38,
+            29,
+            33,
+            21,
+            24,
+            8,
+            10,
+            37,
+            19
+        ],
+        [
+            22,
+            5,
+            20,
+            14,
+            17,
+            11,
+            16,
+            2,
+            26
+        ],
+        [
+            27,
+            30,
+            13,
+            34,
+            7,
+            4,
+            1,
+            39,
+            23,
+            35,
+            9
+        ],
+        [
+            28,
+            36
+        ]
+    ],
+    "baseline_cluster_distances": [
+        26.57164659659182,
+        29.280772644753732,
+        42.37943858566256,
+        41.426073061009575,
+        17.167677557603483
+    ],
+    "baseline_cluster_travel_times": [
+        2.219054886553061,
+        2.642692421491791,
+        2.9126479528554183,
+        3.214202435366985,
+        0.905589251920116
+    ],
+    "baseline_cluster_trip_counts": [
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "cluster_two_opt_distances": [
+        24.98023249420287,
+        28.849552797922712,
+        37.82577273065227,
+        32.20175297892119,
+        17.167677557603483
+    ],
+    "cluster_two_opt_travel_times": [
+        2.1660077498067625,
+        2.6283184265974238,
+        2.760859091021742,
+        2.9067250992973728,
+        0.905589251920116
+    ],
+    "baseline_trip_distances": [
+        26.57164659659182,
+        29.280772644753732,
+        42.37943858566256,
+        41.426073061009575,
+        17.167677557603483
+    ],
+    "two_opt_trip_distances": [
+        24.98023249420287,
+        28.849552797922712,
+        37.82577273065227,
+        32.20175297892119,
+        17.167677557603483
+    ],
+    "relocation_trip_distances": [
+        24.298988453683386,
+        27.112928945504265,
+        37.82577273065227,
+        32.20175297892119,
+        18.602637464293487
+    ],
+    "post_reloc_2opt_trip_distances": [
+        24.298988453683386,
+        27.112928945504258,
+        37.82577273065227,
+        32.20175297892119,
+        18.602637464293487
+    ],
+    "baseline_trip_loads": [
+        32,
+        35,
+        32,
+        34,
+        7
+    ],
+    "two_opt_trip_loads": [
+        32,
+        35,
+        32,
+        34,
+        7
+    ],
+    "relocation_trip_loads": [
+        30,
+        31,
+        32,
+        34,
+        13
+    ],
+    "post_reloc_2opt_trip_loads": [
+        30,
+        31,
+        32,
+        34,
+        13
+    ],
+    "customers_per_trip_baseline": [
+        8,
+        10,
+        9,
+        11,
+        2
+    ],
+    "customers_per_trip_2opt": [
+        8,
+        10,
+        9,
+        11,
+        2
+    ],
+    "customers_per_trip_relocation": [
+        8,
+        9,
+        9,
+        11,
+        3
+    ],
+    "customers_per_trip_post_reloc_2opt": [
+        8,
+        9,
+        9,
+        11,
+        3
+    ],
+    "baseline_trip_utilization": [
+        0.9142857142857143,
+        1.0,
+        0.9142857142857143,
+        0.9714285714285714,
+        0.2
+    ],
+    "two_opt_trip_utilization": [
+        0.9142857142857143,
+        1.0,
+        0.9142857142857143,
+        0.9714285714285714,
+        0.2
+    ],
+    "relocation_trip_utilization": [
+        0.8571428571428571,
+        0.8857142857142857,
+        0.9142857142857143,
+        0.9714285714285714,
+        0.37142857142857144
+    ],
+    "post_reloc_2opt_trip_utilization": [
+        0.8571428571428571,
+        0.8857142857142857,
+        0.9142857142857143,
+        0.9714285714285714,
+        0.37142857142857144
+    ],
+    "baseline_avg_utilization": 0.8,
+    "two_opt_avg_utilization": 0.8,
+    "relocation_avg_utilization": 0.8,
+    "post_reloc_2opt_avg_utilization": 0.8,
+    "baseline_max_utilization": 1.0,
+    "two_opt_max_utilization": 1.0,
+    "relocation_max_utilization": 0.9714285714285714,
+    "post_reloc_2opt_max_utilization": 0.9714285714285714,
+    "baseline_min_utilization": 0.2,
+    "two_opt_min_utilization": 0.2,
+    "relocation_min_utilization": 0.37142857142857144,
+    "post_reloc_2opt_min_utilization": 0.37142857142857144
+}

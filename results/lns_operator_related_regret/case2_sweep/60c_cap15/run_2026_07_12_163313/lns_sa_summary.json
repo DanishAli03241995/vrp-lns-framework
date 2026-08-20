@@ -1,0 +1,23 @@
+{
+    "algorithm": "supplier_customer_lns_sa_sweep_related_regret_v1",
+    "case": "Case_2_supplier_customer_direct",
+    "clustering": "sweep",
+    "operator_pair": "related_regret",
+    "destroy_operator": "shaw_related_removal",
+    "repair_operator": "regret_2_insertion",
+    "instance": "60c_cap15",
+    "seed": 42,
+    "n_iterations": 50,
+    "n_remove": 6,
+    "baseline_reference_distance": 560.368195578196,
+    "final_distance": 531.0746161098376,
+    "improvement_distance": 29.293579468358416,
+    "improvement_percent": 5.227559254702683,
+    "accepted_moves": 51,
+    "rejected_moves": 99,
+    "supplier_count": 3,
+    "n_routes": 17,
+    "avg_utilization": 0.8705882352941177,
+    "max_utilization": 1.0,
+    "min_utilization": 0.26666666666666666
+}

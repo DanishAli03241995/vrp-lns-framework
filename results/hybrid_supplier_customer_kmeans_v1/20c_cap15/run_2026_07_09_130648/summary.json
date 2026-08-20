@@ -1,0 +1,21 @@
+{
+    "algorithm": "hybrid_supplier_customer_kmeans_v1",
+    "instance": "20c_cap15",
+    "seed": 42,
+    "n_customers": 20,
+    "vehicle_capacity": 15,
+    "direct_delivery_threshold": 5,
+    "baseline_distance": 138.80608565217617,
+    "final_distance": 94.76529987543388,
+    "improvement_distance": 44.04078577674228,
+    "improvement_percent": 31.728281631038,
+    "trips": 15,
+    "avg_utilization": 0.2977777777777778,
+    "max_utilization": 0.8,
+    "min_utilization": 0.0,
+    "feasible": true,
+    "structural_validity": true,
+    "customers_served": true,
+    "n_supplier_direct_customers": 7,
+    "n_depot_customers": 13
+}

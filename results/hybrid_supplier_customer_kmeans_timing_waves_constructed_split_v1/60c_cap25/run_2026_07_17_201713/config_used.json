@@ -1,0 +1,23 @@
+{
+    "n_customers": 60,
+    "vehicle_capacity": 25,
+    "n_suppliers": 3,
+    "seed": 42,
+    "direct_delivery_threshold": 5,
+    "grid_size": 30,
+    "supplier_arrival_start_time": 8.0,
+    "supplier_arrival_end_time": 13.0,
+    "depot_handling_time": 0.5,
+    "dispatch_waves": [
+        9.0,
+        11.0,
+        13.0,
+        15.0
+    ],
+    "working_day_end_time": 18.0,
+    "depot_arrival_seed": 42,
+    "arrival_time_step_minutes": 15,
+    "wave_repair_max_recursion_depth": 10,
+    "algorithm": "hybrid_supplier_customer_kmeans_timing_waves_constructed_split_v1",
+    "experiment_name": "60c_cap25"
+}

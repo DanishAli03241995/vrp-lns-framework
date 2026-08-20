@@ -1,0 +1,17 @@
+{
+    "algorithm": "supplier_customer_lns_sa_kmeans_v1",
+    "case": "Case_2_supplier_customer_direct",
+    "clustering": "kmeans",
+    "instance": "20c_cap15",
+    "seed": 42,
+    "n_iterations": 50,
+    "n_remove": 2,
+    "baseline_reference_distance": 65.63297277702314,
+    "final_distance": 60.84147866433693,
+    "improvement_distance": 4.791494112686209,
+    "improvement_percent": 7.300437432515048,
+    "n_routes": 8,
+    "avg_utilization": 0.5583333333333333,
+    "max_utilization": 1.0,
+    "min_utilization": 0.0
+}

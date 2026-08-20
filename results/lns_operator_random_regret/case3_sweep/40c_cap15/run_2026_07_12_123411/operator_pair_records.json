@@ -1,0 +1,4062 @@
+{
+    "depot": [
+        {
+            "iteration": 1,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                30,
+                25,
+                40,
+                19,
+                37,
+                36,
+                32,
+                35,
+                3,
+                11
+            ],
+            "candidate_distance": 139.6281287656373,
+            "current_distance": 139.6281287656373,
+            "best_distance": 138.62811598413865,
+            "temperature": 10.0,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 2,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                18,
+                10,
+                36,
+                32,
+                17,
+                2,
+                25,
+                30,
+                5,
+                40
+            ],
+            "candidate_distance": 139.6281287656373,
+            "current_distance": 139.6281287656373,
+            "best_distance": 138.62811598413865,
+            "temperature": 9.5,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 3,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                11,
+                1,
+                4,
+                25,
+                38,
+                26,
+                37,
+                10,
+                40,
+                34
+            ],
+            "candidate_distance": 139.40350102797805,
+            "current_distance": 139.40350102797805,
+            "best_distance": 138.62811598413865,
+            "temperature": 9.025,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 4,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                19,
+                11,
+                5,
+                34,
+                3,
+                10,
+                8,
+                40,
+                35,
+                1
+            ],
+            "candidate_distance": 129.44854503950125,
+            "current_distance": 129.44854503950125,
+            "best_distance": 129.44854503950125,
+            "temperature": 8.57375,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 5,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                40,
+                26,
+                18,
+                9,
+                23,
+                8,
+                13,
+                32,
+                1,
+                3
+            ],
+            "candidate_distance": 148.12044171498766,
+            "current_distance": 148.12044171498766,
+            "best_distance": 129.44854503950125,
+            "temperature": 8.1450625,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 6,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                2,
+                3,
+                17,
+                30,
+                5,
+                32,
+                13,
+                37,
+                1,
+                11
+            ],
+            "candidate_distance": 143.92338389237378,
+            "current_distance": 143.92338389237378,
+            "best_distance": 129.44854503950125,
+            "temperature": 7.737809374999999,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 7,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                40,
+                13,
+                8,
+                17,
+                34,
+                2,
+                9,
+                19,
+                37,
+                10
+            ],
+            "candidate_distance": 125.28559365453205,
+            "current_distance": 125.28559365453205,
+            "best_distance": 125.28559365453205,
+            "temperature": 7.3509189062499996,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 8,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                38,
+                23,
+                37,
+                33,
+                1,
+                36,
+                40,
+                18,
+                4,
+                30
+            ],
+            "candidate_distance": 119.55988291662702,
+            "current_distance": 119.55988291662702,
+            "best_distance": 119.55988291662702,
+            "temperature": 6.9833729609374995,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 9,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                18,
+                30,
+                23,
+                34,
+                37,
+                17,
+                4,
+                33,
+                35,
+                26
+            ],
+            "candidate_distance": 117.92925710083064,
+            "current_distance": 117.92925710083064,
+            "best_distance": 117.92925710083064,
+            "temperature": 6.634204312890624,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 10,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                37,
+                40,
+                36,
+                19,
+                17,
+                4,
+                11,
+                30,
+                9,
+                3
+            ],
+            "candidate_distance": 117.92925710083064,
+            "current_distance": 117.92925710083064,
+            "best_distance": 117.92925710083064,
+            "temperature": 6.302494097246092,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 11,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                30,
+                38,
+                40,
+                18,
+                23,
+                32,
+                2,
+                10,
+                19,
+                1
+            ],
+            "candidate_distance": 117.92925710083064,
+            "current_distance": 117.92925710083064,
+            "best_distance": 117.92925710083064,
+            "temperature": 5.987369392383788,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 12,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                1,
+                5,
+                18,
+                32,
+                3,
+                26,
+                23,
+                11,
+                25,
+                38
+            ],
+            "candidate_distance": 137.1331790570304,
+            "current_distance": 117.92925710083064,
+            "best_distance": 117.92925710083064,
+            "temperature": 5.688000922764598,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 13,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                10,
+                18,
+                36,
+                13,
+                3,
+                4,
+                9,
+                37,
+                2,
+                34
+            ],
+            "candidate_distance": 117.92925710083064,
+            "current_distance": 117.92925710083064,
+            "best_distance": 117.92925710083064,
+            "temperature": 5.403600876626368,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 14,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                33,
+                5,
+                10,
+                13,
+                17,
+                19,
+                26,
+                4,
+                23,
+                3
+            ],
+            "candidate_distance": 117.8256449927245,
+            "current_distance": 117.8256449927245,
+            "best_distance": 117.8256449927245,
+            "temperature": 5.133420832795049,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 15,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                36,
+                25,
+                3,
+                26,
+                32,
+                34,
+                5,
+                40,
+                30,
+                8
+            ],
+            "candidate_distance": 117.8256449927245,
+            "current_distance": 117.8256449927245,
+            "best_distance": 117.8256449927245,
+            "temperature": 4.876749791155296,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 16,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                38,
+                23,
+                35,
+                1,
+                25,
+                30,
+                40,
+                4,
+                18,
+                34
+            ],
+            "candidate_distance": 117.67445017954958,
+            "current_distance": 117.67445017954958,
+            "best_distance": 117.67445017954958,
+            "temperature": 4.632912301597531,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 17,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                35,
+                30,
+                17,
+                26,
+                2,
+                33,
+                11,
+                3,
+                25,
+                9
+            ],
+            "candidate_distance": 117.67445017954958,
+            "current_distance": 117.67445017954958,
+            "best_distance": 117.67445017954958,
+            "temperature": 4.401266686517654,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 18,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                13,
+                8,
+                26,
+                3,
+                38,
+                19,
+                4,
+                2,
+                36,
+                18
+            ],
+            "candidate_distance": 121.4679365768744,
+            "current_distance": 121.4679365768744,
+            "best_distance": 117.67445017954958,
+            "temperature": 4.181203352191771,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 19,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                34,
+                5,
+                35,
+                19,
+                13,
+                2,
+                18,
+                3,
+                23,
+                33
+            ],
+            "candidate_distance": 122.8882716912803,
+            "current_distance": 121.4679365768744,
+            "best_distance": 117.67445017954958,
+            "temperature": 3.972143184582182,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 20,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                18,
+                37,
+                36,
+                30,
+                23,
+                34,
+                4,
+                38,
+                5,
+                9
+            ],
+            "candidate_distance": 121.4679365768744,
+            "current_distance": 121.4679365768744,
+            "best_distance": 117.67445017954958,
+            "temperature": 3.7735360253530725,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 21,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                35,
+                37,
+                8,
+                2,
+                3,
+                34,
+                9,
+                17,
+                40,
+                36
+            ],
+            "candidate_distance": 116.83176582139461,
+            "current_distance": 116.83176582139461,
+            "best_distance": 116.83176582139461,
+            "temperature": 3.584859224085419,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 22,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                3,
+                5,
+                23,
+                34,
+                18,
+                8,
+                25,
+                4,
+                9,
+                30
+            ],
+            "candidate_distance": 116.83176582139461,
+            "current_distance": 116.83176582139461,
+            "best_distance": 116.83176582139461,
+            "temperature": 3.4056162628811477,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 23,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                18,
+                10,
+                26,
+                4,
+                25,
+                9,
+                38,
+                30,
+                34,
+                11
+            ],
+            "candidate_distance": 116.83176582139461,
+            "current_distance": 116.83176582139461,
+            "best_distance": 116.83176582139461,
+            "temperature": 3.2353354497370903,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 24,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                32,
+                23,
+                17,
+                40,
+                13,
+                3,
+                4,
+                11,
+                1,
+                35
+            ],
+            "candidate_distance": 114.87861357109959,
+            "current_distance": 114.87861357109959,
+            "best_distance": 114.87861357109959,
+            "temperature": 3.0735686772502357,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 25,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                8,
+                1,
+                25,
+                34,
+                32,
+                17,
+                4,
+                40,
+                10,
+                3
+            ],
+            "candidate_distance": 115.0298083842745,
+            "current_distance": 115.0298083842745,
+            "best_distance": 114.87861357109959,
+            "temperature": 2.919890243387724,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 26,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                33,
+                8,
+                36,
+                32,
+                2,
+                34,
+                26,
+                3,
+                13,
+                37
+            ],
+            "candidate_distance": 116.67479735234497,
+            "current_distance": 115.0298083842745,
+            "best_distance": 114.87861357109959,
+            "temperature": 2.7738957312183374,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 27,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                17,
+                32,
+                2,
+                18,
+                8,
+                13,
+                9,
+                30,
+                36,
+                3
+            ],
+            "candidate_distance": 114.78653300965182,
+            "current_distance": 114.78653300965182,
+            "best_distance": 114.78653300965182,
+            "temperature": 2.6352009446574205,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 28,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                11,
+                3,
+                33,
+                10,
+                38,
+                13,
+                23,
+                1,
+                36,
+                9
+            ],
+            "candidate_distance": 112.40721659246837,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 2.5034408974245492,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 29,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                8,
+                1,
+                2,
+                32,
+                11,
+                10,
+                23,
+                5,
+                13,
+                37
+            ],
+            "candidate_distance": 112.40721659246837,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 2.3782688525533215,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 30,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                23,
+                18,
+                13,
+                25,
+                4,
+                10,
+                37,
+                26,
+                33,
+                30
+            ],
+            "candidate_distance": 118.6026078624743,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 2.2593554099256554,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 31,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                33,
+                13,
+                19,
+                35,
+                40,
+                17,
+                11,
+                1,
+                10,
+                23
+            ],
+            "candidate_distance": 112.40721659246837,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 2.1463876394293724,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 32,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                4,
+                8,
+                18,
+                3,
+                30,
+                19,
+                32,
+                1,
+                33,
+                11
+            ],
+            "candidate_distance": 132.08169818809787,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 2.0390682574579038,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 33,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                13,
+                18,
+                8,
+                23,
+                2,
+                1,
+                19,
+                37,
+                35,
+                26
+            ],
+            "candidate_distance": 112.40721659246837,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.9371148445850084,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 34,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                32,
+                30,
+                9,
+                5,
+                38,
+                18,
+                3,
+                35,
+                8,
+                23
+            ],
+            "candidate_distance": 114.78653300965182,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.840259102355758,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 35,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                35,
+                32,
+                36,
+                37,
+                1,
+                38,
+                9,
+                34,
+                26,
+                18
+            ],
+            "candidate_distance": 112.40721659246837,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.74824614723797,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 36,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                4,
+                23,
+                37,
+                34,
+                2,
+                8,
+                1,
+                3,
+                11,
+                10
+            ],
+            "candidate_distance": 112.40721659246837,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.6608338398760714,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 37,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                37,
+                8,
+                1,
+                11,
+                4,
+                9,
+                38,
+                10,
+                36,
+                5
+            ],
+            "candidate_distance": 112.40721659246837,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.5777921478822676,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 38,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                10,
+                32,
+                35,
+                13,
+                19,
+                34,
+                11,
+                3,
+                5,
+                33
+            ],
+            "candidate_distance": 112.40721659246837,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.4989025404881542,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 39,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                4,
+                36,
+                40,
+                9,
+                35,
+                26,
+                2,
+                17,
+                13,
+                25
+            ],
+            "candidate_distance": 118.96889341812258,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.4239574134637465,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 40,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                18,
+                32,
+                23,
+                40,
+                11,
+                36,
+                3,
+                25,
+                19,
+                10
+            ],
+            "candidate_distance": 138.18077778728062,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.3527595427905592,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 41,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                10,
+                3,
+                18,
+                1,
+                19,
+                26,
+                4,
+                13,
+                38,
+                9
+            ],
+            "candidate_distance": 121.51199697633947,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.285121565651031,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 42,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                3,
+                32,
+                33,
+                10,
+                36,
+                38,
+                13,
+                37,
+                40,
+                19
+            ],
+            "candidate_distance": 112.40721659246837,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.2208654873684794,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 43,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                17,
+                1,
+                38,
+                3,
+                25,
+                18,
+                23,
+                37,
+                32,
+                11
+            ],
+            "candidate_distance": 115.31875528897068,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.1598222130000555,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 44,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                37,
+                2,
+                13,
+                8,
+                23,
+                5,
+                34,
+                32,
+                35,
+                30
+            ],
+            "candidate_distance": 112.40721659246837,
+            "current_distance": 112.40721659246837,
+            "best_distance": 112.40721659246837,
+            "temperature": 1.1018311023500527,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 45,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                5,
+                25,
+                40,
+                23,
+                17,
+                33,
+                18,
+                1,
+                36,
+                8
+            ],
+            "candidate_distance": 112.25602177929345,
+            "current_distance": 112.25602177929345,
+            "best_distance": 112.25602177929345,
+            "temperature": 1.04673954723255,
+            "accepted": true,
+            "acceptance_reason": "improved"
+        },
+        {
+            "iteration": 46,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                19,
+                17,
+                34,
+                40,
+                10,
+                1,
+                35,
+                11,
+                30,
+                26
+            ],
+            "candidate_distance": 112.25602177929345,
+            "current_distance": 112.25602177929345,
+            "best_distance": 112.25602177929345,
+            "temperature": 0.9944025698709225,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 47,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                9,
+                34,
+                35,
+                37,
+                26,
+                38,
+                18,
+                13,
+                2,
+                32
+            ],
+            "candidate_distance": 112.25602177929345,
+            "current_distance": 112.25602177929345,
+            "best_distance": 112.25602177929345,
+            "temperature": 0.9446824413773763,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        },
+        {
+            "iteration": 48,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                8,
+                13,
+                2,
+                1,
+                19,
+                36,
+                5,
+                26,
+                25,
+                35
+            ],
+            "candidate_distance": 118.96889341812258,
+            "current_distance": 112.25602177929345,
+            "best_distance": 112.25602177929345,
+            "temperature": 0.8974483193085074,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 49,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                34,
+                2,
+                8,
+                3,
+                30,
+                26,
+                23,
+                36,
+                32,
+                13
+            ],
+            "candidate_distance": 118.1128488844633,
+            "current_distance": 112.25602177929345,
+            "best_distance": 112.25602177929345,
+            "temperature": 0.852575903343082,
+            "accepted": false,
+            "acceptance_reason": "rejected"
+        },
+        {
+            "iteration": 50,
+            "operator_pair": "random_regret",
+            "destroy_operator": "random_removal",
+            "repair_operator": "regret_2_insertion",
+            "removed_customers": [
+                8,
+                30,
+                37,
+                11,
+                2,
+                9,
+                32,
+                17,
+                40,
+                18
+            ],
+            "candidate_distance": 112.25602177929345,
+            "current_distance": 112.25602177929345,
+            "best_distance": 112.25602177929345,
+            "temperature": 0.8099471081759279,
+            "accepted": true,
+            "acceptance_reason": "accepted_worse"
+        }
+    ],
+    "suppliers": {
+        "1": [
+            {
+                "iteration": 1,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    24,
+                    12,
+                    31,
+                    29,
+                    6,
+                    21,
+                    15
+                ],
+                "candidate_distance": 102.7160603502504,
+                "current_distance": 86.89061388791603,
+                "best_distance": 86.89061388791603,
+                "temperature": 10.0,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 2,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    12,
+                    29,
+                    15,
+                    21,
+                    6,
+                    31,
+                    24
+                ],
+                "candidate_distance": 100.72716921211588,
+                "current_distance": 86.89061388791603,
+                "best_distance": 86.89061388791603,
+                "temperature": 9.5,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 3,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    21,
+                    6,
+                    24,
+                    12,
+                    31,
+                    15,
+                    29
+                ],
+                "candidate_distance": 103.1091840140688,
+                "current_distance": 86.89061388791603,
+                "best_distance": 86.89061388791603,
+                "temperature": 9.025,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 4,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    21,
+                    24,
+                    31,
+                    12,
+                    15,
+                    6
+                ],
+                "candidate_distance": 96.80172012433957,
+                "current_distance": 96.80172012433957,
+                "best_distance": 86.89061388791603,
+                "temperature": 8.57375,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 5,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    21,
+                    24,
+                    6,
+                    29,
+                    31,
+                    15,
+                    12
+                ],
+                "candidate_distance": 89.9225900973745,
+                "current_distance": 89.9225900973745,
+                "best_distance": 86.89061388791603,
+                "temperature": 8.1450625,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 6,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    24,
+                    6,
+                    15,
+                    12,
+                    21,
+                    31
+                ],
+                "candidate_distance": 88.82921821545918,
+                "current_distance": 88.82921821545918,
+                "best_distance": 86.89061388791603,
+                "temperature": 7.737809374999999,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 7,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    21,
+                    15,
+                    29,
+                    12,
+                    6,
+                    24,
+                    31
+                ],
+                "candidate_distance": 90.79116513988821,
+                "current_distance": 90.79116513988821,
+                "best_distance": 86.89061388791603,
+                "temperature": 7.3509189062499996,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 8,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    15,
+                    12,
+                    29,
+                    31,
+                    21,
+                    24,
+                    6
+                ],
+                "candidate_distance": 88.51077022900766,
+                "current_distance": 88.51077022900766,
+                "best_distance": 86.89061388791603,
+                "temperature": 6.9833729609374995,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 9,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    31,
+                    21,
+                    15,
+                    24,
+                    6,
+                    12
+                ],
+                "candidate_distance": 102.00975391709514,
+                "current_distance": 102.00975391709514,
+                "best_distance": 86.89061388791603,
+                "temperature": 6.634204312890624,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 10,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    6,
+                    24,
+                    12,
+                    31,
+                    15,
+                    21
+                ],
+                "candidate_distance": 103.61735142556172,
+                "current_distance": 102.00975391709514,
+                "best_distance": 86.89061388791603,
+                "temperature": 6.302494097246092,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 11,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    15,
+                    31,
+                    6,
+                    21,
+                    29,
+                    12,
+                    24
+                ],
+                "candidate_distance": 102.72354678834046,
+                "current_distance": 102.00975391709514,
+                "best_distance": 86.89061388791603,
+                "temperature": 5.987369392383788,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 12,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    6,
+                    29,
+                    21,
+                    12,
+                    15,
+                    24,
+                    31
+                ],
+                "candidate_distance": 91.72190089704429,
+                "current_distance": 91.72190089704429,
+                "best_distance": 86.89061388791603,
+                "temperature": 5.688000922764598,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 13,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    6,
+                    21,
+                    24,
+                    12,
+                    31,
+                    15,
+                    29
+                ],
+                "candidate_distance": 103.1091840140688,
+                "current_distance": 91.72190089704429,
+                "best_distance": 86.89061388791603,
+                "temperature": 5.403600876626368,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 14,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    6,
+                    15,
+                    12,
+                    31,
+                    21,
+                    24
+                ],
+                "candidate_distance": 102.99366837929301,
+                "current_distance": 102.99366837929301,
+                "best_distance": 86.89061388791603,
+                "temperature": 5.133420832795049,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 15,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    24,
+                    21,
+                    6,
+                    15,
+                    12,
+                    29,
+                    31
+                ],
+                "candidate_distance": 79.79141720082465,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 4.876749791155296,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 16,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    21,
+                    15,
+                    29,
+                    31,
+                    6,
+                    24,
+                    12
+                ],
+                "candidate_distance": 102.00975391709514,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 4.632912301597531,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 17,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    24,
+                    12,
+                    31,
+                    21,
+                    15,
+                    6
+                ],
+                "candidate_distance": 96.57161631901847,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 4.401266686517654,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 18,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    24,
+                    21,
+                    6,
+                    12,
+                    29,
+                    31,
+                    15
+                ],
+                "candidate_distance": 90.52144402585489,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 4.181203352191771,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 19,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    15,
+                    31,
+                    29,
+                    24,
+                    6,
+                    21,
+                    12
+                ],
+                "candidate_distance": 98.10884413638341,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 3.972143184582182,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 20,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    6,
+                    24,
+                    29,
+                    12,
+                    31,
+                    15,
+                    21
+                ],
+                "candidate_distance": 102.71839215726678,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 3.7735360253530725,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 21,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    24,
+                    21,
+                    12,
+                    6,
+                    15,
+                    31
+                ],
+                "candidate_distance": 88.82921821545916,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 3.584859224085419,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 22,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    6,
+                    31,
+                    15,
+                    29,
+                    24,
+                    21,
+                    12
+                ],
+                "candidate_distance": 86.92882416459263,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 3.4056162628811477,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 23,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    6,
+                    21,
+                    29,
+                    31,
+                    15,
+                    12,
+                    24
+                ],
+                "candidate_distance": 102.80254625735964,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 3.2353354497370903,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 24,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    6,
+                    15,
+                    12,
+                    24,
+                    31,
+                    29,
+                    21
+                ],
+                "candidate_distance": 104.70476730621881,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 3.0735686772502357,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 25,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    21,
+                    15,
+                    6,
+                    24,
+                    29,
+                    12,
+                    31
+                ],
+                "candidate_distance": 90.79116513988822,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 2.919890243387724,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 26,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    21,
+                    31,
+                    6,
+                    29,
+                    24,
+                    15,
+                    12
+                ],
+                "candidate_distance": 102.28006482055899,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 2.7738957312183374,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 27,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    12,
+                    6,
+                    29,
+                    21,
+                    15,
+                    31,
+                    24
+                ],
+                "candidate_distance": 99.53550283096916,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 2.6352009446574205,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 28,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    12,
+                    21,
+                    31,
+                    24,
+                    29,
+                    6,
+                    15
+                ],
+                "candidate_distance": 102.85198485418371,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 2.5034408974245492,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 29,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    21,
+                    15,
+                    6,
+                    29,
+                    31,
+                    24,
+                    12
+                ],
+                "candidate_distance": 102.19309071369777,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 2.3782688525533215,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 30,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    15,
+                    29,
+                    12,
+                    21,
+                    24,
+                    6,
+                    31
+                ],
+                "candidate_distance": 90.64532375895654,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 2.2593554099256554,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 31,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    21,
+                    29,
+                    24,
+                    15,
+                    6,
+                    12,
+                    31
+                ],
+                "candidate_distance": 87.6823099640474,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 2.1463876394293724,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 32,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    15,
+                    21,
+                    29,
+                    6,
+                    31,
+                    12,
+                    24
+                ],
+                "candidate_distance": 102.67713830836155,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 2.0390682574579038,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 33,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    31,
+                    29,
+                    12,
+                    21,
+                    24,
+                    6,
+                    15
+                ],
+                "candidate_distance": 102.66864805758107,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 1.9371148445850084,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 34,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    6,
+                    29,
+                    31,
+                    12,
+                    21,
+                    24,
+                    15
+                ],
+                "candidate_distance": 89.6835287822559,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 1.840259102355758,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 35,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    15,
+                    6,
+                    12,
+                    24,
+                    29,
+                    21,
+                    31
+                ],
+                "candidate_distance": 88.79798956784887,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 1.74824614723797,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 36,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    31,
+                    15,
+                    12,
+                    24,
+                    21,
+                    29,
+                    6
+                ],
+                "candidate_distance": 97.4383431270127,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 1.6608338398760714,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 37,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    31,
+                    24,
+                    21,
+                    15,
+                    6,
+                    12,
+                    29
+                ],
+                "candidate_distance": 103.18506830599657,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 1.5777921478822676,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 38,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    24,
+                    6,
+                    15,
+                    31,
+                    21,
+                    29,
+                    12
+                ],
+                "candidate_distance": 98.03020319610377,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 1.4989025404881542,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 39,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    15,
+                    6,
+                    29,
+                    12,
+                    24,
+                    31,
+                    21
+                ],
+                "candidate_distance": 103.9891448345265,
+                "current_distance": 79.79141720082465,
+                "best_distance": 79.79141720082465,
+                "temperature": 1.4239574134637465,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 40,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    6,
+                    15,
+                    12,
+                    24,
+                    21,
+                    31
+                ],
+                "candidate_distance": 78.78300078918674,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 1.3527595427905592,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 41,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    15,
+                    21,
+                    12,
+                    6,
+                    24,
+                    31
+                ],
+                "candidate_distance": 90.64532375895654,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 1.285121565651031,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 42,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    15,
+                    31,
+                    6,
+                    29,
+                    24,
+                    21,
+                    12
+                ],
+                "candidate_distance": 89.92259009737448,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 1.2208654873684794,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 43,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    24,
+                    12,
+                    6,
+                    15,
+                    21,
+                    29,
+                    31
+                ],
+                "candidate_distance": 88.79798956784887,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 1.1598222130000555,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 44,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    24,
+                    21,
+                    6,
+                    31,
+                    15,
+                    12
+                ],
+                "candidate_distance": 98.10884413638338,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 1.1018311023500527,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 45,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    31,
+                    6,
+                    21,
+                    12,
+                    15,
+                    24,
+                    29
+                ],
+                "candidate_distance": 101.14458292670537,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 1.04673954723255,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 46,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    24,
+                    31,
+                    6,
+                    21,
+                    12,
+                    15
+                ],
+                "candidate_distance": 96.77136070064475,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 0.9944025698709225,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 47,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    15,
+                    29,
+                    12,
+                    24,
+                    21,
+                    6,
+                    31
+                ],
+                "candidate_distance": 90.69273605162587,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 0.9446824413773763,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 48,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    6,
+                    21,
+                    12,
+                    29,
+                    15,
+                    31,
+                    24
+                ],
+                "candidate_distance": 102.72354678834046,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 0.8974483193085074,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 49,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    29,
+                    24,
+                    6,
+                    15,
+                    12,
+                    31,
+                    21
+                ],
+                "candidate_distance": 99.85848977723322,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 0.852575903343082,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 50,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    6,
+                    21,
+                    29,
+                    24,
+                    15,
+                    12,
+                    31
+                ],
+                "candidate_distance": 86.96925482819566,
+                "current_distance": 78.78300078918674,
+                "best_distance": 78.78300078918674,
+                "temperature": 0.8099471081759279,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            }
+        ],
+        "2": [
+            {
+                "iteration": 1,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    16,
+                    14,
+                    20
+                ],
+                "candidate_distance": 57.680190523964356,
+                "current_distance": 57.680190523964356,
+                "best_distance": 56.61192040528053,
+                "temperature": 10.0,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 2,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    16,
+                    22,
+                    14,
+                    20
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 57.68019052396436,
+                "best_distance": 56.61192040528053,
+                "temperature": 9.5,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 3,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    20,
+                    22,
+                    16
+                ],
+                "candidate_distance": 57.680190523964356,
+                "current_distance": 57.680190523964356,
+                "best_distance": 56.61192040528053,
+                "temperature": 9.025,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 4,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    16,
+                    14,
+                    22,
+                    20
+                ],
+                "candidate_distance": 54.92913101490451,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.92913101490451,
+                "temperature": 8.57375,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 5,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    16,
+                    22,
+                    20
+                ],
+                "candidate_distance": 54.92913101490451,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.92913101490451,
+                "temperature": 8.1450625,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 6,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    16,
+                    14,
+                    22
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 56.61192040528053,
+                "best_distance": 54.92913101490451,
+                "temperature": 7.737809374999999,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 7,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    16,
+                    20,
+                    14
+                ],
+                "candidate_distance": 57.680190523964356,
+                "current_distance": 57.680190523964356,
+                "best_distance": 54.92913101490451,
+                "temperature": 7.3509189062499996,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 8,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    16,
+                    22,
+                    14,
+                    20
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 57.68019052396436,
+                "best_distance": 54.92913101490451,
+                "temperature": 6.9833729609374995,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 9,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    16,
+                    20,
+                    22
+                ],
+                "candidate_distance": 54.929131014904506,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 6.634204312890624,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 10,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    22,
+                    16,
+                    20
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 6.302494097246092,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 11,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    16,
+                    14,
+                    20
+                ],
+                "candidate_distance": 57.680190523964356,
+                "current_distance": 57.680190523964356,
+                "best_distance": 54.929131014904506,
+                "temperature": 5.987369392383788,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 12,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    14,
+                    20,
+                    16
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 56.61192040528053,
+                "best_distance": 54.929131014904506,
+                "temperature": 5.688000922764598,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 13,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    20,
+                    16,
+                    14
+                ],
+                "candidate_distance": 54.929131014904506,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 5.403600876626368,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 14,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    16,
+                    14,
+                    22
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 5.133420832795049,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 15,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    22,
+                    14,
+                    16
+                ],
+                "candidate_distance": 54.92913101490451,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 4.876749791155296,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 16,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    20,
+                    14,
+                    16
+                ],
+                "candidate_distance": 54.92913101490451,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 4.632912301597531,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 17,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    20,
+                    16,
+                    14
+                ],
+                "candidate_distance": 54.929131014904506,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 4.401266686517654,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 18,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    20,
+                    16,
+                    14
+                ],
+                "candidate_distance": 54.929131014904506,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 4.181203352191771,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 19,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    22,
+                    20,
+                    16
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 56.61192040528053,
+                "best_distance": 54.929131014904506,
+                "temperature": 3.972143184582182,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 20,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    22,
+                    16,
+                    14
+                ],
+                "candidate_distance": 54.929131014904506,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 3.7735360253530725,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 21,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    22,
+                    14,
+                    16
+                ],
+                "candidate_distance": 54.92913101490451,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 3.584859224085419,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 22,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    20,
+                    16,
+                    22
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 3.4056162628811477,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 23,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    22,
+                    20,
+                    16
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 56.61192040528053,
+                "best_distance": 54.929131014904506,
+                "temperature": 3.2353354497370903,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 24,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    14,
+                    16,
+                    22
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 57.68019052396436,
+                "best_distance": 54.929131014904506,
+                "temperature": 3.0735686772502357,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 25,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    20,
+                    22,
+                    16
+                ],
+                "candidate_distance": 57.680190523964356,
+                "current_distance": 57.680190523964356,
+                "best_distance": 54.929131014904506,
+                "temperature": 2.919890243387724,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 26,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    22,
+                    14,
+                    16
+                ],
+                "candidate_distance": 54.92913101490451,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 2.7738957312183374,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 27,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    16,
+                    22,
+                    20
+                ],
+                "candidate_distance": 54.92913101490451,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 2.6352009446574205,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 28,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    16,
+                    22,
+                    20,
+                    14
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 2.5034408974245492,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 29,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    16,
+                    14,
+                    20,
+                    22
+                ],
+                "candidate_distance": 54.929131014904506,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 2.3782688525533215,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 30,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    20,
+                    14,
+                    16
+                ],
+                "candidate_distance": 54.92913101490451,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 2.2593554099256554,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 31,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    16,
+                    14,
+                    22
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 2.1463876394293724,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 32,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    16,
+                    20,
+                    22,
+                    14
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 2.0390682574579038,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 33,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    22,
+                    14,
+                    16
+                ],
+                "candidate_distance": 54.92913101490451,
+                "current_distance": 54.92913101490451,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.9371148445850084,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 34,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    16,
+                    20,
+                    22
+                ],
+                "candidate_distance": 54.929131014904506,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.840259102355758,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 35,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    14,
+                    20,
+                    16
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.74824614723797,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 36,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    14,
+                    16,
+                    20
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 56.61192040528053,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.6608338398760714,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 37,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    14,
+                    16,
+                    20
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 56.61192040528053,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.5777921478822676,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 38,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    22,
+                    16,
+                    20,
+                    14
+                ],
+                "candidate_distance": 57.680190523964356,
+                "current_distance": 57.680190523964356,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.4989025404881542,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 39,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    22,
+                    20,
+                    16
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 56.61192040528053,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.4239574134637465,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 40,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    14,
+                    16,
+                    22
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 56.61192040528053,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.3527595427905592,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 41,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    20,
+                    16,
+                    22
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 56.61192040528053,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.285121565651031,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 42,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    14,
+                    22,
+                    16
+                ],
+                "candidate_distance": 57.680190523964356,
+                "current_distance": 57.680190523964356,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.2208654873684794,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 43,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    16,
+                    14,
+                    20,
+                    22
+                ],
+                "candidate_distance": 54.929131014904506,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.1598222130000555,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 44,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    16,
+                    22,
+                    14,
+                    20
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.1018311023500527,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 45,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    22,
+                    16,
+                    20
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 1.04673954723255,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 46,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    16,
+                    22,
+                    14,
+                    20
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 0.9944025698709225,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 47,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    20,
+                    14,
+                    16,
+                    22
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 0.9446824413773763,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 48,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    22,
+                    16,
+                    20
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 0.8974483193085074,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 49,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    16,
+                    22,
+                    14,
+                    20
+                ],
+                "candidate_distance": 57.68019052396436,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 0.852575903343082,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 50,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    14,
+                    22,
+                    20,
+                    16
+                ],
+                "candidate_distance": 56.61192040528053,
+                "current_distance": 54.929131014904506,
+                "best_distance": 54.929131014904506,
+                "temperature": 0.8099471081759279,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            }
+        ],
+        "3": [
+            {
+                "iteration": 1,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    7,
+                    39,
+                    28,
+                    27
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 40.792451441812524,
+                "best_distance": 39.923394707986255,
+                "temperature": 10.0,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 2,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    27,
+                    39,
+                    28,
+                    7
+                ],
+                "candidate_distance": 39.92339470798626,
+                "current_distance": 39.92339470798626,
+                "best_distance": 39.923394707986255,
+                "temperature": 9.5,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 3,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    7,
+                    39,
+                    27
+                ],
+                "candidate_distance": 39.923394707986255,
+                "current_distance": 39.923394707986255,
+                "best_distance": 39.923394707986255,
+                "temperature": 9.025,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 4,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    27,
+                    28,
+                    39,
+                    7
+                ],
+                "candidate_distance": 41.5284381791153,
+                "current_distance": 41.5284381791153,
+                "best_distance": 39.923394707986255,
+                "temperature": 8.57375,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 5,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    27,
+                    39,
+                    7
+                ],
+                "candidate_distance": 41.5284381791153,
+                "current_distance": 41.5284381791153,
+                "best_distance": 39.923394707986255,
+                "temperature": 8.1450625,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 6,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    7,
+                    27,
+                    28,
+                    39
+                ],
+                "candidate_distance": 37.18749156129044,
+                "current_distance": 37.18749156129044,
+                "best_distance": 37.18749156129044,
+                "temperature": 7.737809374999999,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 7,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    27,
+                    7,
+                    28
+                ],
+                "candidate_distance": 39.92339470798626,
+                "current_distance": 37.18749156129044,
+                "best_distance": 37.18749156129044,
+                "temperature": 7.3509189062499996,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 8,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    27,
+                    7,
+                    39,
+                    28
+                ],
+                "candidate_distance": 37.18749156129044,
+                "current_distance": 37.18749156129044,
+                "best_distance": 37.18749156129044,
+                "temperature": 6.9833729609374995,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 9,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    27,
+                    39,
+                    7
+                ],
+                "candidate_distance": 41.5284381791153,
+                "current_distance": 37.18749156129044,
+                "best_distance": 37.18749156129044,
+                "temperature": 6.634204312890624,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 10,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    27,
+                    39,
+                    7,
+                    28
+                ],
+                "candidate_distance": 39.92339470798626,
+                "current_distance": 37.18749156129044,
+                "best_distance": 37.18749156129044,
+                "temperature": 6.302494097246092,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 11,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    7,
+                    27,
+                    28
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 40.792451441812524,
+                "best_distance": 37.18749156129044,
+                "temperature": 5.987369392383788,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 12,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    28,
+                    27,
+                    7
+                ],
+                "candidate_distance": 37.18749156129045,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 5.688000922764598,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 13,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    27,
+                    7,
+                    28
+                ],
+                "candidate_distance": 39.92339470798626,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 5.403600876626368,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 14,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    27,
+                    7,
+                    39
+                ],
+                "candidate_distance": 41.5284381791153,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 5.133420832795049,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 15,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    39,
+                    7,
+                    27
+                ],
+                "candidate_distance": 37.18749156129044,
+                "current_distance": 37.18749156129044,
+                "best_distance": 37.18749156129044,
+                "temperature": 4.876749791155296,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 16,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    28,
+                    7,
+                    27
+                ],
+                "candidate_distance": 37.18749156129045,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 4.632912301597531,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 17,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    28,
+                    27,
+                    7
+                ],
+                "candidate_distance": 37.18749156129045,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 4.401266686517654,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 18,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    28,
+                    27,
+                    7
+                ],
+                "candidate_distance": 37.18749156129045,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 4.181203352191771,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 19,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    7,
+                    39,
+                    28,
+                    27
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 40.792451441812524,
+                "best_distance": 37.18749156129044,
+                "temperature": 3.972143184582182,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 20,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    27,
+                    7,
+                    39
+                ],
+                "candidate_distance": 41.5284381791153,
+                "current_distance": 41.5284381791153,
+                "best_distance": 37.18749156129044,
+                "temperature": 3.7735360253530725,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 21,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    27,
+                    39,
+                    7
+                ],
+                "candidate_distance": 41.5284381791153,
+                "current_distance": 41.5284381791153,
+                "best_distance": 37.18749156129044,
+                "temperature": 3.584859224085419,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 22,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    28,
+                    7,
+                    27
+                ],
+                "candidate_distance": 37.18749156129045,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 3.4056162628811477,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 23,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    7,
+                    28,
+                    39,
+                    27
+                ],
+                "candidate_distance": 39.923394707986255,
+                "current_distance": 39.923394707986255,
+                "best_distance": 37.18749156129044,
+                "temperature": 3.2353354497370903,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 24,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    7,
+                    27,
+                    28
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 40.792451441812524,
+                "best_distance": 37.18749156129044,
+                "temperature": 3.0735686772502357,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 25,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    7,
+                    39,
+                    27,
+                    28
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 40.792451441812524,
+                "best_distance": 37.18749156129044,
+                "temperature": 2.919890243387724,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 26,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    27,
+                    28,
+                    39,
+                    7
+                ],
+                "candidate_distance": 41.5284381791153,
+                "current_distance": 41.5284381791153,
+                "best_distance": 37.18749156129044,
+                "temperature": 2.7738957312183374,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 27,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    7,
+                    28,
+                    27
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 40.792451441812524,
+                "best_distance": 37.18749156129044,
+                "temperature": 2.6352009446574205,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 28,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    7,
+                    28,
+                    27,
+                    39
+                ],
+                "candidate_distance": 39.923394707986255,
+                "current_distance": 39.923394707986255,
+                "best_distance": 37.18749156129044,
+                "temperature": 2.5034408974245492,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 29,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    7,
+                    39,
+                    27
+                ],
+                "candidate_distance": 39.923394707986255,
+                "current_distance": 39.923394707986255,
+                "best_distance": 37.18749156129044,
+                "temperature": 2.3782688525533215,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 30,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    27,
+                    39,
+                    7,
+                    28
+                ],
+                "candidate_distance": 39.92339470798626,
+                "current_distance": 39.92339470798626,
+                "best_distance": 37.18749156129044,
+                "temperature": 2.2593554099256554,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 31,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    7,
+                    28,
+                    27
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 39.92339470798626,
+                "best_distance": 37.18749156129044,
+                "temperature": 2.1463876394293724,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 32,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    7,
+                    39,
+                    27,
+                    28
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 40.792451441812524,
+                "best_distance": 37.18749156129044,
+                "temperature": 2.0390682574579038,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 33,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    27,
+                    39,
+                    28,
+                    7
+                ],
+                "candidate_distance": 39.92339470798626,
+                "current_distance": 39.92339470798626,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.9371148445850084,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 34,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    7,
+                    27,
+                    39
+                ],
+                "candidate_distance": 39.923394707986255,
+                "current_distance": 39.923394707986255,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.840259102355758,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 35,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    28,
+                    27,
+                    7
+                ],
+                "candidate_distance": 37.18749156129045,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.74824614723797,
+                "accepted": true,
+                "acceptance_reason": "improved"
+            },
+            {
+                "iteration": 36,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    7,
+                    39,
+                    28,
+                    27
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.6608338398760714,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 37,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    28,
+                    27,
+                    7
+                ],
+                "candidate_distance": 37.18749156129045,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.5777921478822676,
+                "accepted": true,
+                "acceptance_reason": "accepted_worse"
+            },
+            {
+                "iteration": 38,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    27,
+                    7,
+                    28
+                ],
+                "candidate_distance": 39.92339470798626,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.4989025404881542,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 39,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    7,
+                    39,
+                    27,
+                    28
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.4239574134637465,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 40,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    27,
+                    39,
+                    7,
+                    28
+                ],
+                "candidate_distance": 39.92339470798626,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.3527595427905592,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 41,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    27,
+                    7,
+                    28
+                ],
+                "candidate_distance": 39.92339470798626,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.285121565651031,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 42,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    27,
+                    39,
+                    28,
+                    7
+                ],
+                "candidate_distance": 39.92339470798626,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.2208654873684794,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 43,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    7,
+                    28,
+                    39,
+                    27
+                ],
+                "candidate_distance": 39.923394707986255,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.1598222130000555,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 44,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    7,
+                    28,
+                    27
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.1018311023500527,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 45,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    7,
+                    39,
+                    27
+                ],
+                "candidate_distance": 39.923394707986255,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 1.04673954723255,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 46,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    7,
+                    28,
+                    27
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 0.9944025698709225,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 47,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    27,
+                    28,
+                    39,
+                    7
+                ],
+                "candidate_distance": 41.5284381791153,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 0.9446824413773763,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 48,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    7,
+                    39,
+                    27
+                ],
+                "candidate_distance": 39.923394707986255,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 0.8974483193085074,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 49,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    39,
+                    7,
+                    28,
+                    27
+                ],
+                "candidate_distance": 40.792451441812524,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 0.852575903343082,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            },
+            {
+                "iteration": 50,
+                "operator_pair": "random_regret",
+                "destroy_operator": "random_removal",
+                "repair_operator": "regret_2_insertion",
+                "removed_customers": [
+                    28,
+                    7,
+                    27,
+                    39
+                ],
+                "candidate_distance": 39.923394707986255,
+                "current_distance": 37.18749156129045,
+                "best_distance": 37.18749156129044,
+                "temperature": 0.8099471081759279,
+                "accepted": false,
+                "acceptance_reason": "rejected"
+            }
+        ]
+    }
+}

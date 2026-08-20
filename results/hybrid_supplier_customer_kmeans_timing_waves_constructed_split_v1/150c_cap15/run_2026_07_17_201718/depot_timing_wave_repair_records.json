@@ -1,0 +1,758 @@
+[
+    {
+        "original_route_id": 13,
+        "constructed_dispatch_wave": 13.0,
+        "constructed_dispatch_wave_label": "13:00",
+        "available_time_after_wave_hours": 5.0,
+        "available_time_after_wave_minutes": 300,
+        "repair_model": "same_wave_duration_split_with_2opt",
+        "repair_attempted": true,
+        "repair_successful": true,
+        "original_trip": [
+            0,
+            36,
+            55,
+            87,
+            48,
+            133,
+            98,
+            51,
+            0
+        ],
+        "original_customers": [
+            36,
+            55,
+            87,
+            48,
+            133,
+            98,
+            51
+        ],
+        "original_n_customers": 7,
+        "original_route_load": 15,
+        "original_route_distance": 133.51642029445122,
+        "original_route_duration_hours": 5.61721400981504,
+        "original_finish_time": 18.61721400981504,
+        "original_finish_time_label": "18:37",
+        "original_lateness_hours": 0.61721400981504,
+        "n_routes_before_repair": 1,
+        "n_routes_after_repair": 2,
+        "repaired_routes": [
+            [
+                0,
+                36,
+                55,
+                87,
+                133,
+                48,
+                0
+            ],
+            [
+                0,
+                98,
+                51,
+                0
+            ]
+        ],
+        "repaired_route_records": [
+            {
+                "route_id": 1,
+                "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+                "origin_type": "depot",
+                "timing_model": "depot_dispatch_waves_wave_constructed_with_duration_split_repair",
+                "route_construction_scope": "dispatch_wave_bucket",
+                "trip": [
+                    0,
+                    36,
+                    55,
+                    87,
+                    133,
+                    48,
+                    0
+                ],
+                "customers": [
+                    36,
+                    55,
+                    87,
+                    133,
+                    48
+                ],
+                "n_customers": 5,
+                "route_load": 9,
+                "vehicle_capacity": 15,
+                "route_utilization": 0.6,
+                "route_distance": 81.07887680763668,
+                "route_duration_hours": 3.535962560254556,
+                "route_travel_time_hours": 2.7026292269212226,
+                "route_service_time_hours": 0.8333333333333333,
+                "customer_ready_records": [
+                    {
+                        "customer_id": 36,
+                        "supplier_arrival_time": 11.5,
+                        "supplier_arrival_time_label": "11:30",
+                        "goods_ready_time": 12.0,
+                        "goods_ready_time_label": "12:00",
+                        "assigned_dispatch_wave": 13.0,
+                        "assigned_dispatch_wave_label": "13:00"
+                    },
+                    {
+                        "customer_id": 55,
+                        "supplier_arrival_time": 10.75,
+                        "supplier_arrival_time_label": "10:45",
+                        "goods_ready_time": 11.25,
+                        "goods_ready_time_label": "11:15",
+                        "assigned_dispatch_wave": 13.0,
+                        "assigned_dispatch_wave_label": "13:00"
+                    },
+                    {
+                        "customer_id": 87,
+                        "supplier_arrival_time": 11.25,
+                        "supplier_arrival_time_label": "11:15",
+                        "goods_ready_time": 11.75,
+                        "goods_ready_time_label": "11:45",
+                        "assigned_dispatch_wave": 13.0,
+                        "assigned_dispatch_wave_label": "13:00"
+                    },
+                    {
+                        "customer_id": 133,
+                        "supplier_arrival_time": 12.5,
+                        "supplier_arrival_time_label": "12:30",
+                        "goods_ready_time": 13.0,
+                        "goods_ready_time_label": "13:00",
+                        "assigned_dispatch_wave": 13.0,
+                        "assigned_dispatch_wave_label": "13:00"
+                    },
+                    {
+                        "customer_id": 48,
+                        "supplier_arrival_time": 12.25,
+                        "supplier_arrival_time_label": "12:15",
+                        "goods_ready_time": 12.75,
+                        "goods_ready_time_label": "12:45",
+                        "assigned_dispatch_wave": 13.0,
+                        "assigned_dispatch_wave_label": "13:00"
+                    }
+                ],
+                "route_goods_ready_time": 13.0,
+                "route_goods_ready_time_label": "13:00",
+                "dispatch_waves": [
+                    9.0,
+                    11.0,
+                    13.0,
+                    15.0
+                ],
+                "dispatch_wave_labels": [
+                    "09:00",
+                    "11:00",
+                    "13:00",
+                    "15:00"
+                ],
+                "constructed_dispatch_wave": 13.0,
+                "constructed_dispatch_wave_label": "13:00",
+                "departure_wave": 13.0,
+                "departure_wave_label": "13:00",
+                "waiting_time_hours": 0.0,
+                "waiting_time_minutes": 0,
+                "finish_time": 16.535962560254557,
+                "finish_time_label": "16:32",
+                "working_day_end_time": 18.0,
+                "working_day_end_time_label": "18:00",
+                "capacity_feasible": true,
+                "structural_validity": true,
+                "dispatch_wave_feasible": true,
+                "route_ready_before_departure": true,
+                "working_day_feasible": true,
+                "timing_feasible": true,
+                "repair_model": "same_wave_duration_split_with_2opt",
+                "source_route_id_before_repair": 13
+            },
+            {
+                "route_id": 2,
+                "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+                "origin_type": "depot",
+                "timing_model": "depot_dispatch_waves_wave_constructed_with_duration_split_repair",
+                "route_construction_scope": "dispatch_wave_bucket",
+                "trip": [
+                    0,
+                    98,
+                    51,
+                    0
+                ],
+                "customers": [
+                    98,
+                    51
+                ],
+                "n_customers": 2,
+                "route_load": 6,
+                "vehicle_capacity": 15,
+                "route_utilization": 0.4,
+                "route_distance": 98.59001582076672,
+                "route_duration_hours": 3.6196671940255576,
+                "route_travel_time_hours": 3.286333860692224,
+                "route_service_time_hours": 0.3333333333333333,
+                "customer_ready_records": [
+                    {
+                        "customer_id": 98,
+                        "supplier_arrival_time": 11.25,
+                        "supplier_arrival_time_label": "11:15",
+                        "goods_ready_time": 11.75,
+                        "goods_ready_time_label": "11:45",
+                        "assigned_dispatch_wave": 13.0,
+                        "assigned_dispatch_wave_label": "13:00"
+                    },
+                    {
+                        "customer_id": 51,
+                        "supplier_arrival_time": 12.0,
+                        "supplier_arrival_time_label": "12:00",
+                        "goods_ready_time": 12.5,
+                        "goods_ready_time_label": "12:30",
+                        "assigned_dispatch_wave": 13.0,
+                        "assigned_dispatch_wave_label": "13:00"
+                    }
+                ],
+                "route_goods_ready_time": 12.5,
+                "route_goods_ready_time_label": "12:30",
+                "dispatch_waves": [
+                    9.0,
+                    11.0,
+                    13.0,
+                    15.0
+                ],
+                "dispatch_wave_labels": [
+                    "09:00",
+                    "11:00",
+                    "13:00",
+                    "15:00"
+                ],
+                "constructed_dispatch_wave": 13.0,
+                "constructed_dispatch_wave_label": "13:00",
+                "departure_wave": 13.0,
+                "departure_wave_label": "13:00",
+                "waiting_time_hours": 0.5,
+                "waiting_time_minutes": 30,
+                "finish_time": 16.619667194025556,
+                "finish_time_label": "16:37",
+                "working_day_end_time": 18.0,
+                "working_day_end_time_label": "18:00",
+                "capacity_feasible": true,
+                "structural_validity": true,
+                "dispatch_wave_feasible": true,
+                "route_ready_before_departure": true,
+                "working_day_feasible": true,
+                "timing_feasible": true,
+                "repair_model": "same_wave_duration_split_with_2opt",
+                "source_route_id_before_repair": 13
+            }
+        ],
+        "repaired_total_distance": 179.6688926284034,
+        "distance_delta_after_repair": 46.152472333952176,
+        "max_lateness_after_repair_hours": 0,
+        "unresolved_customers_after_repair": [],
+        "n_unresolved_customers_after_repair": 0
+    },
+    {
+        "original_route_id": 19,
+        "constructed_dispatch_wave": 15.0,
+        "constructed_dispatch_wave_label": "15:00",
+        "available_time_after_wave_hours": 3.0,
+        "available_time_after_wave_minutes": 180,
+        "repair_model": "same_wave_duration_split_with_2opt",
+        "repair_attempted": true,
+        "repair_successful": true,
+        "original_trip": [
+            0,
+            40,
+            96,
+            138,
+            117,
+            0
+        ],
+        "original_customers": [
+            40,
+            96,
+            138,
+            117
+        ],
+        "original_n_customers": 4,
+        "original_route_load": 7,
+        "original_route_distance": 154.70043508312807,
+        "original_route_duration_hours": 5.823347836104269,
+        "original_finish_time": 20.82334783610427,
+        "original_finish_time_label": "20:49",
+        "original_lateness_hours": 2.8233478361042685,
+        "n_routes_before_repair": 1,
+        "n_routes_after_repair": 4,
+        "repaired_routes": [
+            [
+                0,
+                40,
+                0
+            ],
+            [
+                0,
+                96,
+                0
+            ],
+            [
+                0,
+                138,
+                0
+            ],
+            [
+                0,
+                117,
+                0
+            ]
+        ],
+        "repaired_route_records": [
+            {
+                "route_id": 1,
+                "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+                "origin_type": "depot",
+                "timing_model": "depot_dispatch_waves_wave_constructed_with_duration_split_repair",
+                "route_construction_scope": "dispatch_wave_bucket",
+                "trip": [
+                    0,
+                    40,
+                    0
+                ],
+                "customers": [
+                    40
+                ],
+                "n_customers": 1,
+                "route_load": 3,
+                "vehicle_capacity": 15,
+                "route_utilization": 0.2,
+                "route_distance": 55.13085673236962,
+                "route_duration_hours": 2.0043618910789873,
+                "route_travel_time_hours": 1.8376952244123208,
+                "route_service_time_hours": 0.16666666666666666,
+                "customer_ready_records": [
+                    {
+                        "customer_id": 40,
+                        "supplier_arrival_time": 12.75,
+                        "supplier_arrival_time_label": "12:45",
+                        "goods_ready_time": 13.25,
+                        "goods_ready_time_label": "13:15",
+                        "assigned_dispatch_wave": 15.0,
+                        "assigned_dispatch_wave_label": "15:00"
+                    }
+                ],
+                "route_goods_ready_time": 13.25,
+                "route_goods_ready_time_label": "13:15",
+                "dispatch_waves": [
+                    9.0,
+                    11.0,
+                    13.0,
+                    15.0
+                ],
+                "dispatch_wave_labels": [
+                    "09:00",
+                    "11:00",
+                    "13:00",
+                    "15:00"
+                ],
+                "constructed_dispatch_wave": 15.0,
+                "constructed_dispatch_wave_label": "15:00",
+                "departure_wave": 15.0,
+                "departure_wave_label": "15:00",
+                "waiting_time_hours": 1.75,
+                "waiting_time_minutes": 105,
+                "finish_time": 17.004361891078986,
+                "finish_time_label": "17:00",
+                "working_day_end_time": 18.0,
+                "working_day_end_time_label": "18:00",
+                "capacity_feasible": true,
+                "structural_validity": true,
+                "dispatch_wave_feasible": true,
+                "route_ready_before_departure": true,
+                "working_day_feasible": true,
+                "timing_feasible": true,
+                "repair_model": "same_wave_duration_split_with_2opt",
+                "source_route_id_before_repair": 19
+            },
+            {
+                "route_id": 2,
+                "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+                "origin_type": "depot",
+                "timing_model": "depot_dispatch_waves_wave_constructed_with_duration_split_repair",
+                "route_construction_scope": "dispatch_wave_bucket",
+                "trip": [
+                    0,
+                    96,
+                    0
+                ],
+                "customers": [
+                    96
+                ],
+                "n_customers": 1,
+                "route_load": 1,
+                "vehicle_capacity": 15,
+                "route_utilization": 0.06666666666666667,
+                "route_distance": 64.6718291681252,
+                "route_duration_hours": 2.322394305604173,
+                "route_travel_time_hours": 2.1557276389375066,
+                "route_service_time_hours": 0.16666666666666666,
+                "customer_ready_records": [
+                    {
+                        "customer_id": 96,
+                        "supplier_arrival_time": 13.0,
+                        "supplier_arrival_time_label": "13:00",
+                        "goods_ready_time": 13.5,
+                        "goods_ready_time_label": "13:30",
+                        "assigned_dispatch_wave": 15.0,
+                        "assigned_dispatch_wave_label": "15:00"
+                    }
+                ],
+                "route_goods_ready_time": 13.5,
+                "route_goods_ready_time_label": "13:30",
+                "dispatch_waves": [
+                    9.0,
+                    11.0,
+                    13.0,
+                    15.0
+                ],
+                "dispatch_wave_labels": [
+                    "09:00",
+                    "11:00",
+                    "13:00",
+                    "15:00"
+                ],
+                "constructed_dispatch_wave": 15.0,
+                "constructed_dispatch_wave_label": "15:00",
+                "departure_wave": 15.0,
+                "departure_wave_label": "15:00",
+                "waiting_time_hours": 1.5,
+                "waiting_time_minutes": 90,
+                "finish_time": 17.322394305604174,
+                "finish_time_label": "17:19",
+                "working_day_end_time": 18.0,
+                "working_day_end_time_label": "18:00",
+                "capacity_feasible": true,
+                "structural_validity": true,
+                "dispatch_wave_feasible": true,
+                "route_ready_before_departure": true,
+                "working_day_feasible": true,
+                "timing_feasible": true,
+                "repair_model": "same_wave_duration_split_with_2opt",
+                "source_route_id_before_repair": 19
+            },
+            {
+                "route_id": 3,
+                "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+                "origin_type": "depot",
+                "timing_model": "depot_dispatch_waves_wave_constructed_with_duration_split_repair",
+                "route_construction_scope": "dispatch_wave_bucket",
+                "trip": [
+                    0,
+                    138,
+                    0
+                ],
+                "customers": [
+                    138
+                ],
+                "n_customers": 1,
+                "route_load": 2,
+                "vehicle_capacity": 15,
+                "route_utilization": 0.13333333333333333,
+                "route_distance": 83.15632499359103,
+                "route_duration_hours": 2.9385441664530343,
+                "route_travel_time_hours": 2.7718774997863678,
+                "route_service_time_hours": 0.16666666666666666,
+                "customer_ready_records": [
+                    {
+                        "customer_id": 138,
+                        "supplier_arrival_time": 13.0,
+                        "supplier_arrival_time_label": "13:00",
+                        "goods_ready_time": 13.5,
+                        "goods_ready_time_label": "13:30",
+                        "assigned_dispatch_wave": 15.0,
+                        "assigned_dispatch_wave_label": "15:00"
+                    }
+                ],
+                "route_goods_ready_time": 13.5,
+                "route_goods_ready_time_label": "13:30",
+                "dispatch_waves": [
+                    9.0,
+                    11.0,
+                    13.0,
+                    15.0
+                ],
+                "dispatch_wave_labels": [
+                    "09:00",
+                    "11:00",
+                    "13:00",
+                    "15:00"
+                ],
+                "constructed_dispatch_wave": 15.0,
+                "constructed_dispatch_wave_label": "15:00",
+                "departure_wave": 15.0,
+                "departure_wave_label": "15:00",
+                "waiting_time_hours": 1.5,
+                "waiting_time_minutes": 90,
+                "finish_time": 17.938544166453035,
+                "finish_time_label": "17:56",
+                "working_day_end_time": 18.0,
+                "working_day_end_time_label": "18:00",
+                "capacity_feasible": true,
+                "structural_validity": true,
+                "dispatch_wave_feasible": true,
+                "route_ready_before_departure": true,
+                "working_day_feasible": true,
+                "timing_feasible": true,
+                "repair_model": "same_wave_duration_split_with_2opt",
+                "source_route_id_before_repair": 19
+            },
+            {
+                "route_id": 4,
+                "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+                "origin_type": "depot",
+                "timing_model": "depot_dispatch_waves_wave_constructed_with_duration_split_repair",
+                "route_construction_scope": "dispatch_wave_bucket",
+                "trip": [
+                    0,
+                    117,
+                    0
+                ],
+                "customers": [
+                    117
+                ],
+                "n_customers": 1,
+                "route_load": 1,
+                "vehicle_capacity": 15,
+                "route_utilization": 0.06666666666666667,
+                "route_distance": 71.66170643360626,
+                "route_duration_hours": 2.5553902144535416,
+                "route_travel_time_hours": 2.388723547786875,
+                "route_service_time_hours": 0.16666666666666666,
+                "customer_ready_records": [
+                    {
+                        "customer_id": 117,
+                        "supplier_arrival_time": 12.75,
+                        "supplier_arrival_time_label": "12:45",
+                        "goods_ready_time": 13.25,
+                        "goods_ready_time_label": "13:15",
+                        "assigned_dispatch_wave": 15.0,
+                        "assigned_dispatch_wave_label": "15:00"
+                    }
+                ],
+                "route_goods_ready_time": 13.25,
+                "route_goods_ready_time_label": "13:15",
+                "dispatch_waves": [
+                    9.0,
+                    11.0,
+                    13.0,
+                    15.0
+                ],
+                "dispatch_wave_labels": [
+                    "09:00",
+                    "11:00",
+                    "13:00",
+                    "15:00"
+                ],
+                "constructed_dispatch_wave": 15.0,
+                "constructed_dispatch_wave_label": "15:00",
+                "departure_wave": 15.0,
+                "departure_wave_label": "15:00",
+                "waiting_time_hours": 1.75,
+                "waiting_time_minutes": 105,
+                "finish_time": 17.555390214453542,
+                "finish_time_label": "17:33",
+                "working_day_end_time": 18.0,
+                "working_day_end_time_label": "18:00",
+                "capacity_feasible": true,
+                "structural_validity": true,
+                "dispatch_wave_feasible": true,
+                "route_ready_before_departure": true,
+                "working_day_feasible": true,
+                "timing_feasible": true,
+                "repair_model": "same_wave_duration_split_with_2opt",
+                "source_route_id_before_repair": 19
+            }
+        ],
+        "repaired_total_distance": 274.6207173276921,
+        "distance_delta_after_repair": 119.92028224456402,
+        "max_lateness_after_repair_hours": 0,
+        "unresolved_customers_after_repair": [],
+        "n_unresolved_customers_after_repair": 0
+    },
+    {
+        "original_route_id": 20,
+        "constructed_dispatch_wave": 15.0,
+        "constructed_dispatch_wave_label": "15:00",
+        "available_time_after_wave_hours": 3.0,
+        "available_time_after_wave_minutes": 180,
+        "repair_model": "same_wave_duration_split_with_2opt",
+        "repair_attempted": true,
+        "repair_successful": true,
+        "original_trip": [
+            0,
+            85,
+            59,
+            0
+        ],
+        "original_customers": [
+            85,
+            59
+        ],
+        "original_n_customers": 2,
+        "original_route_load": 4,
+        "original_route_distance": 82.14490571475096,
+        "original_route_duration_hours": 3.0714968571583654,
+        "original_finish_time": 18.071496857158365,
+        "original_finish_time_label": "18:04",
+        "original_lateness_hours": 0.0714968571583654,
+        "n_routes_before_repair": 1,
+        "n_routes_after_repair": 2,
+        "repaired_routes": [
+            [
+                0,
+                85,
+                0
+            ],
+            [
+                0,
+                59,
+                0
+            ]
+        ],
+        "repaired_route_records": [
+            {
+                "route_id": 1,
+                "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+                "origin_type": "depot",
+                "timing_model": "depot_dispatch_waves_wave_constructed_with_duration_split_repair",
+                "route_construction_scope": "dispatch_wave_bucket",
+                "trip": [
+                    0,
+                    85,
+                    0
+                ],
+                "customers": [
+                    85
+                ],
+                "n_customers": 1,
+                "route_load": 3,
+                "vehicle_capacity": 15,
+                "route_utilization": 0.2,
+                "route_distance": 74.74912112468189,
+                "route_duration_hours": 2.6583040374893963,
+                "route_travel_time_hours": 2.4916373708227297,
+                "route_service_time_hours": 0.16666666666666666,
+                "customer_ready_records": [
+                    {
+                        "customer_id": 85,
+                        "supplier_arrival_time": 12.75,
+                        "supplier_arrival_time_label": "12:45",
+                        "goods_ready_time": 13.25,
+                        "goods_ready_time_label": "13:15",
+                        "assigned_dispatch_wave": 15.0,
+                        "assigned_dispatch_wave_label": "15:00"
+                    }
+                ],
+                "route_goods_ready_time": 13.25,
+                "route_goods_ready_time_label": "13:15",
+                "dispatch_waves": [
+                    9.0,
+                    11.0,
+                    13.0,
+                    15.0
+                ],
+                "dispatch_wave_labels": [
+                    "09:00",
+                    "11:00",
+                    "13:00",
+                    "15:00"
+                ],
+                "constructed_dispatch_wave": 15.0,
+                "constructed_dispatch_wave_label": "15:00",
+                "departure_wave": 15.0,
+                "departure_wave_label": "15:00",
+                "waiting_time_hours": 1.75,
+                "waiting_time_minutes": 105,
+                "finish_time": 17.658304037489398,
+                "finish_time_label": "17:39",
+                "working_day_end_time": 18.0,
+                "working_day_end_time_label": "18:00",
+                "capacity_feasible": true,
+                "structural_validity": true,
+                "dispatch_wave_feasible": true,
+                "route_ready_before_departure": true,
+                "working_day_feasible": true,
+                "timing_feasible": true,
+                "repair_model": "same_wave_duration_split_with_2opt",
+                "source_route_id_before_repair": 20
+            },
+            {
+                "route_id": 2,
+                "supplier_region_id": "global_depot_pool_by_dispatch_wave",
+                "origin_type": "depot",
+                "timing_model": "depot_dispatch_waves_wave_constructed_with_duration_split_repair",
+                "route_construction_scope": "dispatch_wave_bucket",
+                "trip": [
+                    0,
+                    59,
+                    0
+                ],
+                "customers": [
+                    59
+                ],
+                "n_customers": 1,
+                "route_load": 1,
+                "vehicle_capacity": 15,
+                "route_utilization": 0.06666666666666667,
+                "route_distance": 38.508004586192904,
+                "route_duration_hours": 1.4502668195397634,
+                "route_travel_time_hours": 1.2836001528730967,
+                "route_service_time_hours": 0.16666666666666666,
+                "customer_ready_records": [
+                    {
+                        "customer_id": 59,
+                        "supplier_arrival_time": 12.75,
+                        "supplier_arrival_time_label": "12:45",
+                        "goods_ready_time": 13.25,
+                        "goods_ready_time_label": "13:15",
+                        "assigned_dispatch_wave": 15.0,
+                        "assigned_dispatch_wave_label": "15:00"
+                    }
+                ],
+                "route_goods_ready_time": 13.25,
+                "route_goods_ready_time_label": "13:15",
+                "dispatch_waves": [
+                    9.0,
+                    11.0,
+                    13.0,
+                    15.0
+                ],
+                "dispatch_wave_labels": [
+                    "09:00",
+                    "11:00",
+                    "13:00",
+                    "15:00"
+                ],
+                "constructed_dispatch_wave": 15.0,
+                "constructed_dispatch_wave_label": "15:00",
+                "departure_wave": 15.0,
+                "departure_wave_label": "15:00",
+                "waiting_time_hours": 1.75,
+                "waiting_time_minutes": 105,
+                "finish_time": 16.450266819539763,
+                "finish_time_label": "16:27",
+                "working_day_end_time": 18.0,
+                "working_day_end_time_label": "18:00",
+                "capacity_feasible": true,
+                "structural_validity": true,
+                "dispatch_wave_feasible": true,
+                "route_ready_before_departure": true,
+                "working_day_feasible": true,
+                "timing_feasible": true,
+                "repair_model": "same_wave_duration_split_with_2opt",
+                "source_route_id_before_repair": 20
+            }
+        ],
+        "repaired_total_distance": 113.25712571087479,
+        "distance_delta_after_repair": 31.112219996123827,
+        "max_lateness_after_repair_hours": 0,
+        "unresolved_customers_after_repair": [],
+        "n_unresolved_customers_after_repair": 0
+    }
+]

@@ -1,0 +1,394 @@
+[
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            155,
+            70,
+            144,
+            163,
+            100,
+            77,
+            81,
+            124,
+            171,
+            48,
+            133,
+            189,
+            87,
+            115,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            190,
+            40,
+            125,
+            75,
+            18,
+            79,
+            122,
+            121,
+            3,
+            168,
+            135,
+            38,
+            93,
+            32,
+            159,
+            25,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            145,
+            170,
+            96,
+            80,
+            33,
+            194,
+            131,
+            129,
+            95,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            104,
+            139,
+            10,
+            128,
+            138,
+            49,
+            76,
+            134,
+            74,
+            109,
+            8,
+            157,
+            126,
+            173,
+            160,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            37,
+            60,
+            19,
+            162,
+            130,
+            147,
+            5,
+            200,
+            43,
+            176,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            179,
+            188,
+            78,
+            41,
+            110,
+            117,
+            111,
+            158,
+            177,
+            46,
+            183,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            71,
+            146,
+            72,
+            2,
+            195,
+            26,
+            199,
+            198,
+            89,
+            11,
+            73,
+            192,
+            17,
+            193,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            30,
+            59,
+            152,
+            99,
+            13,
+            127,
+            182,
+            186,
+            34,
+            165,
+            4,
+            1,
+            116,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            149,
+            151,
+            62,
+            23,
+            53,
+            196,
+            85,
+            178,
+            191,
+            66,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            174,
+            108,
+            175,
+            67,
+            35,
+            63,
+            51,
+            88,
+            98,
+            166,
+            118,
+            9,
+            94,
+            68,
+            0
+        ]
+    },
+    {
+        "origin_type": "depot",
+        "supplier_region_id": null,
+        "trip": [
+            0,
+            83,
+            185,
+            55,
+            36,
+            161,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            143,
+            56,
+            52,
+            153,
+            156,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            167,
+            141,
+            187,
+            12,
+            102,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            169,
+            47,
+            140,
+            29,
+            15,
+            148,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            172,
+            24,
+            21,
+            84,
+            90,
+            82,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 1,
+        "trip": [
+            0,
+            31,
+            103,
+            113,
+            69,
+            184,
+            6,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            105,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            92,
+            22,
+            86,
+            97,
+            42,
+            65,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            136,
+            14,
+            57,
+            107,
+            101,
+            132,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            114,
+            154,
+            16,
+            197,
+            150,
+            50,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 2,
+        "trip": [
+            0,
+            91,
+            142,
+            20,
+            180,
+            64,
+            45,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            119,
+            58,
+            137,
+            120,
+            28,
+            164,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            44,
+            7,
+            112,
+            106,
+            0
+        ]
+    },
+    {
+        "origin_type": "supplier",
+        "supplier_id": 3,
+        "trip": [
+            0,
+            27,
+            61,
+            123,
+            181,
+            54,
+            39,
+            0
+        ]
+    }
+]

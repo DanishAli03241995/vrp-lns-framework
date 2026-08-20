@@ -1,0 +1,268 @@
+{
+    "experiment_id": "Case_2_supplier_customer_direct_kmeans_lns_sa_2026_07_09_154623",
+    "case": "Case_2_supplier_customer_direct",
+    "structure": "supplier_customer_direct",
+    "variant": "kmeans",
+    "stage": "lns_sa",
+    "target_module": "experiments.lns.supplier_customer_direct.lns_sa_kmeans_v1",
+    "baseline_results_name": "supplier_customer_only_baseline_kmeans_v1",
+    "lns_results_name": "lns_supplier_customer_only_baseline_kmeans_v1",
+    "lns_run_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_supplier_customer_only_baseline_kmeans_v1/40c_cap25/run_2026_07_09_154623",
+    "route_scope": "direct",
+    "run_mode": "test",
+    "instance": "40c_cap25",
+    "n_remove_values": [
+        2
+    ],
+    "runs": [
+        {
+            "experiment_id": "Case_2_supplier_customer_direct_kmeans_lns_sa_2026_07_09_154623",
+            "timestamp": "2026-07-09 15:46:23",
+            "case": "Case_2_supplier_customer_direct",
+            "structure": "supplier_customer_direct",
+            "variant": "kmeans",
+            "stage": "lns_sa",
+            "target_module": "experiments.lns.supplier_customer_direct.lns_sa_kmeans_v1",
+            "instance": "40c_cap25",
+            "n_iterations": 50,
+            "n_remove": 2,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 192.33005162510995,
+            "total_lns_distance": 187.8393417691029,
+            "improvement_distance": 4.490709856007044,
+            "improvement_percent": 2.3348976501916314,
+            "n_routes": 7,
+            "runtime_seconds": 0.09395885467529297
+        }
+    ],
+    "best_run": {
+        "run": {
+            "experiment_id": "Case_2_supplier_customer_direct_kmeans_lns_sa_2026_07_09_154623",
+            "timestamp": "2026-07-09 15:46:23",
+            "case": "Case_2_supplier_customer_direct",
+            "structure": "supplier_customer_direct",
+            "variant": "kmeans",
+            "stage": "lns_sa",
+            "target_module": "experiments.lns.supplier_customer_direct.lns_sa_kmeans_v1",
+            "instance": "40c_cap25",
+            "n_iterations": 50,
+            "n_remove": 2,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 192.33005162510995,
+            "total_lns_distance": 187.8393417691029,
+            "improvement_distance": 4.490709856007044,
+            "improvement_percent": 2.3348976501916314,
+            "n_routes": 7,
+            "runtime_seconds": 0.09395885467529297
+        },
+        "full_result": {
+            "algorithm": "supplier_customer_lns_sa_kmeans_v1",
+            "case": "Case_2_supplier_customer_direct",
+            "clustering": "kmeans",
+            "instance": "40c_cap25",
+            "n_iterations": 50,
+            "n_remove": 2,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_algorithm": "supplier_customer_only_baseline_kmeans_v1",
+            "baseline_run_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/supplier_customer_only_baseline_kmeans_v1/40c_cap25/run_2026_07_09_115637",
+            "lns_output_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_supplier_customer_only_baseline_kmeans_v1/40c_cap25/run_2026_07_09_154623",
+            "baseline_config_source": {
+                "n_customers": 40,
+                "vehicle_capacity": 25,
+                "n_suppliers": 3,
+                "seed": 42,
+                "grid_size": 20,
+                "algorithm": "supplier_customer_only_baseline_kmeans_v1",
+                "experiment_name": "40c_cap25"
+            },
+            "baseline_reference_distance": 192.33005162510995,
+            "total_lns_distance": 187.8393417691029,
+            "improvement_distance": 4.490709856007044,
+            "improvement_percent": 2.3348976501916314,
+            "n_routes": 7,
+            "lns_trip_distances": [
+                16.391110396338817,
+                31.20162050530366,
+                32.7814581195903,
+                24.67580409859527,
+                35.57078071989674,
+                30.62957469259611,
+                16.588993236782002
+            ],
+            "lns_trip_loads": [
+                7,
+                25,
+                25,
+                18,
+                24,
+                25,
+                16
+            ],
+            "lns_trip_utilization": [
+                0.28,
+                1.0,
+                1.0,
+                0.72,
+                0.96,
+                1.0,
+                0.64
+            ],
+            "lns_avg_utilization": 0.7999999999999999,
+            "lns_max_utilization": 1.0,
+            "lns_min_utilization": 0.28,
+            "supplier_lns_metrics": {
+                "1": {
+                    "initial_distance": 80.60410481887243,
+                    "lns_distance": 80.37418902123278,
+                    "improvement_distance": 0.22991579763964864,
+                    "improvement_percent": 0.2852408052372747,
+                    "n_routes": 3,
+                    "lns_trip_distances": [
+                        16.391110396338817,
+                        31.20162050530366,
+                        32.7814581195903
+                    ],
+                    "lns_trip_loads": [
+                        7,
+                        25,
+                        25
+                    ],
+                    "lns_trip_utilization": [
+                        0.28,
+                        1.0,
+                        1.0
+                    ],
+                    "route_lns_sa": [
+                        [
+                            0,
+                            18,
+                            40,
+                            0
+                        ],
+                        [
+                            0,
+                            31,
+                            25,
+                            33,
+                            38,
+                            32,
+                            15,
+                            12,
+                            0
+                        ],
+                        [
+                            0,
+                            6,
+                            24,
+                            21,
+                            29,
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "2": {
+                    "initial_distance": 64.29356565346963,
+                    "lns_distance": 60.246584818492,
+                    "improvement_distance": 4.046980834977624,
+                    "improvement_percent": 6.294534754519759,
+                    "n_routes": 2,
+                    "lns_trip_distances": [
+                        24.67580409859527,
+                        35.57078071989674
+                    ],
+                    "lns_trip_loads": [
+                        18,
+                        24
+                    ],
+                    "lns_trip_utilization": [
+                        0.72,
+                        0.96
+                    ],
+                    "route_lns_sa": [
+                        [
+                            0,
+                            37,
+                            20,
+                            22,
+                            10,
+                            8,
+                            0
+                        ],
+                        [
+                            0,
+                            5,
+                            14,
+                            11,
+                            16,
+                            26,
+                            2,
+                            17,
+                            19,
+                            0
+                        ]
+                    ]
+                },
+                "3": {
+                    "initial_distance": 47.43238115276789,
+                    "lns_distance": 47.21856792937811,
+                    "improvement_distance": 0.21381322338977782,
+                    "improvement_percent": 0.4507748044550803,
+                    "n_routes": 2,
+                    "lns_trip_distances": [
+                        30.62957469259611,
+                        16.588993236782002
+                    ],
+                    "lns_trip_loads": [
+                        25,
+                        16
+                    ],
+                    "lns_trip_utilization": [
+                        1.0,
+                        0.64
+                    ],
+                    "route_lns_sa": [
+                        [
+                            0,
+                            30,
+                            9,
+                            36,
+                            28,
+                            35,
+                            23,
+                            39,
+                            1,
+                            0
+                        ],
+                        [
+                            0,
+                            27,
+                            34,
+                            4,
+                            7,
+                            13,
+                            0
+                        ]
+                    ]
+                }
+            }
+        }
+    },
+    "best_output_files": {
+        "route_lns_sa_best.txt": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_supplier_customer_only_baseline_kmeans_v1/40c_cap25/run_2026_07_09_154623/route_lns_sa_best.txt",
+        "route_lns_sa_records_best.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_supplier_customer_only_baseline_kmeans_v1/40c_cap25/run_2026_07_09_154623/route_lns_sa_records_best.json",
+        "lns_sa_metrics_best.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_supplier_customer_only_baseline_kmeans_v1/40c_cap25/run_2026_07_09_154623/lns_sa_metrics_best.json",
+        "lns_sa_summary_best.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_supplier_customer_only_baseline_kmeans_v1/40c_cap25/run_2026_07_09_154623/lns_sa_summary_best.json",
+        "route_plot_lns_sa_best.png": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_supplier_customer_only_baseline_kmeans_v1/40c_cap25/run_2026_07_09_154623/route_plot_lns_sa_best.png",
+        "best_lns_solution.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_supplier_customer_only_baseline_kmeans_v1/40c_cap25/run_2026_07_09_154623/best_lns_solution.json"
+    }
+}

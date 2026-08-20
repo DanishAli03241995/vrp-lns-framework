@@ -1,0 +1,178 @@
+{
+    "algorithm": "baseline_nn_2opt_relocation_2opt",
+    "instance": "toy_instance_v1_40c",
+    "seed": 42,
+    "construction": "nearest_neighbor",
+    "local_search": "2-opt + relocation + 2-opt",
+    "baseline_distance": 275.6317358727707,
+    "two_opt_distance": 273.00541384229405,
+    "relocation_distance": 253.2218441739605,
+    "post_reloc_2opt_distance": 253.06930640563576,
+    "two_opt_gain_over_baseline": 2.626322030476672,
+    "two_opt_percent_gain_over_baseline": 0.9528373146729954,
+    "relocation_gain_over_2opt": 19.78356966833354,
+    "relocation_percent_gain_over_2opt": 7.246585109759705,
+    "relocation_gain_over_baseline": 22.409891698810213,
+    "relocation_percent_gain_over_baseline": 8.130374257467373,
+    "post_reloc_2opt_gain_over_relocation": 0.1525377683247484,
+    "post_reloc_2opt_percent_gain_over_relocation": 0.060238787385166,
+    "baseline_travel_time": 15.85439119575902,
+    "two_opt_travel_time": 15.766847128076467,
+    "relocation_travel_time": 15.107394805798679,
+    "post_reloc_2opt_travel_time": 15.102310213521188,
+    "trips": 6,
+    "absolute_improvement": 22.56242946713496,
+    "percent_improvement": 8.185715405989965,
+    "final_absolute_improvement": 22.56242946713496,
+    "final_percent_improvement": 8.185715405989965,
+    "capacity_feasibility": true,
+    "structural_validity": true,
+    "all_customers_served": true,
+    "vehicle_capacity": 25,
+    "unserved_customers": [],
+    "n_customers": 40,
+    "depot": [
+        0,
+        0
+    ],
+    "baseline_trip_distances": [
+        37.61593299272807,
+        40.005696840524124,
+        37.477395808155904,
+        57.96578688343055,
+        48.85884991661678,
+        53.708073431315256
+    ],
+    "two_opt_trip_distances": [
+        18.74800866508682,
+        39.60161262980858,
+        31.82771623870515,
+        57.96578688343055,
+        49.0251400220025,
+        56.05357973492685
+    ],
+    "relocation_trip_distances": [
+        18.74800866508682,
+        39.60161262980858,
+        31.82771623870515,
+        57.96578688343055,
+        49.0251400220025,
+        56.05357973492685
+    ],
+    "post_reloc_2opt_trip_distances": [
+        18.74800866508682,
+        39.60161262980858,
+        31.67517847038039,
+        57.96578688343055,
+        49.0251400220025,
+        56.05357973492685
+    ],
+    "baseline_trip_loads": [
+        25,
+        25,
+        25,
+        25,
+        24,
+        16
+    ],
+    "two_opt_trip_loads": [
+        17,
+        25,
+        23,
+        25,
+        25,
+        25
+    ],
+    "relocation_trip_loads": [
+        17,
+        25,
+        23,
+        25,
+        25,
+        25
+    ],
+    "post_reloc_2opt_trip_loads": [
+        17,
+        25,
+        23,
+        25,
+        25,
+        25
+    ],
+    "customers_per_trip_baseline": [
+        9,
+        5,
+        8,
+        9,
+        6,
+        3
+    ],
+    "customers_per_trip_2opt": [
+        5,
+        5,
+        7,
+        9,
+        7,
+        7
+    ],
+    "customers_per_trip_relocation": [
+        5,
+        5,
+        7,
+        9,
+        7,
+        7
+    ],
+    "customers_per_trip_post_reloc_2opt": [
+        5,
+        5,
+        7,
+        9,
+        7,
+        7
+    ],
+    "baseline_trip_utilization": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.96,
+        0.64
+    ],
+    "two_opt_trip_utilization": [
+        0.68,
+        1.0,
+        0.92,
+        1.0,
+        1.0,
+        1.0
+    ],
+    "relocation_trip_utilization": [
+        0.68,
+        1.0,
+        0.92,
+        1.0,
+        1.0,
+        1.0
+    ],
+    "post_reloc_2opt_trip_utilization": [
+        0.68,
+        1.0,
+        0.92,
+        1.0,
+        1.0,
+        1.0
+    ],
+    "baseline_avg_utilization": 0.9333333333333332,
+    "two_opt_avg_utilization": 0.9333333333333332,
+    "relocation_avg_utilization": 0.9333333333333332,
+    "post_reloc_2opt_avg_utilization": 0.9333333333333332,
+    "baseline_max_utilization": 1.0,
+    "two_opt_max_utilization": 1.0,
+    "relocation_max_utilization": 1.0,
+    "post_reloc_2opt_max_utilization": 1.0,
+    "baseline_min_utilization": 0.64,
+    "two_opt_min_utilization": 0.68,
+    "relocation_min_utilization": 0.68,
+    "post_reloc_2opt_min_utilization": 0.68
+}

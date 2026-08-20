@@ -1,0 +1,10 @@
+{
+    "n_customers": 200,
+    "vehicle_capacity": 35,
+    "n_suppliers": 3,
+    "seed": 42,
+    "direct_delivery_threshold": 5,
+    "grid_size": 100,
+    "algorithm": "hybrid_supplier_customer_sweep_v1",
+    "experiment_name": "200c_cap35"
+}

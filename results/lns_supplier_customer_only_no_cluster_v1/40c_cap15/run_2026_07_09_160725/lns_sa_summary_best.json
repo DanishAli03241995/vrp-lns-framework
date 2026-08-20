@@ -1,0 +1,17 @@
+{
+    "algorithm": "supplier_customer_lns_sa_no_cluster_v1",
+    "case": "Case_2_supplier_customer_direct",
+    "clustering": "no_internal_clustering",
+    "instance": "40c_cap15",
+    "seed": 42,
+    "n_iterations": 50,
+    "n_remove": 4,
+    "baseline_reference_distance": 250.37669562521955,
+    "final_distance": 236.49849704552136,
+    "improvement_distance": 13.878198579698193,
+    "improvement_percent": 5.5429274458003075,
+    "n_routes": 10,
+    "avg_utilization": 0.9333333333333332,
+    "max_utilization": 1.0,
+    "min_utilization": 0.7333333333333333
+}

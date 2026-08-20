@@ -1,0 +1,14 @@
+{
+    "timing_model": "fixed_depot_ready_time_lns",
+    "n_depot_timing_routes": 3,
+    "n_depot_timing_feasible_routes": 3,
+    "n_depot_timing_infeasible_routes": 0,
+    "depot_timing_feasibility": true,
+    "infeasible_timing_route_ids": [],
+    "infeasible_timing_customers": [],
+    "latest_depot_route_finish_time": 13.470878784769972,
+    "latest_depot_route_finish_time_label": "13:28",
+    "max_depot_route_duration_hours": 4.4708787847699725,
+    "avg_depot_route_duration_hours": 3.8951809868666096,
+    "avg_depot_route_utilization": 0.7904761904761904
+}

@@ -1,0 +1,164 @@
+[
+    {
+        "original_route_id": 1,
+        "repair_attempted": false,
+        "repair_successful": false,
+        "reason": "route_already_feasible",
+        "original_trip": [
+            0,
+            30,
+            59,
+            34,
+            4,
+            1,
+            23,
+            9,
+            0
+        ],
+        "final_trips": [
+            [
+                0,
+                30,
+                59,
+                34,
+                4,
+                1,
+                23,
+                9,
+                0
+            ]
+        ],
+        "original_distance": 35.19645283461038,
+        "final_distance": 35.19645283461038,
+        "distance_delta": 0,
+        "original_finish_time": 11.339881761153679,
+        "original_finish_time_label": "11:20",
+        "final_latest_finish_time": 11.339881761153679,
+        "final_latest_finish_time_label": "11:20"
+    },
+    {
+        "original_route_id": 2,
+        "repair_attempted": false,
+        "repair_successful": false,
+        "reason": "route_already_feasible",
+        "original_trip": [
+            0,
+            36,
+            55,
+            51,
+            35,
+            53,
+            13,
+            2,
+            26,
+            11,
+            17,
+            0
+        ],
+        "final_trips": [
+            [
+                0,
+                36,
+                55,
+                51,
+                35,
+                53,
+                13,
+                2,
+                26,
+                11,
+                17,
+                0
+            ]
+        ],
+        "original_distance": 68.878830761624,
+        "final_distance": 68.878830761624,
+        "distance_delta": 0,
+        "original_finish_time": 12.962627692054134,
+        "original_finish_time_label": "12:58",
+        "final_latest_finish_time": 12.962627692054134,
+        "final_latest_finish_time_label": "12:58"
+    },
+    {
+        "original_route_id": 3,
+        "repair_attempted": false,
+        "repair_successful": false,
+        "reason": "route_already_feasible",
+        "original_trip": [
+            0,
+            48,
+            40,
+            18,
+            3,
+            32,
+            38,
+            33,
+            25,
+            0
+        ],
+        "final_trips": [
+            [
+                0,
+                48,
+                40,
+                18,
+                3,
+                32,
+                38,
+                33,
+                25,
+                0
+            ]
+        ],
+        "original_distance": 57.21487735750234,
+        "final_distance": 57.21487735750234,
+        "distance_delta": 0,
+        "original_finish_time": 12.240495911916744,
+        "original_finish_time_label": "12:14",
+        "final_latest_finish_time": 12.240495911916744,
+        "final_latest_finish_time_label": "12:14"
+    },
+    {
+        "original_route_id": 4,
+        "repair_attempted": false,
+        "repair_successful": false,
+        "reason": "route_already_feasible",
+        "original_trip": [
+            0,
+            46,
+            41,
+            5,
+            43,
+            10,
+            49,
+            8,
+            19,
+            60,
+            37,
+            0
+        ],
+        "final_trips": [
+            [
+                0,
+                46,
+                41,
+                5,
+                43,
+                10,
+                49,
+                8,
+                19,
+                60,
+                37,
+                0
+            ]
+        ],
+        "original_distance": 57.083376999343216,
+        "final_distance": 57.083376999343216,
+        "distance_delta": 0,
+        "original_finish_time": 12.569445899978106,
+        "original_finish_time_label": "12:34",
+        "final_latest_finish_time": 12.569445899978106,
+        "final_latest_finish_time_label": "12:34"
+    }
+]

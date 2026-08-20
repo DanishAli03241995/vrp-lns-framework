@@ -1,0 +1,9 @@
+{
+    "n_customers": 80,
+    "vehicle_capacity": 35,
+    "seed": 42,
+    "depot_cord": [
+        20.0,
+        20.0
+    ]
+}

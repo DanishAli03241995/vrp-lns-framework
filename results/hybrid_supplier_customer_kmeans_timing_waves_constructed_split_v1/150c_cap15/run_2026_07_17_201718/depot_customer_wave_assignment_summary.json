@@ -1,0 +1,18 @@
+{
+    "timing_model": "depot_dispatch_waves_wave_constructed",
+    "n_depot_customers_with_wave_records": 93,
+    "customers_per_wave": {
+        "9.0": 14,
+        "11.0": 35,
+        "13.0": 38,
+        "15.0": 6
+    },
+    "customers_per_wave_label": {
+        "09:00": 14,
+        "11:00": 35,
+        "13:00": 38,
+        "15:00": 6
+    },
+    "n_depot_customers_without_feasible_wave": 0,
+    "depot_customers_without_feasible_wave": []
+}

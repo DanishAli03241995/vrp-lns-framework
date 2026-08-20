@@ -1,0 +1,14 @@
+{
+    "repair_model": "same_wave_duration_split_with_2opt",
+    "n_wave_timing_repair_attempts": 3,
+    "n_wave_timing_successful_repairs": 3,
+    "n_wave_timing_unresolved_repairs": 0,
+    "n_depot_timing_routes_before_repair": 13,
+    "n_depot_timing_routes_after_repair": 17,
+    "routes_added_by_wave_repair": 4,
+    "depot_distance_before_wave_repair": 1517.7206523638342,
+    "depot_distance_after_wave_repair": 1720.0922721356415,
+    "distance_delta_after_wave_repair": 202.37161977180722,
+    "unresolved_customers_after_wave_repair": [],
+    "n_unresolved_customers_after_wave_repair": 0
+}

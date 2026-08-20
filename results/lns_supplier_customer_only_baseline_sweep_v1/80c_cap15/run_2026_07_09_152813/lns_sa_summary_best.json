@@ -1,0 +1,17 @@
+{
+    "algorithm": "supplier_customer_lns_sa_sweep_v1",
+    "case": "Case_2_supplier_customer_direct",
+    "clustering": "sweep",
+    "instance": "80c_cap15",
+    "seed": 42,
+    "n_iterations": 50,
+    "n_remove": 10,
+    "baseline_reference_distance": 980.1147782629438,
+    "final_distance": 895.3800665128597,
+    "improvement_distance": 84.7347117500841,
+    "improvement_percent": 8.645386604644338,
+    "n_routes": 20,
+    "avg_utilization": 0.9366666666666668,
+    "max_utilization": 1.0,
+    "min_utilization": 0.6666666666666666
+}

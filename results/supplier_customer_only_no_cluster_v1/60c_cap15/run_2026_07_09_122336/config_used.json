@@ -1,0 +1,9 @@
+{
+    "n_customers": 60,
+    "vehicle_capacity": 15,
+    "n_suppliers": 3,
+    "seed": 42,
+    "grid_size": 30,
+    "algorithm": "supplier_customer_only_no_cluster_v1",
+    "experiment_name": "60c_cap15"
+}

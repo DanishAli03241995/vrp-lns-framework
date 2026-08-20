@@ -1,0 +1,427 @@
+{
+    "algorithm": "hybrid_supplier_customer_kmeans_timing_fixed_split_lns_related_regret_v1",
+    "case": "Case_3_hybrid_supplier_customer",
+    "clustering": "kmeans",
+    "timing_model": "fixed_depot_ready_time_with_half_split_repair_and_lns",
+    "base_timing_model": "fixed_depot_ready_time_with_half_split_repair",
+    "operator_pair": "related_regret_fixed_timing",
+    "destroy_operator": "shaw_related_removal",
+    "repair_operator": "regret_2_insertion_fixed_timing_for_depot",
+    "supplier_direct_repair_operator": "regret_2_insertion",
+    "adaptive_operator_selection": false,
+    "instance": "20c_cap35",
+    "n_iterations": 50,
+    "n_remove": 3,
+    "seed": 42,
+    "initial_temperature": 10.0,
+    "cooling_rate": 0.95,
+    "minimum_temperature": 0.01,
+    "related_removal_randomness": 0.2,
+    "distance_weight": 1.0,
+    "demand_weight": 0.2,
+    "route_weight": 1.0,
+    "fixed_depot_ready_time": 9.0,
+    "fixed_depot_ready_time_label": "09:00",
+    "working_day_end_time": 18.0,
+    "working_day_end_time_label": "18:00",
+    "average_speed": 30,
+    "accepted_moves": 199,
+    "rejected_moves": 1,
+    "rejected_infeasible_moves": 0,
+    "supplier_count": 3,
+    "baseline_reference_algorithm": "hybrid_supplier_customer_kmeans_timing_fixed_split_v1",
+    "baseline_run_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/hybrid_supplier_customer_kmeans_timing_fixed_split_v1/20c_cap35/run_2026_07_16_190958",
+    "lns_output_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_timing_fixed_split_related_regret/case3_kmeans/20c_cap35/run_2026_07_18_195107",
+    "baseline_config_source": {
+        "n_customers": 20,
+        "vehicle_capacity": 35,
+        "n_suppliers": 3,
+        "seed": 42,
+        "direct_delivery_threshold": 5,
+        "grid_size": 10,
+        "fixed_depot_ready_time": 9.0,
+        "working_day_end_time": 18.0,
+        "algorithm": "hybrid_supplier_customer_kmeans_timing_fixed_split_v1",
+        "experiment_name": "20c_cap35"
+    },
+    "baseline_reference_distance": 73.43109878717637,
+    "baseline_reference_customer_delivery_distance": 73.43109878717637,
+    "baseline_reference_system_distance": 97.43109878717637,
+    "total_lns_distance": 62.77406702661598,
+    "customer_delivery_lns_distance": 62.77406702661598,
+    "supplier_depot_replenishment_distance": 24.0,
+    "supplier_depot_replenishment_metrics": {
+        "1": {
+            "depot_assigned_customer_ids": [
+                3,
+                18
+            ],
+            "depot_assigned_demand": 5,
+            "supplier_depot_trips": 1,
+            "supplier_depot_roundtrip_distance": 8.0
+        },
+        "2": {
+            "depot_assigned_customer_ids": [
+                2,
+                5,
+                8,
+                10,
+                11,
+                17,
+                19
+            ],
+            "depot_assigned_demand": 12,
+            "supplier_depot_trips": 1,
+            "supplier_depot_roundtrip_distance": 8.0
+        },
+        "3": {
+            "depot_assigned_customer_ids": [
+                1,
+                4,
+                9,
+                13
+            ],
+            "depot_assigned_demand": 10,
+            "supplier_depot_trips": 1,
+            "supplier_depot_roundtrip_distance": 8.0
+        }
+    },
+    "total_lns_system_distance": 86.77406702661598,
+    "depot_reference_distance": 41.74321304355322,
+    "depot_lns_distance": 31.086181282992825,
+    "supplier_lns_distance": 31.687885743623156,
+    "improvement_distance": 10.657031760560386,
+    "improvement_percent": 14.512967852282058,
+    "customer_delivery_improvement_distance": 10.657031760560386,
+    "customer_delivery_improvement_percent": 14.512967852282058,
+    "system_improvement_distance": 10.657031760560386,
+    "system_improvement_percent": 10.938018654432991,
+    "n_routes": 4,
+    "n_depot_lns_routes": 1,
+    "n_supplier_lns_routes": 3,
+    "lns_trip_distances": [
+        31.086181282992825,
+        10.171703841593862,
+        16.438176144571237,
+        5.078005757458056
+    ],
+    "lns_trip_loads": [
+        27,
+        17,
+        18,
+        5
+    ],
+    "lns_trip_utilization": [
+        0.7714285714285715,
+        0.4857142857142857,
+        0.5142857142857142,
+        0.14285714285714285
+    ],
+    "lns_avg_utilization": 0.47857142857142854,
+    "lns_max_utilization": 0.7714285714285715,
+    "lns_min_utilization": 0.14285714285714285,
+    "depot_timing_lns_summary": {
+        "timing_model": "fixed_depot_ready_time_lns",
+        "n_depot_timing_routes": 1,
+        "n_depot_timing_feasible_routes": 1,
+        "n_depot_timing_infeasible_routes": 0,
+        "depot_timing_feasibility": true,
+        "infeasible_timing_route_ids": [],
+        "infeasible_timing_customers": [],
+        "latest_depot_route_finish_time": 12.202872709433095,
+        "latest_depot_route_finish_time_label": "12:12",
+        "max_depot_route_duration_hours": 3.2028727094330938,
+        "avg_depot_route_duration_hours": 3.2028727094330938,
+        "avg_depot_route_utilization": 0.7714285714285715
+    },
+    "depot_timing_lns_records": [
+        {
+            "route_id": 1,
+            "origin_type": "depot",
+            "timing_model": "fixed_depot_ready_time_lns",
+            "trip": [
+                0,
+                9,
+                1,
+                4,
+                13,
+                2,
+                11,
+                17,
+                5,
+                19,
+                10,
+                8,
+                3,
+                18,
+                0
+            ],
+            "customers": [
+                9,
+                1,
+                4,
+                13,
+                2,
+                11,
+                17,
+                5,
+                19,
+                10,
+                8,
+                3,
+                18
+            ],
+            "n_customers": 13,
+            "route_load": 27,
+            "vehicle_capacity": 35,
+            "route_utilization": 0.7714285714285715,
+            "route_distance": 31.086181282992825,
+            "route_duration_hours": 3.2028727094330938,
+            "route_travel_time_hours": 1.0362060427664275,
+            "route_service_time_hours": 2.1666666666666665,
+            "fixed_depot_ready_time": 9.0,
+            "fixed_depot_ready_time_label": "09:00",
+            "departure_time": 9.0,
+            "departure_time_label": "09:00",
+            "finish_time": 12.202872709433095,
+            "finish_time_label": "12:12",
+            "working_day_end_time": 18.0,
+            "working_day_end_time_label": "18:00",
+            "structural_validity": true,
+            "capacity_feasible": true,
+            "working_day_feasible": true,
+            "timing_feasible": true,
+            "supplier_region_id": "global_depot_pool",
+            "routing_scope": "global_depot_pool",
+            "timing_stage": "after_time_aware_lns"
+        }
+    ],
+    "depot_customer_coverage_summary": {
+        "all_customers_served_exactly_once": true,
+        "n_expected_customers": 13,
+        "n_served_customers": 13,
+        "duplicate_customers": [],
+        "missing_customers": [],
+        "extra_customers": []
+    },
+    "supplier_direct_coverage_summary": {
+        "all_customers_served_exactly_once": true,
+        "n_expected_customers": 7,
+        "n_served_customers": 7,
+        "duplicate_customers": [],
+        "missing_customers": [],
+        "extra_customers": []
+    },
+    "final_customer_coverage_summary": {
+        "all_customers_served_exactly_once": true,
+        "n_expected_customers": 20,
+        "n_served_customers": 20,
+        "duplicate_customers": [],
+        "missing_customers": [],
+        "extra_customers": []
+    },
+    "overall_feasible_with_fixed_timing_lns": true,
+    "depot_lns_metrics": {
+        "initial_distance": 41.74321304355322,
+        "lns_distance": 31.086181282992825,
+        "improvement_distance": 10.657031760560393,
+        "improvement_percent": 25.52997477563902,
+        "n_routes": 1,
+        "lns_trip_distances": [
+            31.086181282992825
+        ],
+        "lns_trip_loads": [
+            27
+        ],
+        "lns_trip_utilization": [
+            0.7714285714285715
+        ],
+        "operator_pair": "related_regret_fixed_timing",
+        "destroy_operator": "shaw_related_removal",
+        "repair_operator": "regret_2_insertion_fixed_timing",
+        "best_iteration": 43,
+        "accepted_moves": 49,
+        "rejected_moves": 1,
+        "rejected_infeasible_moves": 0,
+        "initial_timing_summary": {
+            "timing_model": "fixed_depot_ready_time_lns",
+            "n_depot_timing_routes": 3,
+            "n_depot_timing_feasible_routes": 3,
+            "n_depot_timing_infeasible_routes": 0,
+            "depot_timing_feasibility": true,
+            "infeasible_timing_route_ids": [],
+            "infeasible_timing_customers": [],
+            "latest_depot_route_finish_time": 10.796862906609942,
+            "latest_depot_route_finish_time_label": "10:48",
+            "max_depot_route_duration_hours": 1.7968629066099409,
+            "avg_depot_route_duration_hours": 1.1860357004839246,
+            "avg_depot_route_utilization": 0.2571428571428571
+        },
+        "lns_timing_summary": {
+            "timing_model": "fixed_depot_ready_time_lns",
+            "n_depot_timing_routes": 1,
+            "n_depot_timing_feasible_routes": 1,
+            "n_depot_timing_infeasible_routes": 0,
+            "depot_timing_feasibility": true,
+            "infeasible_timing_route_ids": [],
+            "infeasible_timing_customers": [],
+            "latest_depot_route_finish_time": 12.202872709433095,
+            "latest_depot_route_finish_time_label": "12:12",
+            "max_depot_route_duration_hours": 3.2028727094330938,
+            "avg_depot_route_duration_hours": 3.2028727094330938,
+            "avg_depot_route_utilization": 0.7714285714285715
+        },
+        "initial_coverage_summary": {
+            "all_customers_served_exactly_once": true,
+            "n_expected_customers": 13,
+            "n_served_customers": 13,
+            "duplicate_customers": [],
+            "missing_customers": [],
+            "extra_customers": []
+        },
+        "lns_coverage_summary": {
+            "all_customers_served_exactly_once": true,
+            "n_expected_customers": 13,
+            "n_served_customers": 13,
+            "duplicate_customers": [],
+            "missing_customers": [],
+            "extra_customers": []
+        },
+        "route_lns_sa": [
+            [
+                0,
+                9,
+                1,
+                4,
+                13,
+                2,
+                11,
+                17,
+                5,
+                19,
+                10,
+                8,
+                3,
+                18,
+                0
+            ]
+        ]
+    },
+    "supplier_lns_metrics": {
+        "1": {
+            "initial_distance": 10.171703841593862,
+            "lns_distance": 10.171703841593862,
+            "improvement_distance": 0.0,
+            "improvement_percent": 0.0,
+            "n_routes": 1,
+            "lns_trip_distances": [
+                10.171703841593862
+            ],
+            "lns_trip_loads": [
+                17
+            ],
+            "lns_trip_utilization": [
+                0.4857142857142857
+            ],
+            "operator_pair": "related_regret",
+            "destroy_operator": "shaw_related_removal",
+            "repair_operator": "regret_2_insertion",
+            "best_iteration": 0,
+            "accepted_moves": 50,
+            "rejected_moves": 0,
+            "coverage_summary": {
+                "all_customers_served_exactly_once": true,
+                "n_expected_customers": 3,
+                "n_served_customers": 3,
+                "duplicate_customers": [],
+                "missing_customers": [],
+                "extra_customers": []
+            },
+            "route_lns_sa": [
+                [
+                    0,
+                    6,
+                    12,
+                    15,
+                    0
+                ]
+            ]
+        },
+        "2": {
+            "initial_distance": 16.438176144571237,
+            "lns_distance": 16.438176144571237,
+            "improvement_distance": 0.0,
+            "improvement_percent": 0.0,
+            "n_routes": 1,
+            "lns_trip_distances": [
+                16.438176144571237
+            ],
+            "lns_trip_loads": [
+                18
+            ],
+            "lns_trip_utilization": [
+                0.5142857142857142
+            ],
+            "operator_pair": "related_regret",
+            "destroy_operator": "shaw_related_removal",
+            "repair_operator": "regret_2_insertion",
+            "best_iteration": 0,
+            "accepted_moves": 50,
+            "rejected_moves": 0,
+            "coverage_summary": {
+                "all_customers_served_exactly_once": true,
+                "n_expected_customers": 3,
+                "n_served_customers": 3,
+                "duplicate_customers": [],
+                "missing_customers": [],
+                "extra_customers": []
+            },
+            "route_lns_sa": [
+                [
+                    0,
+                    14,
+                    16,
+                    20,
+                    0
+                ]
+            ]
+        },
+        "3": {
+            "initial_distance": 5.078005757458056,
+            "lns_distance": 5.078005757458056,
+            "improvement_distance": 0.0,
+            "improvement_percent": 0.0,
+            "n_routes": 1,
+            "lns_trip_distances": [
+                5.078005757458056
+            ],
+            "lns_trip_loads": [
+                5
+            ],
+            "lns_trip_utilization": [
+                0.14285714285714285
+            ],
+            "operator_pair": "related_regret",
+            "destroy_operator": "shaw_related_removal",
+            "repair_operator": "regret_2_insertion",
+            "best_iteration": 0,
+            "accepted_moves": 50,
+            "rejected_moves": 0,
+            "coverage_summary": {
+                "all_customers_served_exactly_once": true,
+                "n_expected_customers": 1,
+                "n_served_customers": 1,
+                "duplicate_customers": [],
+                "missing_customers": [],
+                "extra_customers": []
+            },
+            "route_lns_sa": [
+                [
+                    0,
+                    7,
+                    0
+                ]
+            ]
+        }
+    }
+}

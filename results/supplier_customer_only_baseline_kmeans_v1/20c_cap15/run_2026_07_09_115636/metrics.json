@@ -1,0 +1,1541 @@
+{
+    "algorithm": "supplier_customer_only_baseline_kmeans_v1",
+    "instance": "20c_cap15",
+    "seed": 42,
+    "construction": "angular_partition + k_means_clustering + nearest_neighbor + 2-opt",
+    "local_search": "2-opt + supplier-level 1-0 relocation + 2-opt",
+    "relocation_scope": "supplier_level",
+    "total_first_echelon_distance": 0,
+    "baseline_distance": 89.13517513361064,
+    "baseline_total_system_distance": 89.13517513361064,
+    "two_opt_distance": 87.79452661901813,
+    "two_opt_total_system_distance": 87.79452661901813,
+    "relocation_distance": 65.71007976107035,
+    "relocation_total_system_distance": 65.71007976107035,
+    "post_reloc_2opt_distance": 65.63297277702314,
+    "post_reloc_2opt_total_system_distance": 65.63297277702314,
+    "two_opt_gain_over_baseline": 1.340648514592516,
+    "two_opt_percent_gain_over_baseline": 1.5040622431974007,
+    "relocation_gain_over_2opt": 22.084446857947782,
+    "relocation_percent_gain_over_2opt": 25.15469666324715,
+    "relocation_gain_over_baseline": 23.425095372540298,
+    "relocation_percent_gain_over_baseline": 26.280416611541813,
+    "post_reloc_2opt_gain_over_relocation": 0.07710698404720517,
+    "post_reloc_2opt_percent_gain_over_relocation": 0.11734422531151283,
+    "total_demand": 67,
+    "total_supply": null,
+    "supply_feasibility": true,
+    "n_suppliers": 3,
+    "n_supplier_vrps": 3,
+    "supplier_depot_distance": [],
+    "supplier_cord": {
+        "1": [
+            9.0,
+            5.0
+        ],
+        "2": [
+            3.000000000000001,
+            8.464101615137755
+        ],
+        "3": [
+            2.9999999999999982,
+            1.5358983848622465
+        ]
+    },
+    "supplier_supply": {},
+    "supplier_metrics": {
+        "1": {
+            "origin": [
+                9.0,
+                5.0
+            ],
+            "customer_cord": {
+                "18": [
+                    8.55317721015147,
+                    8.664836667552697
+                ],
+                "3": [
+                    6.766994874229113,
+                    8.921795677048454
+                ],
+                "12": [
+                    6.037260313668911,
+                    8.071282732743802
+                ],
+                "15": [
+                    6.185197523642461,
+                    8.617069003107773
+                ],
+                "6": [
+                    5.61245062938613,
+                    7.160196129224035
+                ]
+            },
+            "demand": {
+                "18": 4,
+                "3": 1,
+                "12": 6,
+                "15": 5,
+                "6": 6
+            },
+            "n_customers": 5,
+            "clusters": [
+                [
+                    18
+                ],
+                [
+                    3,
+                    15
+                ],
+                [
+                    12,
+                    6
+                ]
+            ],
+            "baseline_distance": 26.42728973559976,
+            "two_opt_distance": 26.42728973559976,
+            "relocation_distance": 20.02692716394217,
+            "post_reloc_2opt_distance": 20.02692716394217,
+            "baseline_travel_time": 1.7142429911866586,
+            "two_opt_travel_time": 1.7142429911866586,
+            "relocation_travel_time": 1.5008975721314055,
+            "post_reloc_2opt_travel_time": 1.5008975721314055,
+            "trips": 3,
+            "capacity_feasibility": true,
+            "structural_validity": true,
+            "all_customers_served": true,
+            "unserved_customers": [],
+            "baseline_cluster_distances": [
+                7.383949730426605,
+                9.752991271706916,
+                9.290348733466239
+            ],
+            "baseline_cluster_travel_times": [
+                0.4127983243475535,
+                0.6584330423902305,
+                0.6430116244488746
+            ],
+            "baseline_cluster_trip_counts": [
+                1,
+                1,
+                1
+            ],
+            "cluster_two_opt_distances": [
+                7.383949730426605,
+                9.752991271706916,
+                9.290348733466239
+            ],
+            "cluster_two_opt_travel_times": [
+                0.4127983243475535,
+                0.6584330423902305,
+                0.6430116244488746
+            ],
+            "baseline_trip_distances": [
+                7.383949730426605,
+                9.752991271706916,
+                9.290348733466239
+            ],
+            "two_opt_trip_distances": [
+                7.383949730426605,
+                9.752991271706916,
+                9.290348733466239
+            ],
+            "relocation_trip_distances": [
+                0.0,
+                10.73657843047593,
+                9.290348733466239
+            ],
+            "post_reloc_2opt_trip_distances": [
+                0.0,
+                10.73657843047593,
+                9.290348733466239
+            ],
+            "baseline_trip_loads": [
+                4,
+                6,
+                12
+            ],
+            "two_opt_trip_loads": [
+                4,
+                6,
+                12
+            ],
+            "relocation_trip_loads": [
+                0,
+                10,
+                12
+            ],
+            "post_reloc_2opt_trip_loads": [
+                0,
+                10,
+                12
+            ],
+            "customers_per_trip_baseline": [
+                1,
+                2,
+                2
+            ],
+            "customers_per_trip_2opt": [
+                1,
+                2,
+                2
+            ],
+            "customers_per_trip_relocation": [
+                0,
+                3,
+                2
+            ],
+            "customers_per_trip_post_reloc_2opt": [
+                0,
+                3,
+                2
+            ],
+            "baseline_trip_utilization": [
+                0.26666666666666666,
+                0.4,
+                0.8
+            ],
+            "two_opt_trip_utilization": [
+                0.26666666666666666,
+                0.4,
+                0.8
+            ],
+            "relocation_trip_utilization": [
+                0.0,
+                0.6666666666666666,
+                0.8
+            ],
+            "post_reloc_2opt_trip_utilization": [
+                0.0,
+                0.6666666666666666,
+                0.8
+            ],
+            "route_baseline": [
+                [
+                    0,
+                    18,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    6,
+                    12,
+                    0
+                ]
+            ],
+            "route_2opt": [
+                [
+                    0,
+                    18,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    6,
+                    12,
+                    0
+                ]
+            ],
+            "route_relocation": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    18,
+                    3,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    6,
+                    12,
+                    0
+                ]
+            ],
+            "route_post_reloc_2opt": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    18,
+                    3,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    6,
+                    12,
+                    0
+                ]
+            ]
+        },
+        "2": {
+            "origin": [
+                3.000000000000001,
+                8.464101615137755
+            ],
+            "customer_cord": {
+                "8": [
+                    2.781907082306627,
+                    8.69300320792934
+                ],
+                "10": [
+                    2.1531376210758877,
+                    7.634941290065239
+                ],
+                "19": [
+                    2.779736031100921,
+                    6.356844442644002
+                ],
+                "5": [
+                    2.1863797480360336,
+                    5.053552881033624
+                ],
+                "20": [
+                    1.626540971560848,
+                    3.552707002275215
+                ],
+                "14": [
+                    0.7880019807845817,
+                    2.931782814070929
+                ],
+                "17": [
+                    2.2789827565154686,
+                    2.8938796360210715
+                ],
+                "11": [
+                    0.9274584338014791,
+                    0.9671637683346401
+                ],
+                "16": [
+                    1.922885902566599,
+                    0.6955514882374092
+                ],
+                "2": [
+                    2.4489185380347624,
+                    1.395379285251439
+                ]
+            },
+            "demand": {
+                "8": 2,
+                "10": 1,
+                "19": 3,
+                "5": 1,
+                "20": 6,
+                "14": 6,
+                "17": 1,
+                "11": 3,
+                "16": 6,
+                "2": 1
+            },
+            "n_customers": 10,
+            "clusters": [
+                [
+                    8,
+                    10
+                ],
+                [
+                    19,
+                    5
+                ],
+                [
+                    20,
+                    14,
+                    17,
+                    11,
+                    16,
+                    2
+                ]
+            ],
+            "baseline_distance": 43.31320865042024,
+            "two_opt_distance": 41.97256013582771,
+            "relocation_distance": 29.479861473105107,
+            "post_reloc_2opt_distance": 29.402754489057898,
+            "baseline_travel_time": 3.1104402883473417,
+            "two_opt_travel_time": 3.06575200452759,
+            "relocation_travel_time": 2.6493287157701704,
+            "post_reloc_2opt_travel_time": 2.646758482968597,
+            "trips": 4,
+            "capacity_feasibility": true,
+            "structural_validity": true,
+            "all_customers_served": true,
+            "unserved_customers": [],
+            "baseline_cluster_distances": [
+                2.7321491882808613,
+                7.0569978789886125,
+                33.52406158315077
+            ],
+            "baseline_cluster_travel_times": [
+                0.4244049729426953,
+                0.568566595966287,
+                2.1174687194383592
+            ],
+            "baseline_cluster_trip_counts": [
+                1,
+                1,
+                2
+            ],
+            "cluster_two_opt_distances": [
+                2.7321491882808613,
+                7.0569978789886125,
+                32.18341306855824
+            ],
+            "cluster_two_opt_travel_times": [
+                0.4244049729426953,
+                0.568566595966287,
+                2.0727804356186077
+            ],
+            "baseline_trip_distances": [
+                2.7321491882808613,
+                7.0569978789886125,
+                16.871234514149126,
+                16.652827069001646
+            ],
+            "two_opt_trip_distances": [
+                2.7321491882808613,
+                7.0569978789886125,
+                15.530585999556592,
+                16.652827069001646
+            ],
+            "relocation_trip_distances": [
+                0.0,
+                0.0,
+                12.664564752949548,
+                16.81529672015556
+            ],
+            "post_reloc_2opt_trip_distances": [
+                0.0,
+                0.0,
+                12.587457768902341,
+                16.81529672015556
+            ],
+            "baseline_trip_loads": [
+                3,
+                4,
+                14,
+                9
+            ],
+            "two_opt_trip_loads": [
+                3,
+                4,
+                14,
+                9
+            ],
+            "relocation_trip_loads": [
+                0,
+                0,
+                15,
+                15
+            ],
+            "post_reloc_2opt_trip_loads": [
+                0,
+                0,
+                15,
+                15
+            ],
+            "customers_per_trip_baseline": [
+                2,
+                2,
+                4,
+                2
+            ],
+            "customers_per_trip_2opt": [
+                2,
+                2,
+                4,
+                2
+            ],
+            "customers_per_trip_relocation": [
+                0,
+                0,
+                4,
+                6
+            ],
+            "customers_per_trip_post_reloc_2opt": [
+                0,
+                0,
+                4,
+                6
+            ],
+            "baseline_trip_utilization": [
+                0.2,
+                0.26666666666666666,
+                0.9333333333333333,
+                0.6
+            ],
+            "two_opt_trip_utilization": [
+                0.2,
+                0.26666666666666666,
+                0.9333333333333333,
+                0.6
+            ],
+            "relocation_trip_utilization": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ],
+            "post_reloc_2opt_trip_utilization": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ],
+            "route_baseline": [
+                [
+                    0,
+                    8,
+                    10,
+                    0
+                ],
+                [
+                    0,
+                    19,
+                    5,
+                    0
+                ],
+                [
+                    0,
+                    20,
+                    17,
+                    14,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    11,
+                    16,
+                    0
+                ]
+            ],
+            "route_2opt": [
+                [
+                    0,
+                    8,
+                    10,
+                    0
+                ],
+                [
+                    0,
+                    19,
+                    5,
+                    0
+                ],
+                [
+                    0,
+                    20,
+                    14,
+                    2,
+                    17,
+                    0
+                ],
+                [
+                    0,
+                    11,
+                    16,
+                    0
+                ]
+            ],
+            "route_relocation": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    8,
+                    10,
+                    20,
+                    14,
+                    0
+                ],
+                [
+                    0,
+                    5,
+                    11,
+                    16,
+                    2,
+                    17,
+                    19,
+                    0
+                ]
+            ],
+            "route_post_reloc_2opt": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    8,
+                    10,
+                    14,
+                    20,
+                    0
+                ],
+                [
+                    0,
+                    5,
+                    11,
+                    16,
+                    2,
+                    17,
+                    19,
+                    0
+                ]
+            ]
+        },
+        "3": {
+            "origin": [
+                2.9999999999999982,
+                1.5358983848622465
+            ],
+            "customer_cord": {
+                "13": [
+                    4.594248796718425,
+                    1.2482616285320935
+                ],
+                "7": [
+                    5.449414806032166,
+                    2.204406220406967
+                ],
+                "4": [
+                    5.904925124490397,
+                    0.31782679481783593
+                ],
+                "1": [
+                    6.394267984578837,
+                    0.25010755222666936
+                ],
+                "9": [
+                    6.981393949882269,
+                    3.4025051651799187
+                ]
+            },
+            "demand": {
+                "13": 4,
+                "7": 5,
+                "4": 1,
+                "1": 3,
+                "9": 2
+            },
+            "n_customers": 5,
+            "clusters": [
+                [
+                    13
+                ],
+                [
+                    7,
+                    9
+                ],
+                [
+                    4,
+                    1
+                ]
+            ],
+            "baseline_distance": 19.394676747590655,
+            "two_opt_distance": 19.394676747590655,
+            "relocation_distance": 16.203291124023067,
+            "post_reloc_2opt_distance": 16.203291124023067,
+            "baseline_travel_time": 1.4798225582530216,
+            "two_opt_travel_time": 1.4798225582530216,
+            "relocation_travel_time": 1.3734430374674353,
+            "post_reloc_2opt_travel_time": 1.3734430374674353,
+            "trips": 3,
+            "capacity_feasibility": true,
+            "structural_validity": true,
+            "all_customers_served": true,
+            "unserved_customers": [],
+            "baseline_cluster_distances": [
+                3.239977857597353,
+                8.88108239744787,
+                7.2736164925454325
+            ],
+            "baseline_cluster_travel_times": [
+                0.2746659285865784,
+                0.6293694132482622,
+                0.5757872164181811
+            ],
+            "baseline_cluster_trip_counts": [
+                1,
+                1,
+                1
+            ],
+            "cluster_two_opt_distances": [
+                3.239977857597353,
+                8.88108239744787,
+                7.2736164925454325
+            ],
+            "cluster_two_opt_travel_times": [
+                0.2746659285865784,
+                0.6293694132482622,
+                0.5757872164181811
+            ],
+            "baseline_trip_distances": [
+                3.239977857597353,
+                8.88108239744787,
+                7.2736164925454325
+            ],
+            "two_opt_trip_distances": [
+                3.239977857597353,
+                8.88108239744787,
+                7.2736164925454325
+            ],
+            "relocation_trip_distances": [
+                0.0,
+                8.88108239744787,
+                7.3222087265752
+            ],
+            "post_reloc_2opt_trip_distances": [
+                0.0,
+                8.88108239744787,
+                7.3222087265752
+            ],
+            "baseline_trip_loads": [
+                4,
+                7,
+                4
+            ],
+            "two_opt_trip_loads": [
+                4,
+                7,
+                4
+            ],
+            "relocation_trip_loads": [
+                0,
+                7,
+                8
+            ],
+            "post_reloc_2opt_trip_loads": [
+                0,
+                7,
+                8
+            ],
+            "customers_per_trip_baseline": [
+                1,
+                2,
+                2
+            ],
+            "customers_per_trip_2opt": [
+                1,
+                2,
+                2
+            ],
+            "customers_per_trip_relocation": [
+                0,
+                2,
+                3
+            ],
+            "customers_per_trip_post_reloc_2opt": [
+                0,
+                2,
+                3
+            ],
+            "baseline_trip_utilization": [
+                0.26666666666666666,
+                0.4666666666666667,
+                0.26666666666666666
+            ],
+            "two_opt_trip_utilization": [
+                0.26666666666666666,
+                0.4666666666666667,
+                0.26666666666666666
+            ],
+            "relocation_trip_utilization": [
+                0.0,
+                0.4666666666666667,
+                0.5333333333333333
+            ],
+            "post_reloc_2opt_trip_utilization": [
+                0.0,
+                0.4666666666666667,
+                0.5333333333333333
+            ],
+            "route_baseline": [
+                [
+                    0,
+                    13,
+                    0
+                ],
+                [
+                    0,
+                    7,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    1,
+                    0
+                ]
+            ],
+            "route_2opt": [
+                [
+                    0,
+                    13,
+                    0
+                ],
+                [
+                    0,
+                    7,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    1,
+                    0
+                ]
+            ],
+            "route_relocation": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    7,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    1,
+                    13,
+                    0
+                ]
+            ],
+            "route_post_reloc_2opt": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    7,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    1,
+                    13,
+                    0
+                ]
+            ]
+        }
+    },
+    "baseline_travel_time": 6.304505837787021,
+    "two_opt_travel_time": 6.25981755396727,
+    "relocation_travel_time": 5.523669325369012,
+    "post_reloc_2opt_travel_time": 5.521099092567438,
+    "trips": 10,
+    "capacity_feasibility": true,
+    "structural_validity": true,
+    "all_customers_served": true,
+    "vehicle_capacity": 15,
+    "unserved_customers": [],
+    "n_customers": 20,
+    "depot": [
+        5.0,
+        5.0
+    ],
+    "clusters": [
+        [
+            18
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            12,
+            6
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            19,
+            5
+        ],
+        [
+            20,
+            14,
+            17,
+            11,
+            16,
+            2
+        ],
+        [
+            13
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            4,
+            1
+        ]
+    ],
+    "baseline_cluster_distances": [
+        7.383949730426605,
+        9.752991271706916,
+        9.290348733466239,
+        2.7321491882808613,
+        7.0569978789886125,
+        33.52406158315077,
+        3.239977857597353,
+        8.88108239744787,
+        7.2736164925454325
+    ],
+    "baseline_cluster_travel_times": [
+        0.4127983243475535,
+        0.6584330423902305,
+        0.6430116244488746,
+        0.4244049729426953,
+        0.568566595966287,
+        2.1174687194383592,
+        0.2746659285865784,
+        0.6293694132482622,
+        0.5757872164181811
+    ],
+    "baseline_cluster_trip_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+    ],
+    "cluster_two_opt_distances": [
+        7.383949730426605,
+        9.752991271706916,
+        9.290348733466239,
+        2.7321491882808613,
+        7.0569978789886125,
+        32.18341306855824,
+        3.239977857597353,
+        8.88108239744787,
+        7.2736164925454325
+    ],
+    "cluster_two_opt_travel_times": [
+        0.4127983243475535,
+        0.6584330423902305,
+        0.6430116244488746,
+        0.4244049729426953,
+        0.568566595966287,
+        2.0727804356186077,
+        0.2746659285865784,
+        0.6293694132482622,
+        0.5757872164181811
+    ],
+    "baseline_trip_distances": [
+        7.383949730426605,
+        9.752991271706916,
+        9.290348733466239,
+        2.7321491882808613,
+        7.0569978789886125,
+        16.871234514149126,
+        16.652827069001646,
+        3.239977857597353,
+        8.88108239744787,
+        7.2736164925454325
+    ],
+    "two_opt_trip_distances": [
+        7.383949730426605,
+        9.752991271706916,
+        9.290348733466239,
+        2.7321491882808613,
+        7.0569978789886125,
+        15.530585999556592,
+        16.652827069001646,
+        3.239977857597353,
+        8.88108239744787,
+        7.2736164925454325
+    ],
+    "relocation_trip_distances": [
+        0.0,
+        10.73657843047593,
+        9.290348733466239,
+        0.0,
+        0.0,
+        12.664564752949548,
+        16.81529672015556,
+        0.0,
+        8.88108239744787,
+        7.3222087265752
+    ],
+    "post_reloc_2opt_trip_distances": [
+        0.0,
+        10.73657843047593,
+        9.290348733466239,
+        0.0,
+        0.0,
+        12.587457768902341,
+        16.81529672015556,
+        0.0,
+        8.88108239744787,
+        7.3222087265752
+    ],
+    "baseline_route_records": [
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                18,
+                0
+            ]
+        },
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                3,
+                15,
+                0
+            ]
+        },
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                6,
+                12,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                8,
+                10,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                19,
+                5,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                20,
+                17,
+                14,
+                2,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                11,
+                16,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                13,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                7,
+                9,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                4,
+                1,
+                0
+            ]
+        }
+    ],
+    "two_opt_route_records": [
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                18,
+                0
+            ]
+        },
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                3,
+                15,
+                0
+            ]
+        },
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                6,
+                12,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                8,
+                10,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                19,
+                5,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                20,
+                14,
+                2,
+                17,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                11,
+                16,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                13,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                7,
+                9,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                4,
+                1,
+                0
+            ]
+        }
+    ],
+    "relocation_route_records": [
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                0
+            ]
+        },
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                18,
+                3,
+                15,
+                0
+            ]
+        },
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                6,
+                12,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                8,
+                10,
+                20,
+                14,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                5,
+                11,
+                16,
+                2,
+                17,
+                19,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                7,
+                9,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                4,
+                1,
+                13,
+                0
+            ]
+        }
+    ],
+    "post_reloc_2opt_route_records": [
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                0
+            ]
+        },
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                18,
+                3,
+                15,
+                0
+            ]
+        },
+        {
+            "supplier_id": 1,
+            "trip": [
+                0,
+                6,
+                12,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                8,
+                10,
+                14,
+                20,
+                0
+            ]
+        },
+        {
+            "supplier_id": 2,
+            "trip": [
+                0,
+                5,
+                11,
+                16,
+                2,
+                17,
+                19,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                7,
+                9,
+                0
+            ]
+        },
+        {
+            "supplier_id": 3,
+            "trip": [
+                0,
+                4,
+                1,
+                13,
+                0
+            ]
+        }
+    ],
+    "baseline_trip_loads": [
+        4,
+        6,
+        12,
+        3,
+        4,
+        14,
+        9,
+        4,
+        7,
+        4
+    ],
+    "two_opt_trip_loads": [
+        4,
+        6,
+        12,
+        3,
+        4,
+        14,
+        9,
+        4,
+        7,
+        4
+    ],
+    "relocation_trip_loads": [
+        0,
+        10,
+        12,
+        0,
+        0,
+        15,
+        15,
+        0,
+        7,
+        8
+    ],
+    "post_reloc_2opt_trip_loads": [
+        0,
+        10,
+        12,
+        0,
+        0,
+        15,
+        15,
+        0,
+        7,
+        8
+    ],
+    "customers_per_trip_baseline": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        2,
+        1,
+        2,
+        2
+    ],
+    "customers_per_trip_2opt": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        2,
+        1,
+        2,
+        2
+    ],
+    "customers_per_trip_relocation": [
+        0,
+        3,
+        2,
+        0,
+        0,
+        4,
+        6,
+        0,
+        2,
+        3
+    ],
+    "customers_per_trip_post_reloc_2opt": [
+        0,
+        3,
+        2,
+        0,
+        0,
+        4,
+        6,
+        0,
+        2,
+        3
+    ],
+    "baseline_trip_utilization": [
+        0.26666666666666666,
+        0.4,
+        0.8,
+        0.2,
+        0.26666666666666666,
+        0.9333333333333333,
+        0.6,
+        0.26666666666666666,
+        0.4666666666666667,
+        0.26666666666666666
+    ],
+    "two_opt_trip_utilization": [
+        0.26666666666666666,
+        0.4,
+        0.8,
+        0.2,
+        0.26666666666666666,
+        0.9333333333333333,
+        0.6,
+        0.26666666666666666,
+        0.4666666666666667,
+        0.26666666666666666
+    ],
+    "relocation_trip_utilization": [
+        0.0,
+        0.6666666666666666,
+        0.8,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.4666666666666667,
+        0.5333333333333333
+    ],
+    "post_reloc_2opt_trip_utilization": [
+        0.0,
+        0.6666666666666666,
+        0.8,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.4666666666666667,
+        0.5333333333333333
+    ],
+    "baseline_avg_utilization": 0.44666666666666666,
+    "two_opt_avg_utilization": 0.44666666666666666,
+    "relocation_avg_utilization": 0.44666666666666666,
+    "post_reloc_2opt_avg_utilization": 0.44666666666666666,
+    "baseline_max_utilization": 0.9333333333333333,
+    "two_opt_max_utilization": 0.9333333333333333,
+    "relocation_max_utilization": 1.0,
+    "post_reloc_2opt_max_utilization": 1.0,
+    "baseline_min_utilization": 0.2,
+    "two_opt_min_utilization": 0.2,
+    "relocation_min_utilization": 0.0,
+    "post_reloc_2opt_min_utilization": 0.0
+}

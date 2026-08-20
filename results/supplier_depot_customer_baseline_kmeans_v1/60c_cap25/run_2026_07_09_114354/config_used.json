@@ -1,0 +1,9 @@
+{
+    "n_customers": 60,
+    "vehicle_capacity": 25,
+    "n_suppliers": 3,
+    "seed": 42,
+    "grid_size": 30,
+    "algorithm": "supplier_depot_customer_baseline_kmeans_v1",
+    "experiment_name": "60c_cap25"
+}

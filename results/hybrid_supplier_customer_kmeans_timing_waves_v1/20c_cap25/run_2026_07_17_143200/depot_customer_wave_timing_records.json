@@ -1,0 +1,132 @@
+[
+    {
+        "customer_id": 1,
+        "supplier_id": 3,
+        "supplier_arrival_time": 11.25,
+        "supplier_arrival_time_label": "11:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.75,
+        "goods_ready_time_label": "11:45"
+    },
+    {
+        "customer_id": 2,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.25,
+        "supplier_arrival_time_label": "08:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 8.75,
+        "goods_ready_time_label": "08:45"
+    },
+    {
+        "customer_id": 3,
+        "supplier_id": 1,
+        "supplier_arrival_time": 9.5,
+        "supplier_arrival_time_label": "09:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.0,
+        "goods_ready_time_label": "10:00"
+    },
+    {
+        "customer_id": 4,
+        "supplier_id": 3,
+        "supplier_arrival_time": 9.0,
+        "supplier_arrival_time_label": "09:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.5,
+        "goods_ready_time_label": "09:30"
+    },
+    {
+        "customer_id": 5,
+        "supplier_id": 2,
+        "supplier_arrival_time": 11.75,
+        "supplier_arrival_time_label": "11:45",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.25,
+        "goods_ready_time_label": "12:15"
+    },
+    {
+        "customer_id": 8,
+        "supplier_id": 2,
+        "supplier_arrival_time": 11.5,
+        "supplier_arrival_time_label": "11:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 12.0,
+        "goods_ready_time_label": "12:00"
+    },
+    {
+        "customer_id": 9,
+        "supplier_id": 3,
+        "supplier_arrival_time": 12.5,
+        "supplier_arrival_time_label": "12:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 13.0,
+        "goods_ready_time_label": "13:00"
+    },
+    {
+        "customer_id": 10,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.5,
+        "supplier_arrival_time_label": "08:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.0,
+        "goods_ready_time_label": "09:00"
+    },
+    {
+        "customer_id": 11,
+        "supplier_id": 2,
+        "supplier_arrival_time": 10.0,
+        "supplier_arrival_time_label": "10:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 10.5,
+        "goods_ready_time_label": "10:30"
+    },
+    {
+        "customer_id": 13,
+        "supplier_id": 3,
+        "supplier_arrival_time": 8.25,
+        "supplier_arrival_time_label": "08:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 8.75,
+        "goods_ready_time_label": "08:45"
+    },
+    {
+        "customer_id": 17,
+        "supplier_id": 2,
+        "supplier_arrival_time": 9.0,
+        "supplier_arrival_time_label": "09:00",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 9.5,
+        "goods_ready_time_label": "09:30"
+    },
+    {
+        "customer_id": 18,
+        "supplier_id": 1,
+        "supplier_arrival_time": 10.5,
+        "supplier_arrival_time_label": "10:30",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 11.0,
+        "goods_ready_time_label": "11:00"
+    },
+    {
+        "customer_id": 19,
+        "supplier_id": 2,
+        "supplier_arrival_time": 8.25,
+        "supplier_arrival_time_label": "08:15",
+        "depot_handling_time_hours": 0.5,
+        "depot_handling_time_minutes": 30,
+        "goods_ready_time": 8.75,
+        "goods_ready_time_label": "08:45"
+    }
+]

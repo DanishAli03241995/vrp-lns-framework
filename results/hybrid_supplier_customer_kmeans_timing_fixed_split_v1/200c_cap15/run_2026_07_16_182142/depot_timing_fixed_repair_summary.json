@@ -1,0 +1,20 @@
+{
+    "repair_model": "fixed_depot_half_split_repair",
+    "n_routes_before_repair": 22,
+    "n_routes_after_repair": 23,
+    "n_infeasible_routes_before_repair": 1,
+    "n_infeasible_routes_after_repair": 0,
+    "n_repair_attempts": 1,
+    "n_successful_repairs": 1,
+    "n_unresolved_repairs": 0,
+    "distance_before_repair": 2493.0673435883114,
+    "distance_after_repair": 2565.4021025764114,
+    "distance_delta_after_repair": 72.33475898810002,
+    "latest_finish_before_repair": 18.798724726649894,
+    "latest_finish_before_repair_label": "18:48",
+    "latest_finish_after_repair": 15.551767984268771,
+    "latest_finish_after_repair_label": "15:33",
+    "depot_timing_feasible_before_repair": false,
+    "depot_timing_feasible_after_repair": true,
+    "unresolved_infeasible_route_ids": []
+}

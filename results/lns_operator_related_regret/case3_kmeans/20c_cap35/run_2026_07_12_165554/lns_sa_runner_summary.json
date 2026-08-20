@@ -1,0 +1,373 @@
+{
+    "experiment_id": "Case_3_hybrid_supplier_customer_kmeans_lns_operator_related_regret_2026_07_12_165553",
+    "case": "Case_3_hybrid_supplier_customer",
+    "structure": "hybrid_supplier_customer",
+    "variant": "kmeans",
+    "stage": "lns_operator_related_regret",
+    "target_module": "experiments.lns_operator_related_regret.hybrid_supplier_customer.lns_sa_kmeans_v1",
+    "baseline_results_name": "hybrid_supplier_customer_kmeans_v1",
+    "lns_results_name": "lns_operator_related_regret/case3_kmeans",
+    "lns_run_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_related_regret/case3_kmeans/20c_cap35/run_2026_07_12_165554",
+    "route_scope": "hybrid",
+    "run_mode": "batch",
+    "instance": "20c_cap35",
+    "n_remove_values": [
+        2,
+        3,
+        4,
+        5
+    ],
+    "runs": [
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_kmeans_lns_operator_related_regret_2026_07_12_165553",
+            "timestamp": "2026-07-12 16:55:54",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "kmeans",
+            "stage": "lns_operator_related_regret",
+            "target_module": "experiments.lns_operator_related_regret.hybrid_supplier_customer.lns_sa_kmeans_v1",
+            "instance": "20c_cap35",
+            "n_iterations": 50,
+            "n_remove": 2,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 77.41526031217806,
+            "total_lns_distance": 72.79750390989354,
+            "improvement_distance": 4.617756402284527,
+            "improvement_percent": 5.964917489992753,
+            "n_routes": 6,
+            "runtime_seconds": 0.08240318298339844
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_kmeans_lns_operator_related_regret_2026_07_12_165553",
+            "timestamp": "2026-07-12 16:55:54",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "kmeans",
+            "stage": "lns_operator_related_regret",
+            "target_module": "experiments.lns_operator_related_regret.hybrid_supplier_customer.lns_sa_kmeans_v1",
+            "instance": "20c_cap35",
+            "n_iterations": 50,
+            "n_remove": 3,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 77.41526031217806,
+            "total_lns_distance": 62.77406702661598,
+            "improvement_distance": 14.641193285562082,
+            "improvement_percent": 18.912541566767686,
+            "n_routes": 4,
+            "runtime_seconds": 0.09222793579101562
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_kmeans_lns_operator_related_regret_2026_07_12_165553",
+            "timestamp": "2026-07-12 16:55:55",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "kmeans",
+            "stage": "lns_operator_related_regret",
+            "target_module": "experiments.lns_operator_related_regret.hybrid_supplier_customer.lns_sa_kmeans_v1",
+            "instance": "20c_cap35",
+            "n_iterations": 50,
+            "n_remove": 4,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 77.41526031217806,
+            "total_lns_distance": 62.77406702661598,
+            "improvement_distance": 14.641193285562082,
+            "improvement_percent": 18.912541566767686,
+            "n_routes": 4,
+            "runtime_seconds": 0.08078789710998535
+        },
+        {
+            "experiment_id": "Case_3_hybrid_supplier_customer_kmeans_lns_operator_related_regret_2026_07_12_165553",
+            "timestamp": "2026-07-12 16:55:55",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "kmeans",
+            "stage": "lns_operator_related_regret",
+            "target_module": "experiments.lns_operator_related_regret.hybrid_supplier_customer.lns_sa_kmeans_v1",
+            "instance": "20c_cap35",
+            "n_iterations": 50,
+            "n_remove": 5,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 77.41526031217806,
+            "total_lns_distance": 62.77406702661598,
+            "improvement_distance": 14.641193285562082,
+            "improvement_percent": 18.912541566767686,
+            "n_routes": 4,
+            "runtime_seconds": 0.12981009483337402
+        }
+    ],
+    "best_run": {
+        "run": {
+            "experiment_id": "Case_3_hybrid_supplier_customer_kmeans_lns_operator_related_regret_2026_07_12_165553",
+            "timestamp": "2026-07-12 16:55:54",
+            "case": "Case_3_hybrid_supplier_customer",
+            "structure": "hybrid_supplier_customer",
+            "variant": "kmeans",
+            "stage": "lns_operator_related_regret",
+            "target_module": "experiments.lns_operator_related_regret.hybrid_supplier_customer.lns_sa_kmeans_v1",
+            "instance": "20c_cap35",
+            "n_iterations": 50,
+            "n_remove": 3,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "baseline_reference_distance": 77.41526031217806,
+            "total_lns_distance": 62.77406702661598,
+            "improvement_distance": 14.641193285562082,
+            "improvement_percent": 18.912541566767686,
+            "n_routes": 4,
+            "runtime_seconds": 0.09222793579101562
+        },
+        "full_result": {
+            "algorithm": "hybrid_supplier_customer_lns_sa_kmeans_related_regret_v1",
+            "case": "Case_3_hybrid_supplier_customer",
+            "clustering": "kmeans",
+            "operator_pair": "related_regret",
+            "destroy_operator": "shaw_related_removal",
+            "repair_operator": "regret_2_insertion",
+            "instance": "20c_cap35",
+            "n_iterations": 50,
+            "n_remove": 3,
+            "seed": 42,
+            "initial_temperature": 10.0,
+            "cooling_rate": 0.95,
+            "minimum_temperature": 0.01,
+            "related_removal_randomness": 0.2,
+            "distance_weight": 1.0,
+            "demand_weight": 0.2,
+            "route_weight": 1.0,
+            "accepted_moves": 200,
+            "rejected_moves": 0,
+            "supplier_count": 3,
+            "baseline_reference_algorithm": "hybrid_supplier_customer_kmeans_v1",
+            "baseline_run_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/hybrid_supplier_customer_kmeans_v1/20c_cap35/run_2026_07_09_130649",
+            "lns_output_path": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_related_regret/case3_kmeans/20c_cap35/run_2026_07_12_165554",
+            "baseline_config_source": {
+                "n_customers": 20,
+                "vehicle_capacity": 35,
+                "n_suppliers": 3,
+                "seed": 42,
+                "direct_delivery_threshold": 5,
+                "grid_size": 10,
+                "algorithm": "hybrid_supplier_customer_kmeans_v1",
+                "experiment_name": "20c_cap35"
+            },
+            "baseline_reference_distance": 77.41526031217806,
+            "baseline_reference_customer_delivery_distance": 77.41526031217806,
+            "baseline_reference_system_distance": 101.41526031217806,
+            "total_lns_distance": 62.77406702661598,
+            "customer_delivery_lns_distance": 62.77406702661598,
+            "supplier_depot_replenishment_distance": 24.0,
+            "supplier_depot_replenishment_metrics": {
+                "1": {
+                    "depot_assigned_customer_ids": [
+                        3,
+                        18
+                    ],
+                    "depot_assigned_demand": 5,
+                    "supplier_depot_trips": 1,
+                    "supplier_depot_roundtrip_distance": 8.0
+                },
+                "2": {
+                    "depot_assigned_customer_ids": [
+                        2,
+                        5,
+                        8,
+                        10,
+                        11,
+                        17,
+                        19
+                    ],
+                    "depot_assigned_demand": 12,
+                    "supplier_depot_trips": 1,
+                    "supplier_depot_roundtrip_distance": 8.0
+                },
+                "3": {
+                    "depot_assigned_customer_ids": [
+                        1,
+                        4,
+                        9,
+                        13
+                    ],
+                    "depot_assigned_demand": 10,
+                    "supplier_depot_trips": 1,
+                    "supplier_depot_roundtrip_distance": 8.0
+                }
+            },
+            "total_lns_system_distance": 86.77406702661598,
+            "depot_lns_distance": 31.086181282992825,
+            "supplier_lns_distance": 31.687885743623156,
+            "improvement_distance": 14.641193285562082,
+            "improvement_percent": 18.912541566767686,
+            "customer_delivery_improvement_distance": 14.641193285562082,
+            "customer_delivery_improvement_percent": 18.912541566767686,
+            "system_improvement_distance": 14.641193285562082,
+            "system_improvement_percent": 14.43687393839283,
+            "n_routes": 4,
+            "lns_trip_distances": [
+                31.086181282992825,
+                10.171703841593862,
+                16.438176144571237,
+                5.078005757458056
+            ],
+            "lns_trip_loads": [
+                27,
+                17,
+                18,
+                5
+            ],
+            "lns_trip_utilization": [
+                0.7714285714285715,
+                0.4857142857142857,
+                0.5142857142857142,
+                0.14285714285714285
+            ],
+            "lns_avg_utilization": 0.47857142857142854,
+            "lns_max_utilization": 0.7714285714285715,
+            "lns_min_utilization": 0.14285714285714285,
+            "depot_lns_metrics": {
+                "lns_distance": 31.086181282992825,
+                "n_routes": 1,
+                "lns_trip_distances": [
+                    31.086181282992825
+                ],
+                "lns_trip_loads": [
+                    27
+                ],
+                "lns_trip_utilization": [
+                    0.7714285714285715
+                ],
+                "operator_pair": "related_regret",
+                "best_iteration": 14,
+                "accepted_moves": 50,
+                "rejected_moves": 0,
+                "route_lns_sa": [
+                    [
+                        0,
+                        9,
+                        1,
+                        4,
+                        13,
+                        2,
+                        11,
+                        17,
+                        5,
+                        19,
+                        10,
+                        8,
+                        3,
+                        18,
+                        0
+                    ]
+                ]
+            },
+            "supplier_lns_metrics": {
+                "1": {
+                    "initial_distance": 10.171703841593862,
+                    "lns_distance": 10.171703841593862,
+                    "improvement_distance": 0.0,
+                    "improvement_percent": 0.0,
+                    "n_routes": 1,
+                    "lns_trip_distances": [
+                        10.171703841593862
+                    ],
+                    "lns_trip_loads": [
+                        17
+                    ],
+                    "lns_trip_utilization": [
+                        0.4857142857142857
+                    ],
+                    "operator_pair": "related_regret",
+                    "best_iteration": 0,
+                    "accepted_moves": 50,
+                    "rejected_moves": 0,
+                    "route_lns_sa": [
+                        [
+                            0,
+                            6,
+                            12,
+                            15,
+                            0
+                        ]
+                    ]
+                },
+                "2": {
+                    "initial_distance": 16.438176144571237,
+                    "lns_distance": 16.438176144571237,
+                    "improvement_distance": 0.0,
+                    "improvement_percent": 0.0,
+                    "n_routes": 1,
+                    "lns_trip_distances": [
+                        16.438176144571237
+                    ],
+                    "lns_trip_loads": [
+                        18
+                    ],
+                    "lns_trip_utilization": [
+                        0.5142857142857142
+                    ],
+                    "operator_pair": "related_regret",
+                    "best_iteration": 0,
+                    "accepted_moves": 50,
+                    "rejected_moves": 0,
+                    "route_lns_sa": [
+                        [
+                            0,
+                            14,
+                            16,
+                            20,
+                            0
+                        ]
+                    ]
+                },
+                "3": {
+                    "initial_distance": 5.078005757458056,
+                    "lns_distance": 5.078005757458056,
+                    "improvement_distance": 0.0,
+                    "improvement_percent": 0.0,
+                    "n_routes": 1,
+                    "lns_trip_distances": [
+                        5.078005757458056
+                    ],
+                    "lns_trip_loads": [
+                        5
+                    ],
+                    "lns_trip_utilization": [
+                        0.14285714285714285
+                    ],
+                    "operator_pair": "related_regret",
+                    "best_iteration": 0,
+                    "accepted_moves": 50,
+                    "rejected_moves": 0,
+                    "route_lns_sa": [
+                        [
+                            0,
+                            7,
+                            0
+                        ]
+                    ]
+                }
+            }
+        }
+    },
+    "best_output_files": {
+        "route_lns_sa_best.txt": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_related_regret/case3_kmeans/20c_cap35/run_2026_07_12_165554/route_lns_sa_best.txt",
+        "route_lns_sa_records_best.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_related_regret/case3_kmeans/20c_cap35/run_2026_07_12_165554/route_lns_sa_records_best.json",
+        "lns_sa_metrics_best.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_related_regret/case3_kmeans/20c_cap35/run_2026_07_12_165554/lns_sa_metrics_best.json",
+        "lns_sa_summary_best.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_related_regret/case3_kmeans/20c_cap35/run_2026_07_12_165554/lns_sa_summary_best.json",
+        "route_plot_lns_sa_best.png": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_related_regret/case3_kmeans/20c_cap35/run_2026_07_12_165554/route_plot_lns_sa_best.png",
+        "best_lns_solution.json": "/Users/danishali/Desktop/Desktop - Danish\u2019s MacBook Air/Master Thesis/results/lns_operator_related_regret/case3_kmeans/20c_cap35/run_2026_07_12_165554/best_lns_solution.json"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "K": 3,
+    "clusters": [
+        [
+            1,
+            4,
+            7,
+            9,
+            13
+        ],
+        [
+            2,
+            5,
+            11,
+            14,
+            16,
+            17,
+            20
+        ],
+        [
+            3,
+            6,
+            8,
+            10,
+            12,
+            15,
+            18,
+            19
+        ]
+    ],
+    "cluster_check": {
+        "num_clusters": 3,
+        "num_expected_customers": 20,
+        "num_clustered_customers": 20,
+        "cluster_loads": [
+            15,
+            24,
+            28
+        ],
+        "missing_customers": [],
+        "duplicate_customers": [],
+        "extra_customers": [],
+        "overloaded_clusters": [
+            {
+                "cluster_index": 2,
+                "load": 28,
+                "customers": [
+                    3,
+                    6,
+                    8,
+                    10,
+                    12,
+                    15,
+                    18,
+                    19
+                ]
+            }
+        ],
+        "is_valid": true
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "algorithm": "hybrid_supplier_customer_lns_sa_kmeans_v1",
+    "case": "Case_3_hybrid_supplier_customer",
+    "clustering": "kmeans",
+    "instance": "40c_cap35",
+    "seed": 42,
+    "n_iterations": 50,
+    "n_remove": 8,
+    "baseline_reference_distance": 219.77181860775102,
+    "final_distance": 184.8060457177843,
+    "depot_lns_distance": 86.17667136458425,
+    "supplier_lns_distance": 98.62937435320002,
+    "improvement_distance": 34.96577288996673,
+    "improvement_percent": 15.910034831341902,
+    "n_routes": 10,
+    "avg_utilization": 0.4,
+    "max_utilization": 1.0,
+    "min_utilization": 0.0
+}

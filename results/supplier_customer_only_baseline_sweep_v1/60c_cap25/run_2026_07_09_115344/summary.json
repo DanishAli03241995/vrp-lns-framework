@@ -1,0 +1,18 @@
+{
+    "algorithm": "supplier_customer_only_baseline_sweep_v1",
+    "instance": "60c_cap25",
+    "seed": 42,
+    "n_customers": 60,
+    "vehicle_capacity": 25,
+    "baseline_distance": 441.2283439916456,
+    "final_distance": 392.9086790418891,
+    "improvement_distance": 48.319664949756486,
+    "improvement_percent": 10.95116975319958,
+    "trips": 11,
+    "avg_utilization": 0.8072727272727274,
+    "max_utilization": 1.0,
+    "min_utilization": 0.24,
+    "feasible": true,
+    "structural_validity": true,
+    "customers_served": true
+}

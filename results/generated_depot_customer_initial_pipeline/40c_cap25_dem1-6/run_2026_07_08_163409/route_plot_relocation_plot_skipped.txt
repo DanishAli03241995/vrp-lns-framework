@@ -1,0 +1,2 @@
+Plot skipped because matplotlib is not installed.
+Requested plot: 40c_cap25_dem1-6 - relocation

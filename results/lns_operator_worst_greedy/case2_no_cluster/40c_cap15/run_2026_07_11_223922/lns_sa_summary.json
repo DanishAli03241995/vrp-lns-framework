@@ -1,0 +1,23 @@
+{
+    "algorithm": "supplier_customer_lns_sa_no_cluster_worst_greedy_v1",
+    "case": "Case_2_supplier_customer_direct",
+    "clustering": "no_internal_clustering",
+    "operator_pair": "worst_greedy",
+    "destroy_operator": "worst_removal",
+    "repair_operator": "greedy_insertion",
+    "instance": "40c_cap15",
+    "seed": 42,
+    "n_iterations": 50,
+    "n_remove": 5,
+    "baseline_reference_distance": 250.37669562521955,
+    "final_distance": 241.8098727242758,
+    "improvement_distance": 8.566822900943748,
+    "improvement_percent": 3.4215735931618556,
+    "accepted_moves": 80,
+    "rejected_moves": 70,
+    "supplier_count": 3,
+    "n_routes": 10,
+    "avg_utilization": 0.9333333333333332,
+    "max_utilization": 1.0,
+    "min_utilization": 0.7333333333333333
+}

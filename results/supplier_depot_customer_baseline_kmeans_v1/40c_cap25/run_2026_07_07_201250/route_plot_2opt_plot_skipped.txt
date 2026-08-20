@@ -1,0 +1,2 @@
+Plot skipped because matplotlib is not installed.
+Requested plot: Vehicle Routes - KMeans + Baseline NN + 2-Opt

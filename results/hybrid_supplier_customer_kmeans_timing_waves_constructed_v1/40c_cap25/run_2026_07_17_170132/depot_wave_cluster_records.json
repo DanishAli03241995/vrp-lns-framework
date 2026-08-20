@@ -1,0 +1,89 @@
+[
+    {
+        "dispatch_wave": 9.0,
+        "dispatch_wave_label": "09:00",
+        "clusters": [
+            [
+                2
+            ],
+            [
+                10,
+                19
+            ],
+            [
+                13,
+                34
+            ]
+        ],
+        "cluster_loads": [
+            1,
+            4,
+            5
+        ]
+    },
+    {
+        "dispatch_wave": 11.0,
+        "dispatch_wave_label": "11:00",
+        "clusters": [
+            [
+                3,
+                18,
+                37,
+                38
+            ],
+            [
+                4,
+                23,
+                30
+            ],
+            [
+                11,
+                17
+            ]
+        ],
+        "cluster_loads": [
+            10,
+            7,
+            4
+        ]
+    },
+    {
+        "dispatch_wave": 13.0,
+        "dispatch_wave_label": "13:00",
+        "clusters": [
+            [
+                1,
+                9,
+                26,
+                35,
+                36
+            ],
+            [
+                5
+            ],
+            [
+                8,
+                25,
+                32,
+                33
+            ]
+        ],
+        "cluster_loads": [
+            11,
+            1,
+            9
+        ]
+    },
+    {
+        "dispatch_wave": 15.0,
+        "dispatch_wave_label": "15:00",
+        "clusters": [
+            [
+                40
+            ]
+        ],
+        "cluster_loads": [
+            3
+        ]
+    }
+]

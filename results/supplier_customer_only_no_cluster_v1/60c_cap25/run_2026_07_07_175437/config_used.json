@@ -1,0 +1,7 @@
+{
+    "n_customers": 60,
+    "vehicle_capacity": 25,
+    "n_suppliers": 3,
+    "grid_size": 10,
+    "seed": 42
+}
