@@ -160,3 +160,74 @@ For readers interested in the computational study:
 - **`extractor/`** contains the extraction and aggregation workflow used to transform experimental outputs into analysis-ready result summaries.
 
 Supporting problem instances are contained in **`instances/`**, while **`utils/`** provides shared functionality for depot timing, dispatch waves, feasibility repair, experiment logging, and route visualisation.
+
+## Quick Start
+
+A representative depot--customer experiment can be run directly from the repository. The example generates a reproducible 40-customer instance and applies the complete baseline optimisation pipeline:
+
+```text
+Nearest Neighbour
+        ↓
+2-opt
+        ↓
+1-0 Relocation
+        ↓
+Final 2-opt
+```
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/DanishAli03241995/vrp-lns-framework.git
+cd vrp-lns-framework
+```
+
+### 2. Create a Python Environment
+
+Creating a virtual environment is recommended so that the project dependencies remain isolated from the system Python installation.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Representative Example
+
+```bash
+python experiments/initial_heurisitcs/run_generated_depot_customer_pipeline.py
+```
+
+The default example uses:
+
+- **40 customers**
+- **vehicle capacity = 25**
+- **random seed = 42**
+
+The script generates the instance and sequentially applies Nearest-Neighbour construction, 2-opt, 1-0 relocation, and a final 2-opt pass. It also checks customer coverage, route structure, and vehicle-capacity feasibility while recording performance metrics for each optimisation stage.
+
+### Output
+
+Each execution creates a timestamped result directory under:
+
+```text
+results/generated_depot_customer_initial_pipeline/
+```
+
+The generated output includes:
+
+- the experiment configuration;
+- stage-wise and final optimisation metrics;
+- routes produced at each optimisation stage; and
+- route visualisations for the successive solutions.
+
+The terminal also reports the final routing distance and the percentage improvement relative to the initial Nearest-Neighbour solution.
+
+### Full Experimental Workflows
+
+The representative example above is intended as a lightweight demonstration of the optimisation pipeline. The broader computational experiments used in the study are available under **`experiments/`**, including the supplier-based routing cases, clustering experiments, LNS operator comparisons, depot-timing experiments, dispatch-wave configurations, operational sensitivity analyses, and Time-Aware LNS experiments.
