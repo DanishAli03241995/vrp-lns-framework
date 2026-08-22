@@ -94,3 +94,37 @@ This stage evaluates whether solutions that are efficient in terms of routing di
 The final stage introduces **Time-Aware LNS**, in which candidate routing improvements must satisfy the relevant operational timing requirements before they can be accepted by the search procedure.
 
 This allows routing quality to be further improved **within an operationally feasible solution space**, rather than treating distance optimisation and operational feasibility as separate problems.
+
+## Key Findings
+
+The experimental results show how routing performance and operational feasibility evolve as additional optimisation and timing components are introduced into the framework.
+
+### Progressive Routing Improvement
+
+Starting from Nearest-Neighbour construction, successive application of 2-opt, 1-0 relocation, and a final 2-opt pass produced an average **12.24% reduction in routing distance** across the baseline experimental settings. The results demonstrate that substantial improvements can already be obtained through relatively simple, sequential neighbourhood-search mechanisms before introducing a metaheuristic layer.
+
+![Average routing-distance progression across the baseline optimisation stages](results/figures/routing_improvement_progression.png)
+
+*Figure 1. Average routing-distance progression across the 12 baseline instances, indexed relative to the Nearest-Neighbour solution (NN = 100).*
+
+### Additional Improvement through Large Neighbourhood Search
+
+Large Neighbourhood Search provided further improvements beyond the locally optimised solutions. Across the matched operator experiments, the strongest destroy--repair combinations achieved approximately **4--5.5% additional improvement**, with Random Removal + Regret-2 Insertion and Related (Shaw) Removal + Regret-2 Insertion remaining among the strongest strategies when evaluated on larger Hybrid instances containing up to 200 customers.
+
+These results indicate that neighbourhood destruction and reconstruction can uncover improvements that remain inaccessible to the preceding local-search procedures, while also showing that operator effectiveness varies across experimental settings rather than being dominated by a single strategy.
+
+### Operational Feasibility under Timing Constraints
+
+Introducing depot-side timing requirements showed that routing quality alone is not sufficient to guarantee operational feasibility. Solutions that were feasible from a routing and capacity perspective could become infeasible once supplier arrivals, goods availability, depot processing, dispatch timing, and the working-day limit were considered.
+
+Targeted split-repair procedures recovered timing feasibility for the affected fixed-timing cases, while the subsequent dispatch-wave and sensitivity experiments demonstrated that the remaining boundary cases were sensitive to the operational environment rather than representing an inherent limitation of the underlying routing framework.
+
+![Operational sensitivity of latest depot-route completion times](results/figures/operational_sensitivity_latest_finish.png)
+
+*Figure 2. Latest depot-route completion times for the 200-customer instances under the base configuration and two alternative operational scenarios. The 18:00 line represents the working-day feasibility limit.*
+
+### Optimisation while Preserving Operational Feasibility
+
+The final Time-Aware LNS experiments demonstrate that routing optimisation remains effective after operational feasibility has been established. Across the validated timing environments, the retained operator pairs achieved approximately **4--6% average additional reduction in total system distance**, while all evaluated customer--capacity settings remained operationally feasible.
+
+Several individual instance--operator combinations achieved improvements exceeding **10%**, indicating that the remaining optimisation potential varies across problem instances even though the average gains are more moderate. Overall, the results demonstrate that operational feasibility and routing optimisation need not be competing objectives: additional routing improvements can be obtained while explicitly preserving the timing requirements of the operational framework.
