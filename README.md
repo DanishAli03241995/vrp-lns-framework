@@ -231,3 +231,9 @@ The terminal also reports the final routing distance and the percentage improvem
 ### Full Experimental Workflows
 
 The representative example above is intended as a lightweight demonstration of the optimisation pipeline. The broader computational experiments used in the study are available under **`experiments/`**, including the supplier-based routing cases, clustering experiments, LNS operator comparisons, depot-timing experiments, dispatch-wave configurations, operational sensitivity analyses, and Time-Aware LNS experiments.
+
+## Research Context
+
+This framework was developed as part of a Master's thesis in **Mobility and Supply Chain Engineering at KU Leuven**, with a focus on Operations Research, routing optimisation, heuristics, and metaheuristics.
+
+The project demonstrates the end-to-end development of an optimisation framework: translating routing and operational requirements into algorithmic logic, implementing constructive and improvement heuristics, designing Large Neighbourhood Search operators, enforcing feasibility conditions, and evaluating algorithmic behaviour through systematic computational experiments.
