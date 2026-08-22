@@ -128,3 +128,35 @@ Targeted split-repair procedures recovered timing feasibility for the affected f
 The final Time-Aware LNS experiments demonstrate that routing optimisation remains effective after operational feasibility has been established. Across the validated timing environments, the retained operator pairs achieved approximately **4--6% average additional reduction in total system distance**, while all evaluated customer--capacity settings remained operationally feasible.
 
 Several individual instance--operator combinations achieved improvements exceeding **10%**, indicating that the remaining optimisation potential varies across problem instances even though the average gains are more moderate. Overall, the results demonstrate that operational feasibility and routing optimisation need not be competing objectives: additional routing improvements can be obtained while explicitly preserving the timing requirements of the operational framework.
+
+## Repository Structure
+
+The repository is organised around the main computational components of the routing framework and the experimental workflows used to evaluate them.
+
+```text
+vrp-lns-framework/
+├── construction/       # Customer construction, clustering, and assignment methods
+├── solvers/            # Constructive routing and local-search procedures
+├── metaheuristics/     # LNS framework and destroy/repair operators
+├── experiments/        # Experimental runners and scenario configurations
+├── instances/          # Problem instances used in the computational experiments
+├── utils/              # Timing, dispatch-wave, repair, plotting, and shared utilities
+├── results/            # Generated experimental outputs and metrics
+└── extractor/          # Result extraction and aggregation
+```
+
+### Where to Start
+
+For readers interested primarily in the optimisation methodology:
+
+- **`solvers/`** contains the Nearest-Neighbour construction, 2-opt, 1-0 relocation, and combined baseline optimisation pipeline.
+- **`construction/`** contains the customer-construction and clustering components used in the richer routing configurations.
+- **`metaheuristics/`** contains the Large Neighbourhood Search implementation together with the destroy and repair operators used in the metaheuristic experiments.
+
+For readers interested in the computational study:
+
+- **`experiments/`** contains the experimental runners used to evaluate routing structures, LNS configurations, depot-side timing, dispatch-wave operations, sensitivity scenarios, and feasibility-aware optimisation.
+- **`results/`** contains the generated outputs and metrics from the computational experiments.
+- **`extractor/`** contains the extraction and aggregation workflow used to transform experimental outputs into analysis-ready result summaries.
+
+Supporting problem instances are contained in **`instances/`**, while **`utils/`** provides shared functionality for depot timing, dispatch waves, feasibility repair, experiment logging, and route visualisation.
