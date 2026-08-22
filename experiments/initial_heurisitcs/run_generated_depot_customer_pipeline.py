@@ -20,8 +20,8 @@ from utils.plot_routes import plot_routes
 
 ALGORITHM_NAME = "generated_depot_customer_initial_pipeline"
 
-# RUN_MODE = "test"
-RUN_MODE = "batch"
+RUN_MODE = "test"
+# RUN_MODE = "batch"
 
 
 def experiment_label(config):
